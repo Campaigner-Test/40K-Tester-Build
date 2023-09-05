@@ -1,7 +1,7 @@
 ﻿;=================================Отряды=================================;
 
 ;Отряд Скитари
-("squad_with2types" side(ams) name(sq_ranger) 		c(30) g(sq_1) c1(skitarii_ranger:8) c2(skitarii_ranger_gr:2) b(squad1) t(rifle fl inf_tac) level(1) cost(60) f(1))
+("squad_with2types" side(ams) name(sq_ranger) 		c(30) g(sq_1) c1(skitarii_ranger:8) c2(skitarii_ranger_gr:2) b(squad1) t(rifle fl inf_tac) level(1) cost(70) f(1))
 
 ;Отряд Скитари электро
 ("squad_with3types" side(ams) name(sq_ranger_arc) 	c(30) g(sq_2) c1(skitarii_ranger:4) c2(skitarii_ranger_gr:3) c3(skitarii_ranger_arc:3) b(squad1) t(emi arc inf_a_all) level(1) cost(140) f(1))
@@ -12,13 +12,13 @@
 
 
 ;Отряд Авангард
-("squad_with2types" side(ams) name(sq_vet_rad) 	c(50) g(sq_3) c1(skitarii_vanguard_rad:9) c2(skitarii_vanguard_gamma:1) b(squad1) t(emi arc inf_vet) level(1) cost(170) f(-5))
+("squad_with2types" side(ams) name(sq_vet_rad) 	c(50) g(sq_3) c1(skitarii_vanguard_rad:9) c2(skitarii_vanguard_gamma:1) b(squad1) t(emi arc inf_vet) level(1) cost(180) f(-5))
 
 ;Отряд Авангард электро
 ("squad_with3types" side(ams) name(sq_vet_arc) 	c(50) g(sq_3) c1(skitarii_vanguard_rad:6) c2(skitarii_vanguard_arc:3) c3(skitarii_vanguard_gamma:1) b(squad1) t(emi arc inf_vet) level(1) cost(200) f(-5))
 
 ;Отряд Авангард плазма
-("squad_with3types" side(ams) name(sq_vet_pg) 	c(50) g(sq_3) c1(skitarii_vanguard_rad:6) c2(skitarii_vanguard_pg:3) c3(skitarii_vanguard_gamma:1) b(squad1) t(plasma inf_vet) level(1) cost(180) f(-5))
+("squad_with3types" side(ams) name(sq_vet_pg) 	c(50) g(sq_3) c1(skitarii_vanguard_rad:6) c2(skitarii_vanguard_pg:3) c3(skitarii_vanguard_gamma:1) b(squad1) t(plasma inf_vet) level(1) cost(200) f(-5))
 
 
 ;Отряд Авангард фосфорки

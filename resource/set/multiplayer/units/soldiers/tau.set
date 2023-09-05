@@ -35,15 +35,15 @@
 ("soldier" breed(vespid) 			side(tau) tags(vespid) cp(1.5)  score(8) cw(1)) ;Вопрос
 
 ;Гвардейцы
-("soldier" breed(tau_guard_lg) 		side(tau) tags(lasgun) cp(1.0) score(0.33) cw(1))
-("soldier" breed(tau_guard_lg_01) 		side(tau) tags(lasgun) cp(1.0) score(0.33) cw(1))
-("soldier" breed(tau_guard_serg_pr) 		side(tau) tags(pulse) cp(1.0) score(0.4) cw(1))
+("soldier" breed(tau_guard_lg) 		side(tau) tags(lasgun) cp(.5) score(0.33) cw(1))
+("soldier" breed(tau_guard_lg_01) 		side(tau) tags(lasgun) cp(.5) score(0.33) cw(1))
+("soldier" breed(tau_guard_serg_pr) 		side(tau) tags(pulse) cp(.5) score(0.4) cw(1))
 
 ;Круут
-("soldier" breed(kroot) 		side(tau) tags(krootrifle) cp(1.0) score(1) cw(1))
-("soldier" breed(kroot_01) 		side(tau) tags(krootrifle) cp(1.0) score(1) cw(1))
-("soldier" breed(kroot_02) 		side(tau) tags(krootrifle) cp(1.0) score(1) cw(1))
-("soldier" breed(kroot_shaper) 	side(tau) tags(pulse) cp(1.0) score(1) cw(1)) ;Вопрос тег оружие
+("soldier" breed(kroot) 		side(tau) tags(krootrifle) cp(1.5) score(1) cw(1))
+("soldier" breed(kroot_01) 		side(tau) tags(krootrifle) cp(1.5) score(1) cw(1))
+("soldier" breed(kroot_02) 		side(tau) tags(krootrifle) cp(1.5) score(1) cw(1))
+("soldier" breed(kroot_shaper) 	side(tau) tags(pulse) cp(1.5) score(1) cw(1)) ;Вопрос тег оружие
 
 ;Следопыт
 ("soldier" breed(pathfinder) 			side(tau) tags(pulse) cp(1.5) score(0.5) cw(1))

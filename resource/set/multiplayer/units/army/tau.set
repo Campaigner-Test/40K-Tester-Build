@@ -1,22 +1,31 @@
 
 ;==========================================Пехота==========================
-;Следопыты
+;Следопыты-Pathfinder
 ("squad_with2types" side(tau) name(sq_pathfinder) 			c(30) g(sq_1) c1(pathfinder_serg:1) c2(pathfinder:7) b(squad1) t(pulse inf_com) level(1) cost(100) f(1))
 
-;Войны огня - Карабины
-("squad_with2types" side(tau) name(sq_fw_carabine) 			c(30) g(sq_2) c1(fw_serg:1) c2(fw:7) b(squad1) t(pulse inf_tac) level(4) cost(100) f(1))
+;гвардейцы
+("squad_with3types" side(tau) name(sq_tau_guard1) 			c(30) g(sq_1) c1(tau_guard_serg_pr:1) c2(tau_guard_lg:4) c3(tau_guard_lg_01:15) b(squad1) t(all inf_com) level(1) cost(70) f(1))
 
-;Войны огня - Винтовки
-("squad_with2types" side(tau) name(sq_fw) 					c(30) g(sq_11) c1(fw_serg_pr:1) c2(fw_pr:7) b(squad1) t(pulse inf_tac) level(1) cost(125) f(1))
+;Крууты-Kroot Hunters
+("squad_with2types" side(tau) name(kroothunters1) 			c(30) g(sq_1) c1(kroot_shaper:1) c2(kroot:9) b(squad1) t(pulse inf_sab) level(1) cost(125) f(1))
 
-;Элита войнов огня - Карабины
-("squad_with2types" side(tau) name(sq_vet_fw_carabine) 		c(50) g(sq_3) c1(fw_vet_serg:1) c2(fw_vet:7) b(squad1) t(pulse inf_vet) level(4) cost(200) f(-5))
+;Войны огня - Карабины-Pulse Carbines
+("squad_with2types" side(tau) name(sq_fw_carabine) 			c(50) g(sq_2) c1(fw_serg:1) c2(fw:7) b(squad1) t(pulse inf_tac) level(4) cost(100) f(-5))
 
-;Элита войнов огня - Винтовки
-("squad_with2types" side(tau) name(sq_vet_fw) 				c(50) g(sq_3) c1(fw_vet_serg_pr:1) c2(fw_vet_pr:7) b(squad1) t(pulse inf_vet) level(4) cost(225) f(-5))
+;Войны огня - Винтовки-Pulse Rifles
+("squad_with2types" side(tau) name(sq_fw) 					c(50) g(sq_11) c1(fw_serg_pr:1) c2(fw_pr:7) b(squad1) t(pulse inf_tac) level(1) cost(125) f(-5))
 
-;Штурмовые войны огня
+;Элита войнов огня - Карабины- Vet Pulse Carbine
+("squad_with2types" side(tau) name(sq_vet_fw_carabine) 		c(50) g(sq_3) c1(fw_vet_serg:1) c2(fw_vet:7) b(squad1) t(pulse inf_vet) level(4) cost(200) f(-9.8))
+
+;Элита войнов огня - Винтовки-Vet Pulse Rifle
+("squad_with2types" side(tau) name(sq_vet_fw) 				c(50) g(sq_3) c1(fw_vet_serg_pr:1) c2(fw_vet_pr:7) b(squad1) t(pulse inf_vet) level(4) cost(225) f(-9.8))
+
+;Штурмовые войны огня- Pulse Blaster
 ("squad_with2types" side(tau) name(sq_assault_fw) 				c(50) g(sq_4) c1(assault_fw_serg:1) c2(assault_fw:7) b(squad1) t(pulse inf_a_inf) level(4) cost(225) f(-9.8))
+
+;Веспиды-Vespid
+("squad_with1types" side(tau) name(vespid_squad1) 			c(120) g(sq_4) c1(vespid:5) b(squad1) t(pulse inf_a_inf) level(1) cost(200) f(-3.5))
 
 
 ;Дрон - генератор щитов
@@ -39,7 +48,7 @@
 ("squad_with2types" side(tau) name(sq_pathfinder_ion) 		c(300) g(squad_2) c1(pathfinder_serg_ion:1) c2(pathfinder_ion:4) b(squad3) t(ion inf_a_inf) level(1) cost(100) f(-0.8))
 
 ;Маскировочный отряд XV15 - бурстки
-("squad_with2types" side(tau) name(sq_XV15) 				c(120) g(squad_3) c1(xv15:4) c2(xv25:1) b(squad3) t(stealth pulse inf_a_inf) level(1) cost(150) f(-1))
+("squad_with2types" side(tau) name(sq_XV15) 				c(120) g(squad_3) c1(xv15:4) c2(xv25:1) b(squad3) t(stealth pulse inf_a_inf) level(1) cost(180) f(-1))
 
 ;Маскировочный отряд XV15 - Ионный бластер
 ("squad_with1types" side(tau) name(sq_XV15_at) 				c(120) g(squad_3) c1(xv15_at:2) b(squad3) t(stealth inf_a_veh) level(1) cost(200) f(-3.5))
@@ -166,16 +175,16 @@
 {"hammer_head_ml"							("v_1_i_1" c(120) c1(hammer_head_ml) t(all veh_a_veh) s(tau) n1(tanker:3) g(tank_3) cp(25) b(v5)) {level 1} {cost 900} {score 900} {fore -8}}
 
 ;=================================Герои=================================;
-;гвардейцы
+;гвардейцы-Tau Guard
 ("squad_with3types" side(tau) name(sq_tau_guard) 			c(120) g(h_1) c1(tau_guard_serg_pr:1) c2(tau_guard_lg:4) c3(tau_guard_lg_01:15) b(hero) t(all inf_com) level(1) cost(1) f(-1))
 
-;Крууты
-("squad_with2types" side(tau) name(kroothunters) 			c(120) g(h_1) c1(kroot_shaper:1) c2(kroot:19) b(hero) t(pulse inf_sab) level(1) cost(1) f(-1))
+;Крууты-Kroot Hunter
+("squad_with2types" side(tau) name(kroothunters) 			c(120) g(h_1) c1(kroot_shaper:1) c2(kroot:19) b(hero) t(pulse inf_sab) level(1) cost(2) f(-1))
 
-;Псы
-{"tau_kroot_hound_1"	("v_1_i_0" c1(tau_kroot_hound_1:5)	c(120) t(all non) s(tau) cp(2) g(h_1) b(hero)) level(1) cost(2) {fore -2}}
+;Псы-Kroot Hound
+{"tau_kroot_hound_1"	("v_1_i_0" c1(tau_kroot_hound_1:10)	c(120) t(all non) s(tau) cp(2) g(h_1) b(hero)) level(1) cost(2) {fore -2}}
 
-;Веспиды
+;Веспиды-Vespid
 ("squad_with1types" side(tau) name(vespid_squad) 			c(120) g(h_4) c1(vespid:5) b(hero) t(pulse inf_a_inf) level(1) cost(1) f(-3.5))
 
 ;Спец.кризисы

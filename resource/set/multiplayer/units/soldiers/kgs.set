@@ -2,14 +2,14 @@
 ;-------------------------------Krieg------------------------------------------
 
 ;Дробовик
-("soldier" breed(ig_sg) side(kgs) tags(shotgun) cp(1) score(0.35) cw(1))
+("soldier" breed(ig_sg) side(kgs) tags(shotgun) cp(.5) score(0.35) cw(1))
 
 ;Лазган
-("soldier" breed(ig_lg) side(kgs) tags(lasgun) cp(1) score(0.35) cw(1))
-("soldier" breed(ig_lg_01) side(kgs) tags(lasgun) cp(1) score(0.35) cw(1))
+("soldier" breed(ig_lg) side(kgs) tags(lasgun) cp(.5) score(0.35) cw(1))
+("soldier" breed(ig_lg_01) side(kgs) tags(lasgun) cp(.5) score(0.35) cw(1))
 
 ;Огнемет
-("soldier" breed(ig_fl) side(kgs) tags(flamer) cp(1) score(0.35) cw(1))
+("soldier" breed(ig_fl) side(kgs) tags(flamer) cp(.5) score(0.35) cw(1))
 
 ;Гренадеры
 ("soldier" breed(ig_grenader_hg) side(kgs) tags(hellgun) cp(1) score(3) cw(1))
@@ -23,23 +23,23 @@
 ("soldier" breed(ig_hb) side(kgs) tags(heavy_bolter) cp(1) score(0.35) cw(1))
 
 ;Мельта
-("soldier" breed(ig_ml) side(kgs) tags(melta at) cp(1) score(0.35) cw(1))
+("soldier" breed(ig_ml) side(kgs) tags(melta at) cp(.5) score(0.35) cw(1))
 
 ;РПГ
-("soldier" breed(ig_rl) side(kgs) tags(at) cp(1) score(0.35) cw(1))
+("soldier" breed(ig_rl) side(kgs) tags(at) cp(.5) score(0.35) cw(1))
 
 ;Плазма
-("soldier" breed(ig_pg) side(kgs) tags(plasma) cp(1) score(0.35) cw(1))
+("soldier" breed(ig_pg) side(kgs) tags(plasma) cp(.5) score(0.35) cw(1))
 
 ;Корректировщик
-("soldier" breed(ig_officer) side(kgs) tags(bolter spotter) cp(1) score(1) cw(1))
-("soldier" breed(ig_officer_raz) side(kgs) tags(spotter) cp(1) score(1) cw(1))
+("soldier" breed(ig_officer) side(kgs) tags(bolter spotter) cp(.5) score(1) cw(1))
+("soldier" breed(ig_officer_raz) side(kgs) tags(spotter) cp(.5) score(1) cw(1))
 
 ;Разведчик
-("soldier" breed(ig_raz) side(kgs) tags(spotter) cp(1) score(0.44) cw(1))
+("soldier" breed(ig_raz) side(kgs) tags(spotter) cp(.5) score(0.44) cw(1))
 
 ;Снайпер
-("soldier" breed(ig_sr) side(kgs) tags(sniper) cp(1) score(0.44) cw(1))
+("soldier" breed(ig_sr) side(kgs) tags(sniper) cp(.5) score(0.44) cw(1))
 
 ;Сержант
 ("soldier" breed(ig_lider) side(kgs) tags(bolter) cp(1) score(0.35) cw(1))

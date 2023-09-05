@@ -1,13 +1,13 @@
 ﻿
 ;=================================Отряды=================================;
 ;Отряд с лазганами
-("squad_with3types" side(bps) name(sq_lg) 			c(30) g(sq_1) c1(rn_serg_lg:1) c2(rn_lg:4) c3(rn_lg_01:3) c4(rn_stb_01:2) b(squad1) t(lasgun inf_com) level(1) cost(25) f(1))
+("squad_with4types" side(bps) name(sq_lg) 			c(30) g(sq_1) c1(rn_serg_lg:1) c2(rn_lg:4) c3(rn_lg_01:3) c4(rn_stb_01:2) b(squad1) t(lasgun inf_com) level(1) cost(25) f(1))
 
 ;Отряд с автоганами
 ("squad_with6types" side(bps) name(sq_ag) 			c(30) g(sq_2) c1(rn_ag:2) c2(rn_ag_01:2) c3(rn_ag_02:2) c4(rn_ag_03:2) c5(rn_ag_04:1) c6(rn_serg_ag:1) b(squad1) t(autogun inf_com) level(3) cost(15) f(1))
 
 ;Отряд с автоганами и тяжелыми стабберами
-("squad_with8types" side(bps) name(sq_ag_hstb) 		c(30) g(sq_1) c1(rn_ag:1) c2(rn_ag_01:1) c3(rn_ag_02:1) c4(rn_ag_03:1) c5(rn_ag_04:2) c6(rn_stb_02:3) c7(rn_serg_stb:1) b(squad1) t(stabber inf_com) level(3) cost(40) f(1))
+("squad_with7types" side(bps) name(sq_ag_hstb) 		c(30) g(sq_1) c1(rn_ag:1) c2(rn_ag_01:1) c3(rn_ag_02:1) c4(rn_ag_03:1) c5(rn_ag_04:2) c6(rn_stb_02:3) c7(rn_serg_stb:1) b(squad1) t(stabber inf_com) level(3) cost(40) f(1))
 
 
 ;Отряд с плазмой
