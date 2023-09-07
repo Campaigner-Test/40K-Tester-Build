@@ -7,7 +7,7 @@
 ("squad_with3types" side(tau) name(sq_tau_guard1) 			c(30) g(sq_1) c1(tau_guard_serg_pr:1) c2(tau_guard_lg:4) c3(tau_guard_lg_01:15) b(squad1) t(all inf_com) level(1) cost(70) f(1))
 
 ;Крууты-Kroot Hunters
-("squad_with2types" side(tau) name(kroothunters1) 			c(30) g(sq_1) c1(kroot_shaper:1) c2(kroot:9) b(squad1) t(pulse inf_sab) level(1) cost(125) f(1))
+("squad_with2types" side(tau) name(kroothunters1) 			c(30) g(sq_1) c1(kroot_shaper:1) c2(kroot:4) b(squad1) t(pulse inf_sab) level(1) cost(125) f(1))
 
 ;Войны огня - Карабины-Pulse Carbines
 ("squad_with2types" side(tau) name(sq_fw_carabine) 			c(50) g(sq_2) c1(fw_serg:1) c2(fw:7) b(squad1) t(pulse inf_tac) level(4) cost(100) f(-5))

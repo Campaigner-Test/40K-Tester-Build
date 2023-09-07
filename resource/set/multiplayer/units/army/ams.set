@@ -34,7 +34,7 @@
 
 
 ;Танкисты
-("squad_with1types" side(ams) name(sq_ranger_tank) 	c(60) g(sq_6) c1(tanker:8) b(squad1) t(all non) level(1) cost(20) f(-1))
+("squad_with1types" side(ams) name(sq_ranger_tank) 	c(60) g(sq_6) c1(tanker:8) b(squad1) t(all non) level(1) cost(60) f(-1))
 
 ;================================= sent =================================;
 

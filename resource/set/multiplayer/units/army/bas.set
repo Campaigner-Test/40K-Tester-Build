@@ -21,7 +21,7 @@
 
 
 ;Тактикалы c болторами Охотник (ранее ветераны, в 2.38.5 заменены на тактикалов).
-("squad_with1types" side(bas) name(sq_tact_hunter) 		c(300) g(squad_5) c1(tactic_hunter:3) b(squad1) t(sniper non) level(1) cost(300) f(-0.8))
+("squad_with1types" side(bas) name(sq_tact_hunter) 		c(300) g(squad_5) c1(tactic_vet_hunter:4) b(squad1) t(sniper non) level(1) cost(500) f(-0.8))
 
 ;Ветераны с плазмаганами
 ("squad_with4types" side(bas) name(sq_tact_vet_bg_pg) 		c(300) g(squad_4) c1(tactic_vet_serg_bgp:1) c2(tactic_vet_bg:1) c3(tactic_vet_pg:3) c4(tactic_vet_ml:1) b(squad1) t(plasma inf_a_inf) level(1) cost(500) f(-0.8))
@@ -54,7 +54,7 @@
 ("squad_with3types_vehicle" side(bas) name(sq_tact_bg_drop) 				c(60) g(squad_3) v1(ba_drop_pod) c1(tactic_bg:2) c2(tactic_bg_01:2) c3(tactic_serg_bg:1) b(squad3) t(bolter par) level(1) cost(350) f(-0.5))
 
 ;Ветераны cо спецболтами
-("squad_with3types_vehicle" side(bas) name(sq_tact_vet_bg_sb_drop) 			c(300) g(squad_4) v1(ba_drop_pod) c1(tactic_serg_bg:1) c2(tactic_vet_bg:1) c3(tactic_vet_bg_sb:3) b(squad3) t(bolter special non) level(1) cost(600) f(-0.8))
+("squad_with4types_vehicle" side(bas) name(sq_tact_vet_bg_sb_drop) 			c(300) g(squad_4) v1(ba_drop_pod) c1(tactic_vet_serg_bg:1) c2(tactic_vet_shb:1) c3(tactic_vet_bg_sb:3) c4(tactic_vet_ml:1) b(squad3) t(bolter special non) level(1) cost(550) f(-0.8))
 
 ;Ветераны c Ракетным вооружением 
 ("squad_with3types_vehicle" side(bas) name(sq_tact_vet_bg_rl_drop) 			c(300) g(squad_4) v1(ba_drop_pod) c1(tactic_vet_serg_bgm:1) c2(tactic_vet_bg:1) c3(tactic_vet_rl:3) b(squad3) t(at non) level(1) cost(600) f(-0.8))
@@ -120,16 +120,16 @@
 
 ;=================================Носороги и дредноуты=================================;
 ;Носорог (Боезапас)
-{"ba_rhino" 										("v_1_i_1" c(120) c1(ba_rhino) t(all non) s(bas) n1(Tanker:2) cp(10) g(btr_1) b(v3)) {level 1} {cost 200} {score 25} {fore -1}}
+{"ba_rhino" 										("v_1_i_1" c(120) c1(ba_rhino) t(all non) s(bas) n1(Tanker:2) cp(10) g(btr_1) b(v3)) {level 1} {cost 150} {score 25} {fore -1}}
 
 ;Носорог - тяжелый болтер
-{"ba_razorback"									("v_1_i_1" c(120) c1(ba_razorback) 		t(all sup_a_inf) s(bas) n1(Tanker:4) g(btr_2) cp(15) b(v3)) {cost 200} {score 30} {fore -3.5}}
+{"ba_razorback"									("v_1_i_1" c(120) c1(ba_razorback) 		t(all sup_a_inf) s(bas) n1(Tanker:4) g(btr_2) cp(10) b(v3)) {cost 200} {score 30} {fore -3.5}}
 
 ;Носорог - штурмовая пушка
 {"ba_razorback_ac"								("v_1_i_1" c(120) c1(ba_razorback_ac) 		t(all sup_a_inf) s(bas) n1(Tanker:4) g(btr_3) cp(15) b(v3)) {cost 240} {score 30} {fore -3.5}}
 
 ;Носорог - лазпушка
-{"ba_razorback_lc"								("v_1_i_1" c(240) c1(ba_razorback_lc) 		t(all sup_a_veh) s(bas) n1(Tanker:4) g(btr_4) cp(20) b(v3)) {cost 400} {score 35} {fore -1.25}}
+{"ba_razorback_lc"								("v_1_i_1" c(240) c1(ba_razorback_lc) 		t(all sup_a_veh) s(bas) n1(Tanker:4) g(btr_4) cp(15) b(v3)) {cost 400} {score 35} {fore -1.25}}
 
 ;======================================== Дредноуты 
 

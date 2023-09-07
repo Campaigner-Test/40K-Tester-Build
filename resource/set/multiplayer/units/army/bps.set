@@ -1,29 +1,29 @@
 ﻿
 ;=================================Отряды=================================;
-;Отряд с лазганами
+;Отряд с лазганами-Laz Gun Squad
 ("squad_with4types" side(bps) name(sq_lg) 			c(30) g(sq_1) c1(rn_serg_lg:1) c2(rn_lg:4) c3(rn_lg_01:3) c4(rn_stb_01:2) b(squad1) t(lasgun inf_com) level(1) cost(25) f(1))
 
-;Отряд с автоганами
+;Отряд с автоганами-Auto Gun Squad
 ("squad_with6types" side(bps) name(sq_ag) 			c(30) g(sq_2) c1(rn_ag:2) c2(rn_ag_01:2) c3(rn_ag_02:2) c4(rn_ag_03:2) c5(rn_ag_04:1) c6(rn_serg_ag:1) b(squad1) t(autogun inf_com) level(3) cost(15) f(1))
 
-;Отряд с автоганами и тяжелыми стабберами
+;Отряд с автоганами и тяжелыми стабберами- Heavy Stubber Squad
 ("squad_with7types" side(bps) name(sq_ag_hstb) 		c(30) g(sq_1) c1(rn_ag:1) c2(rn_ag_01:1) c3(rn_ag_02:1) c4(rn_ag_03:1) c5(rn_ag_04:2) c6(rn_stb_02:3) c7(rn_serg_stb:1) b(squad1) t(stabber inf_com) level(3) cost(40) f(1))
 
 
-;Отряд с плазмой
+;Отряд с плазмой-Plasma Squad
 ("squad_with4types" side(bps) name(sq_pg) 			c(30) g(sq_3) c1(rn_serg_lg:1) c2(rn_lg:4) c3(rn_lg_01:3) c4(rn_pg:2) b(squad1) t(plasma inf_tac) level(2) cost(85) f(1))
 
-;Отряд с мельтой
+;Отряд с мельтой-Melta Squad
 ("squad_with4types" side(bps) name(sq_ml) 			c(30) g(sq_4) c1(rn_serg_bolt:1) c2(rn_lg:4) c3(rn_lg_01:2) c4(rn_ml:3) b(squad1) t(melta inf_a_veh) level(2) cost(65) f(1))
 
 
-;Отряд ветеранов с лазганами
+;Отряд ветеранов с лазганами-Vet LG
 ("squad_with4types" side(bps) name(sq_vet_lg) 		c(50) g(sq_5) c1(rn_serg_lg:1) c2(rn_vet_lg:4) c3(rn_vet_lg_01:3) c4(rn_vet_lg_02:2) b(squad1) t(heavy_lasgun plasma inf_vet) level(1) cost(80) f(-5))
 
-;Отряд ветеранов с плазмами
+;Отряд ветеранов с плазмами-Vet PG
 ("squad_with5types" side(bps) name(sq_vet_pg) 		c(50) g(sq_5) c1(death_brigade_pg:1) c2(rn_vet_pg:2) c3(rn_vet_lg:3) c4(rn_vet_lg_01:3) c5(rn_vet_lg_02:1) b(squad1) t(heavy_lasgun plasma inf_vet) level(1) cost(130) f(-5))
 
-;Отряд ветеранов с мельтами
+;Отряд ветеранов с мельтами-Vet ML
 ("squad_with5types" side(bps) name(sq_vet_ml) 		c(50) g(sq_5) c1(rn_serg_lg:1) c2(rn_vet_ml:4) c3(rn_vet_lg:2) c4(rn_vet_lg_01:2) c5(rn_vet_lg_02:1) b(squad1) t(heavy_lasgun melta inf_a_veh) level(1) cost(100) f(-5))
 
 
@@ -40,7 +40,7 @@
 ("squad_with1types" side(bps) name(sq_rl) 			c(30) g(squad_3) c1(rn_rl:4) b(squad2) t(at inf_a_veh) level(1) cost(40) f(-1))
 
 ;Снайперы
-("squad_with2types" side(bps) name(sq_sr) 		 c(60) g(squad_4) c1(rn_vet_sr:3) c2(rn_vet_raz:2) b(squad2) t(sniper inf_sab) level(1) cost(100) f(-3))
+("squad_with3types" side(bps) name(sq_sr) 		 c(60) g(squad_4) c1(rn_vet_sr:3) c2(rn_vet_raz:4) c3(rn_sr:3) b(squad2) t(sniper inf_sab) level(1) cost(100) f(-3))
 
 ;Инженеры
 ("squad_with1types" side(bps) name(bps_engener1) 	c(240) g(engineer) c1(bps_engener1:1) b(squad2) t(limit_2 inf_bld) level(1) cost(90) f(0.5))
@@ -52,7 +52,7 @@
 ("squad_with2types" side(bps) name(tank) 			c(10) g(squad_5) c1(tanker:5) c2(tanker_01:1) b(squad2) t(tankman non) level(1) cost(10) f(-11))
 
 ;стабберы - Отключён
-;("squad_with8types" side(bps) name(sq_ag_stb) 		c(30) g(squad_0) c1(rn_stb:4) b(squad2) t(stabber) level(1) cost(15) f(-1))
+("squad_with8types" side(bps) name(sq_ag_stb) 		c(30) g(squad_0) c1(rn_stb:4) b(squad2) t(stabber) level(1) cost(50) f(-1))
 
 ;================================= Часовые =================================;
 ;Часовой - тяж. болтер
@@ -94,16 +94,16 @@
 ;{"bp_sentinel_mm_rl"					("v_1_i_1" c(120) c1(bp_sentinel_mm_rl) t(all) s(bps) n1(tanker:1) g(b100) cp(5) b(sent)) {level 1} {cost 170} {score 25} {fore 0.0}}
 ;=================================Артиллерия=================================;
 ;Миномет
-{"bp_minomet"									("v_1_i_1" c(120) c1(bp_minomet) t(all non) s(bps) n1(rn_lg:2) g(art_1) cp(3) b(v2)) {level 1} {cost 140} {score 10} {fore -0}}
+{"bp_minomet"									("v_1_i_1" c(120) c1(bp_minomet) t(all non) s(bps) n1(rn_lg:2) g(art_1) cp(3) b(v2)) {level 1} {cost 75} {score 10} {fore -0}}
 
 ;Василиск
-{"bp_basilisk"									("v_1_i_3" c(300) c1(bp_basilisk) t(all veh_art) s(bps) n1(tanker:1) n2(tanker:2) n3(tanker:1) g(art_2) cp(17) b(v2)) {level 1} {cost 250} {score 40} {fore -0}}
+{"bp_basilisk"									("v_1_i_3" c(300) c1(bp_basilisk) t(all veh_art) s(bps) n1(tanker:1) n2(tanker:2) n3(tanker:1) g(art_2) cp(15) b(v2)) {level 1} {cost 250} {score 40} {fore -0}}
 
 ;Мантикора
 {"bp_manticora" 								("v_1_i_3" c(300) c1(bp_manticora) t(all veh_art) s(bps) n1(tanker:2) n2(tanker:1) n3(tanker:1) cp(20) g(art_3) b(v2)) {level 1} {cost 400} {score 50} {fore -0.8}}
 
 ;Гаубица - На усмотрение
-;{"l18"											("v_1_i_1" c(150) c1(l18) t(all non) s(bps) n1(rn_lg:2) g(b25) cp(15) b(v2)) {level 1} {cost 180} {score 20} {fore 0}}
+{"l18"											("v_1_i_1" c(150) c1(l18) t(all non) s(bps) n1(rn_lg:2) g(b25) cp(8) b(v2)) {level 1} {cost 180} {score 20} {fore 0}}
 ;=================================Орудия поддержки=================================;
 
 ;Тяж. болтер (стаббер)
@@ -175,22 +175,22 @@
 {"bp_baneblade"								("v_1_i_3" c(300) c1(bp_baneblade) t(all ult) s(bps) n1(tanker:6) n2(tanker:5) n3(tanker:1) g(tank_8) cp(30) b(v5)) {level 1} {cost 1250} {score 100} {fore -2.6}}
 
 ;Рыцарь
-{"knights_despoiler"						("v_1_i_0" c(920) c1(knights_despoiler) 	cp(40)	t(all ult) s(bps) g(tank_10) b(v5)) {cost 1900} {score 150} {fore -0.5}}
+{"knights_despoiler"						("v_1_i_0" c(920) c1(knights_despoiler) 	cp(40)	t(all ult) s(bps) g(tank_10) b(v5)) {cost 1500} {score 1500} {fore -0.5}}
 
 
 
 ;Леман русс -стабберы - Отключен
-;{"bp_lr_v1"							("v_1_i_4" c(120) c1(bp_lr_v1) t(all non) s(bps) n1(tanker:1) n2(tanker_01:2) n3(rn_serg_bolt:1) n4(rn_lg:2) g(b51) cp(20) b(lr)) {level 1} {cost 330} {score 50} {fore -3.5}}
+{"bp_lr_v1"							("v_1_i_4" c(120) c1(bp_lr_v1) t(all non) s(bps) n1(tanker:1) n2(tanker_01:2) n3(rn_serg_bolt:1) n4(rn_lg:2) g(b51) cp(20) b(lr)) {level 1} {cost 330} {score 50} {fore -3.5}}
 ;=================================Герои=================================;
 
-;Колдун со свитой
+;Колдун со свитой-Wizard
 ("squad_with7types" side(bps) name(sorcerer) c(300) g(hero_2) c1(sorcerer) c2(death_brigade_pg:1) c3(death_brigade_khg:1) c4(death_brigade_lg:1) c5(rn_ag_02:1) c6(rn_vet_lg:1) c7(rn_vet_lg_02:1) b(hero) t(heavy_lasgun plasma special inf_def) level(1) cost(2) f(-0.8))
 
-;bp-Одержимые
+;bp-Одержимые-Pozzed
 ("squad_with4types" side(bps) name(sq_possessed) 					c(240) g(h_1) c1(possessed_stb:5) c2(possessed_stb_01:7) c3(possessed_gl:5) c4(possessed_fl:3) b(hero) t(flamer grenade stabber special inf_a_inf) level(1) cost(3) f(0))
  
 ;bp-Банда Хаоса 
-("squad_with4types" side(bps) name(gang_of_chaos_hw) 					c(300) g(h_2) c1(merc_vet:1) c2(merc_hb:1) c3(merc_ac:1) c4(rn_strom_hg:3) b(hero) t(heavy_bolter special inf_a_inf) level(1) cost(3) f(-0.8))
+("squad_with4types" side(bps) name(gang_of_chaos_hw) 					c(300) g(h_2) c1(merc_vet:1) c2(merc_hb:1) c3(merc_ac:1) c4(rn_strom_hg:3) b(hero) t(heavy_bolter special inf_a_inf) level(1) cost(2) f(-0.8))
 
 ;bp-Бригада смерти
 ("squad_with6types" side(bps) name(brigade_of_death_squad) 				c(240) g(h_3) c1(death_brigade_lg:3) c2(death_brigade_llg:2) c3(death_brigade_pg:2) c4(death_brigade_khg:1) c5(death_brigade_hg:1) c6(death_brigade_stb:1) b(hero) t(heavy_lasgun plasma special inf_a_inf) level(1) cost(2) f(-1.25))

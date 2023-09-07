@@ -14,8 +14,8 @@
 ("soldier" breed(skitarii_vanguard_gamma) 	side(ams) tags(rad veteran) cp(1) score(1) cw(1))
 
 ;skitarii Танкист
-("soldier" breed(tanker) 					side(ams) tags(tankman) cp(0) score(0.2) cw(1))
-("soldier" breed(tanker_vanguard) 			side(ams) tags(tankman) cp(0) score(0.2) cw(1))
+("soldier" breed(tanker) 					side(ams) tags(tankman) cp(0.5) score(0.2) cw(1))
+("soldier" breed(tanker_vanguard) 			side(ams) tags(tankman) cp(0.5) score(0.2) cw(1))
 
 
 ;skitarii vanguard

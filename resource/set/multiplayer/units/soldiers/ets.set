@@ -38,5 +38,5 @@
 ("soldier" breed(harakon_01) 	side(ets) tags(hellgun) cp(1.25) score(2) cw(1))
 
 ;Танкист
-("soldier" breed(tanker) 		side(ets) tags(lasgun tankman) cp(0) score(0.1) cw(0))
-("soldier" breed(tanker_hkm) 	side(ets) tags(lasgun tankman) cp(0) score(0.1) cw(0))
+("soldier" breed(tanker) 		side(ets) tags(lasgun tankman) cp(1) score(0.1) cw(0))
+("soldier" breed(tanker_hkm) 	side(ets) tags(lasgun tankman) cp(1) score(0.1) cw(0))

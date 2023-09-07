@@ -115,9 +115,9 @@
 {"chaos_storm_strike"							("v_1_i_0" c(600) c1(chaos_storm_strike) 		t(all strike) s(bls) g(art_1) cp(0) b(v2)) {cost 500} {fore -2.6}}
 
 ;Тарантул - Отключен
-;{"bl_drop_tarantul_hb" ("v_1_i_0" c(180) c1(bl_drop_tarantul_hb) t(all non) s(bls) g(tar_hb) cp(2) b(v2)) {cost 80} {fore 0}}
-;{"bl_drop_tarantul_rl" ("v_1_i_0" c(180) c1(bl_drop_tarantul_rl) t(all non) s(bls) g(tar_hb) cp(2) b(v2)) {cost 200} {fore 0}}
-;{"bl_drop_tarantul_lc" ("v_1_i_0" c(120) c1(bl_drop_tarantul_lc) t(all non) s(bls) g(tar_lc) cp(2) b(v2)) {cost 250} {fore -3.5}}
+{"bl_drop_tarantul_hb" ("v_1_i_0" c(180) c1(bl_drop_tarantul_hb) t(all non) s(bls) g(tar_hb) cp(2) b(v2)) {cost 80} {fore 0}}
+{"bl_drop_tarantul_rl" ("v_1_i_0" c(180) c1(bl_drop_tarantul_rl) t(all non) s(bls) g(tar_hb) cp(2) b(v2)) {cost 200} {fore 0}}
+{"bl_drop_tarantul_lc" ("v_1_i_0" c(120) c1(bl_drop_tarantul_lc) t(all non) s(bls) g(tar_lc) cp(2) b(v2)) {cost 250} {fore -3.5}}
 ;=================================Хищники=================================;
 
 ;Хищник - автопушка

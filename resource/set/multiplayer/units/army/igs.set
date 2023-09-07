@@ -1,7 +1,7 @@
 ﻿;=================================Отряды=================================;
 
 ;Отряд рядовых с лазганами 
-("squad_with3types" side(igs) name(sq_lg) 		c(30) g(sq_1) c1(serg_las:1) c2(ig_lg:3) c3(ig_lg_01:6) b(squad1) t(lasgun inf_com) level(1) cost(25) f(1))
+("squad_with4types" side(igs) name(sq_lg) 		c(30) g(sq_1) c1(serg_las:1) c2(ig_lg:3) c3(ig_lg_01:4) c4(ig_stb:2) b(squad1) t(lasgun inf_com) level(1) cost(25) f(1))
 
 ;Отряд рядовых с плазмой
 ("squad_with4types" side(igs) name(sq_pg) 		c(30) g(sq_2) c1(serg_las:1) c2(ig_lg:3) c3(ig_lg_01:4) c4(ig_pg:2) b(squad1) t(plasma inf_tac) level(1) cost(85) f(1))
@@ -43,7 +43,7 @@
 
 
 ;Снайперы
-("squad_with2types" side(igs) name(sq_sr) 			c(60) g(squad_5) c1(ig_vet_sr:3) c2(ig_vet_raz:2) b(squad3) t(sniper inf_sab) level(1) cost(100) f(-3))
+("squad_with2types" side(igs) name(sq_sr) 			c(60) g(squad_5) c1(ig_vet_sr:6) c2(ig_vet_raz:4) b(squad3) t(sniper inf_sab) level(1) cost(100) f(-3))
 
 ;Отряд инквизиции с псайкером
 ("squad_with2types" side(igs) name(sq_psyker) 		c(60) g(squad_7) c1(inquisition_lg:2) c2(inquisition_psyker:1) b(squad3) t(spotter inf_vet) level(1) cost(180) f(-3))
@@ -62,9 +62,9 @@
 
 
 ;Отряд c стабберами - На усмотрение
-;("squad_with3types" side(igs) name(sq_stb)		c(30) g(squad_1) c1(ig_stb:4) b(squad3) t(lasgun) level(1) cost(15) f(-1))
+("squad_with3types" side(igs) name(sq_stb)		c(30) g(squad_1) c1(ig_stb:4) b(squad3) t(lasgun) level(1) cost(50) f(-1))
 ;Коммисар со свитой - На усмотрение
-;("squad_with5types" side(igs) name(sq_command) 		c(240) g(squad_6) c1(commissar_las:1) c2(ig_strom_hg:2) c3(ig_strom_hg:2) b(squad3) t(spotter) level(1) cost(120) f(-1))
+("squad_with5types" side(igs) name(sq_command) 		c(240) g(squad_6) c1(commissar_las:1) c2(ig_strom_hg:2) c3(ig_strom_hg:2) b(squad3) t(spotter) level(1) cost(120) f(-1))
 
 
 
@@ -103,7 +103,7 @@
 ;{"sentinel_custom"							("v_1_i_2" c(240) c1(sentinel_custom) t(all) s(igs) n1(tanker_01:1) g(b12) cp(5) b(sent)) {level 1} {cost 160} {score 25} {fore 0}}
 ;=================================Артиллерия=================================;
 ;Миномет
-{"ig_minomet"										("v_1_i_1" c(120) c1(ig_minomet) t(all non) s(igs) n1(ig_lg:2) g(art_1) cp(3) b(v2)) {level 1} {cost 140} {score 10} {fore -0}}
+{"ig_minomet"										("v_1_i_1" c(120) c1(ig_minomet) t(all non) s(igs) n1(ig_lg:2) g(art_1) cp(3) b(v2)) {level 1} {cost 75} {score 75} {fore -0}}
 
 ;Реактивная мортира -выключен
 ;{"reactive_mortar"									("v_1_i_1" c(300) c1(reactive_mortar) t(all non) s(igs) n1(ig_lg:2) g(art_2) cp(15) b(v2)) {level 1} {cost 215} {score 15} {fore 0}}
@@ -181,7 +181,7 @@
 {"devil_dog_f"										("v_1_i_3" c(120) c1(devil_dog_f) t(all sup_a_all) s(igs) n1(tanker:1) n2(tanker_01:2) n3(tanker:1) g(btr_3) cp(10) b(v4)) {level 1} {cost 200} {score 25} {fore -3.5}}
 
 ;Гидра 
-{"hydra"											("v_1_i_3" c(120) c1(hydra) t(all sup_a_all) s(igs) n1(tanker:1) n2(tanker_01:3) n3(tanker:1) g(btr_4) cp(10) b(v4)) {level 1} {cost 500} {score 50} {fore -3.5}}
+{"hydra"											("v_1_i_3" c(120) c1(hydra) t(all sup_a_all) s(igs) n1(tanker:1) n2(tanker_01:3) n3(tanker:1) g(btr_4) cp(10) b(v4)) {level 1} {cost 300} {score 50} {fore -3.5}}
 
 ;Химера - Отключен
 ;{"chimera"											("v_1_i_3" c(120) c1(chimera) t(all) s(igs) n1(tanker:1) n2(tanker_01:3) n3(ig_lg:6) cp(10) g(b41) b(v4)) {level 1} {cost 115} {score 25} {fore -3.5}}

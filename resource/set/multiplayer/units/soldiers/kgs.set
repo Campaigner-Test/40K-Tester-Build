@@ -1,7 +1,7 @@
 
 ;-------------------------------Krieg------------------------------------------
 
-;Дробовик
+;Дробовик-Shotgun Breed
 ("soldier" breed(ig_sg) side(kgs) tags(shotgun) cp(0.5) score(0.35) cw(1))
 
 ;Лазган
@@ -17,7 +17,7 @@
 ("soldier" breed(ig_grenader_ml) side(kgs) tags(melta at) cp(1) score(3) cw(1))
 ("soldier" breed(ig_gl) side(kgs) tags(grenade) cp(1) score(3) cw(1))
 
-;Тяж.болтер
+;Тяж.болтер-Heavy Weapons Breed
 ("soldier" breed(ig_ac) side(kgs) tags(autocannon) cp(1) score(0.35) cw(1))
 ("soldier" breed(ig_stb) side(kgs) tags(stabber) cp(1) score(0.35) cw(1))
 ("soldier" breed(ig_hb) side(kgs) tags(heavy_bolter) cp(1) score(0.35) cw(1))
@@ -64,8 +64,8 @@
 ("soldier" breed(ig_vet_vox) side(kgs) tags(lasgun vox veteran) cp(1) score(1) cw(1))
 
 ;Техножрец
-("soldier" breed(ig_engener1) 		side(kgs) tags(engener) cp(1) score(10) cw(1)) 
-("soldier" breed(ig_engener2) 		side(kgs) tags(engener) cp(1) score(10) cw(1))
+("soldier" breed(ig_engener1) 		side(kgs) tags(engener) cp(5) score(10) cw(1)) 
+("soldier" breed(ig_engener2) 		side(kgs) tags(engener) cp(5) score(10) cw(1))
 
 ;Генерал-Командор
 ("soldier" breed(ig_command) 	side(kgs) tags(bolter) 	cp(1) score(1) cw(1))

@@ -64,7 +64,7 @@
 
 ;=================================Артиллерия=================================;
 ;Газовый миномет
-{"krieg_minomet"								("v_1_i_1" c(120) c1(krieg_minomet) t(all non) s(kgs) n1(ig_lg:2) g(art_1) cp(2) b(v2)) {level 1} {cost 100} {score 100} {fore -0}}
+{"krieg_minomet"								("v_1_i_1" c(120) c1(krieg_minomet) t(all non) s(kgs) n1(ig_lg:2) g(art_1) cp(3) b(v2)) {level 1} {cost 75} {score 100} {fore -0}}
 
 ;Полевая пушка
 {"kgs_np_sig33"								("v_1_i_1" c(120) c1(np_sig33) t(all non) s(kgs) n1(tanker:2) g(art_2) cp(4) b(v2)) {level 1} {cost 140} {score 140} {fore -0.4}}
@@ -200,20 +200,20 @@
 
 
 
-{"krieg_death_rider"	("f_5x2" c(120) c1(ig_death_rider_2) c2(ig_death_rider) c3(ig_death_rider) c4(ig_death_rider) c5(ig_death_rider) t(all sup_sct) s(kgs) g(h_1) cp(0) b(hero)) {level 1} {cost 2} {score 200} {fore -0.25}}
+{"krieg_death_rider"	("f_5x2" c(120) c1(ig_death_rider_2) c2(ig_death_rider) c3(ig_death_rider) c4(ig_death_rider) c5(ig_death_rider) t(all sup_sct) s(kgs) g(h_1) cp(0) b(hero)) {level 1} {cost 1} {score 200} {fore -0.25}}
 
 ;krieg-Взвод гренадеров первой роты 
-("squad_with5types" side(kgs) name(krieg_grenadier_squad_sp) 					c(300) g(h_2) c1(ig_grenader_hg:9) c2(ig_grenader_pg:2) c3(ig_grenader_pg:1) c4(ig_command:1) c5(ig_grenader_ml:2) b(hero) t(grenade plasma special inf_vet) level(1) cost(2) f(-2.6))
+("squad_with5types" side(kgs) name(krieg_grenadier_squad_sp) 					c(240) g(h_2) c1(ig_grenader_hg:9) c2(ig_grenader_pg:2) c3(ig_grenader_pg:1) c4(ig_command:1) c5(ig_grenader_ml:2) b(hero) t(grenade plasma special inf_vet) level(1) cost(2) f(-1.25))
 
 
-;Химера - спареная лазпушка
+;Химера - спареная лазпушка-Chimera Las
 {"krieg_chimera_annihilator"						("v_1_i_1" c(240) c1(krieg_chimera_annihilator) t(all sup_a_veh) s(kgs) n1(tanker:4) g(h_3) b(hero) cp(10)) {level 1} {cost 2} {score 200} {fore -1.25}}
 
-;Циклоп
+;Циклоп- Cyclops
 {"cyclops"										("v_1_i_0" c(120) c1(cyclops) t(all non) s(kgs) g(h_4) cp(0) b(Hero)) {level 1} {cost 1} {score 100} {fore -1}}
 
 ;Леман Русс - Нова Пушка
-{"krieg_lr_ryza_eradicator"				("v_1_i_2" c(240) c1(krieg_lr_ryza_eradicator) t(all sup_a_all) s(kgs) n1(tanker:3) n2(tanker:1) g(h_5) b(hero) cp(20)) {level 1} {cost 7} {score 700} {fore -1.25}}
+{"krieg_lr_ryza_eradicator"				("v_1_i_2" c(300) c1(krieg_lr_ryza_eradicator) t(all sup_a_all) s(kgs) n1(tanker:3) n2(tanker:1) g(h_5) b(hero) cp(20)) {level 1} {cost 7} {score 700} {fore -2.25}}
 
 
 

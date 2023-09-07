@@ -46,13 +46,13 @@
 ("soldier" breed(warp_spider_exarch) side(eld) tags(weaver) cp(1) score(10) cw(1))
 
 ;Видящая
-("soldier" breed(eldar_farseer) side(eld) tags(farseer special) cp(4) score(200) cw(1))
+("soldier" breed(eldar_farseer) side(eld) tags(farseer special) cp(7) score(200) cw(1))
 
 ;Аутарх
-("soldier" breed(eldar_autarx) side(eld) tags(autarx special) cp(4) score(100) cw(1))
+("soldier" breed(eldar_autarx) side(eld) tags(autarx special) cp(5) score(100) cw(1))
 
 ;Варлоки
-("soldier" breed(eldar_warlock) side(eld) tags(advisers special) cp(4) score(50) cw(1))
-("soldier" breed(eldar_warlock_hero) side(eld) tags(warlock special) cp(4) score(50) cw(1))
-("soldier" breed(eldar_warlock_squad) side(eld) tags(advisers special) cp(4) score(50) cw(1))
-("soldier" breed(eldar_warlock_advisers) side(eld) tags(advisers special) cp(4) score(50) cw(1))
+("soldier" breed(eldar_warlock) side(eld) tags(advisers special) cp(5) score(50) cw(1))
+("soldier" breed(eldar_warlock_hero) side(eld) tags(warlock special) cp(5) score(50) cw(1))
+("soldier" breed(eldar_warlock_squad) side(eld) tags(advisers special) cp(5) score(50) cw(1))
+("soldier" breed(eldar_warlock_advisers) side(eld) tags(advisers special) cp(5) score(50) cw(1))
