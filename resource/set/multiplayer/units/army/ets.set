@@ -31,7 +31,7 @@
 
 
 ;Отряд штурмовиков -отключен
-;("squad_with2types" side(ets) name(sq_storm)	c(300) g(etstrom) c1(harakon:9) c2(harakon_01:1) b(squad1) t(heavy_lasgun) level(1) cost(250) f(-0.8))
+("squad_with2types" side(ets) name(sq_storm)	c(300) g(etstrom) c1(harakon:9) c2(harakon_01:1) b(squad1) t(heavy_lasgun) level(1) cost(200) f(-0.8))
 ;=================================Спецотряды=================================;
 
 ;Арт десант- Тяж болтер
@@ -54,7 +54,7 @@
 ;Тяж. лазпушка - Отключен
 {"heavy_weapon_lascannon(ets)"							("v_1_i_2" c(120) c1(heavy_weapon_lascannon) t(all non) s(ets) n1(ig_lg:2) g(b33) cp(2) b(v3)) {level 1} {cost 130} {score 130} {fore -3.5}}
 ;Снайперы - На усмотрение
-("squad_with1types" side(ets) name(sq_sr) 			c(100) g(soldier_3) c1(ig_sr:10) b(squad3) t(sniper non) level(1) cost(100) f(-2))
+("squad_with1types" side(ets) name(sq_sr) 			c(100) g(soldier_3) c1(ig_vet_sr:10) b(squad3) t(sniper non) level(1) cost(150) f(-2))
 ;================================= Часовые =================================;
 ;Часовой - мультилазер
 {"sentinel_mul(ets)"							("v_1_i_1" c(120) c1(sentinel_mul) t(all sup_sct) s(ets) n1(tanker:1) g(sent_1) cp(5) b(sent)) {level 1} {cost 110} {score 110} {fore 0}}

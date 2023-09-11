@@ -40,7 +40,7 @@
 ("squad_with1types" side(bps) name(sq_rl) 			c(30) g(squad_3) c1(rn_rl:4) b(squad2) t(at inf_a_veh) level(1) cost(40) f(-1))
 
 ;Снайперы
-("squad_with3types" side(bps) name(sq_sr) 		 c(60) g(squad_4) c1(rn_vet_sr:3) c2(rn_vet_raz:4) c3(rn_sr:3) b(squad2) t(sniper inf_sab) level(1) cost(100) f(-3))
+("squad_with2types" side(bps) name(sq_sr) 		 c(60) g(squad_4) c1(rn_vet_sr:6) c2(rn_vet_raz:4) b(squad2) t(sniper inf_sab) level(1) cost(100) f(-3))
 
 ;Инженеры
 ("squad_with1types" side(bps) name(bps_engener1) 	c(240) g(engineer) c1(bps_engener1:1) b(squad2) t(limit_2 inf_bld) level(1) cost(90) f(0.5))
@@ -184,16 +184,16 @@
 ;=================================Герои=================================;
 
 ;Колдун со свитой-Wizard
-("squad_with7types" side(bps) name(sorcerer) c(300) g(hero_2) c1(sorcerer) c2(death_brigade_pg:1) c3(death_brigade_khg:1) c4(death_brigade_lg:1) c5(rn_ag_02:1) c6(rn_vet_lg:1) c7(rn_vet_lg_02:1) b(hero) t(heavy_lasgun plasma special inf_def) level(1) cost(2) f(-0.8))
+("squad_with7types" side(bps) name(sorcerer) c(300) g(hero_2) c1(sorcerer) c2(death_brigade_pg:1) c3(death_brigade_khg:1) c4(death_brigade_lg:1) c5(rn_ag_02:1) c6(rn_vet_lg:1) c7(rn_vet_lg_02:1) b(hero) t(heavy_lasgun plasma special inf_def) level(1) cost(1) f(-0.8))
 
 ;bp-Одержимые-Pozzed
-("squad_with4types" side(bps) name(sq_possessed) 					c(240) g(h_1) c1(possessed_stb:5) c2(possessed_stb_01:7) c3(possessed_gl:5) c4(possessed_fl:3) b(hero) t(flamer grenade stabber special inf_a_inf) level(1) cost(3) f(0))
+("squad_with4types" side(bps) name(sq_possessed) 					c(240) g(h_1) c1(possessed_stb:5) c2(possessed_stb_01:7) c3(possessed_gl:5) c4(possessed_fl:3) b(hero) t(flamer grenade stabber special inf_a_inf) level(1) cost(2) f(0))
  
 ;bp-Банда Хаоса 
-("squad_with4types" side(bps) name(gang_of_chaos_hw) 					c(300) g(h_2) c1(merc_vet:1) c2(merc_hb:1) c3(merc_ac:1) c4(rn_strom_hg:3) b(hero) t(heavy_bolter special inf_a_inf) level(1) cost(2) f(-0.8))
+("squad_with6types" side(bps) name(gang_of_chaos_hw) 					c(300) g(h_2) c1(merc_vet:1) c2(merc_hb:1) c3(merc_ac:1) c4(merc_ml:1) c5(merc_rl:1) c6(merc_bg:1) b(hero) t(heavy_bolter special inf_a_inf) level(1) cost(3) f(-0.8))
 
 ;bp-Бригада смерти
-("squad_with6types" side(bps) name(brigade_of_death_squad) 				c(240) g(h_3) c1(death_brigade_lg:3) c2(death_brigade_llg:2) c3(death_brigade_pg:2) c4(death_brigade_khg:1) c5(death_brigade_hg:1) c6(death_brigade_stb:1) b(hero) t(heavy_lasgun plasma special inf_a_inf) level(1) cost(2) f(-1.25))
+("squad_with5types" side(bps) name(brigade_of_death_squad) 				c(240) g(h_3) c1(death_brigade_lg:5) c2(death_brigade_pg:2) c3(death_brigade_khg:3) c4(death_brigade_hg:2) c5(merc_rl:1) b(hero) t(heavy_lasgun plasma special inf_a_inf) level(1) cost(2) f(-1.25))
 
 ;Леман Русс - оскверненный
 {"chaoslemanruss"									("v_1_i_1" c(240) c1(chaoslemanruss) t(all veh_a_veh) s(bps) n1(tanker_01:6) cp(20) g(h_4) b(hero)) {level 4} {cost 5} {score 50} {fore -1.25}}
