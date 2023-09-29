@@ -100,6 +100,9 @@
 ;Орбитальный удар
 {"ultra_orbital_strike"					("v_1_i_0" c(600) c1(orbital_strike)		t(all strike) s(ums) g(art_3) cp(0) b(v2)) {cost 500} {fore -1.8}}
 
+;Сонар
+{"ultra_sonar_strike"					("v_1_i_0" c(300) c1(ultra_sonar)		t(all strike) s(ums) g(art_4) cp(0) cw(0) b(v2)) {cost 180} {fore -0.8}}
+
 ;Тарантул - Отключен
 ;{"ultra_drop_tarantul_hb"				("v_1_i_0" c(180) c1(ultra_drop_tarantul_hb)	t(all) s(ums) g(tarantul_drop) cp(2) b(v2)) {cost 80} {fore 0}}
 ;Тарантул - Отключен

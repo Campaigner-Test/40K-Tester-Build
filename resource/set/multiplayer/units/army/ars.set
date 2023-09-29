@@ -137,7 +137,7 @@
 ;Химера - Отключен
 {"ars_chimera"											("v_1_i_3" c(120) c1(ars_chimera) t(all non) s(ars) n1(tanker:1) n2(tanker_01:3) n3(ig_lg:6) cp(10) g(b41) b(v4)) {level 1} {cost 100} {score 100} {fore 0}}
 ;Дьявольский пёс - болтер - Отключен
-{"ars_devil_dog_hb"										("v_1_i_3" c(120) c1(ars_devil_dog_hb) t(all non) s(ars) n1(tanker:1) n2(tanker_01:2) n3(tanker_01:1) g(b44) cp(10) b(v4)) {level 1} {cost 115} {score 115} {fore -3.5}}
+;{"ars_devil_dog_hb"										("v_1_i_3" c(120) c1(ars_devil_dog_hb) t(all non) s(ars) n1(tanker:1) n2(tanker_01:2) n3(tanker_01:1) g(b44) cp(10) b(v4)) {level 1} {cost 115} {score 115} {fore -3.5}}
 ;=================================Леман Руссы=================================;
 
 ;Леман Русс - Экстерминатор - Лазпушка

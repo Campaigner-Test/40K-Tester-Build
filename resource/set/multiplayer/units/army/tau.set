@@ -191,7 +191,7 @@
 {"crisis_squad_hero"						("v_3_i_0" c(300) c1(test_xv8_armored_ml) c2(xv8_com_pc_sms:2) c3(tau_attack_drone:2) 	t(all sup_a_all) s(tau) g(h_5) cp(6) b(hero)) {level 1} {cost 4} {score 400} {fore -0.8}}
 
 ;Телохранители c Эфирным (Пока без него )
-("squad_with1types" side(tau) name(bonded_squad_sp) 			c(240) g(h_6) c1(bonded:8) b(hero) t(pulse inf_vet) level(1) cost(2) f(-3.5))
+("squad_with1types" side(tau) name(bonded_squad_sp) 			c(240) g(h_6) c1(bonded:10) b(hero) t(pulse inf_vet) level(1) cost(2) f(-3.5))
 
 ;Рыба молот - ракетницы
 {"hammer_head_ml"							("v_1_i_1" c(120) c1(hammer_head_ml) t(all veh_a_veh) s(tau) n1(tanker:3) g(h_7) cp(25) b(hero)) {level 1} {cost 7} {score 1200} {fore -8}}

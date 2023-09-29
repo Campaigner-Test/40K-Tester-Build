@@ -27,7 +27,7 @@
 ("squad_with1types" side(dgs) name(tact_rl) 			c(60) g(sq_4) c1(tactic_rl:1) b(squad2) t(at inf_a_veh) level(1) cost(85) f(-1))
 
 ;Десантник с плазмой
-("squad_with1types" side(dgs) name(tact_pg) 			c(120) g(sq_5) c1(tactic_pg:1) b(squad2) t(plasma inf_a_inf) level(1) cost(150) f(-3.5))
+("squad_with1types" side(dgs) name(tact_pg) 			c(120) g(sq_5) c1(tactic_pg:1) b(squad2) t(plasma inf_a_inf) level(1) cost(85) f(-3.5))
 
 ;Танкситы десантники
 ("squad_with1types" side(dgs) name(tact_crew) 			c(120) g(sq_6) c1(tanker:4) b(squad2) t(tankman non) level(1) cost(75) f(-3.5))

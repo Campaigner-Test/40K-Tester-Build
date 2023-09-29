@@ -93,6 +93,9 @@
 ;Орбитальный удар
 {"ba_orbital_strike"					("v_1_i_0" c(600) c1(orbital_strike)		t(all strike) s(bas) g(art_2) cp(0) b(v2)) {cost 500} {fore -1.8}}
 
+;Зажигательные ракеты
+{"ba_fire_wall_strike"					("v_1_i_0" c(300) c1(ba_fire_wall)			t(all strike) s(bas) g(art_3) cp(0) cw(0) b(v2)) {cost 300} {fore -0.8}}
+
 ;Тарантул - Отключен
 ;{"ba_drop_tarantul_hb"				("v_1_i_0" c(180) c1(ba_drop_tarantul_hb)	t(all) s(bas) g(tarantul_drop) cp(2) b(v2)) {cost 80} {fore 0}}
 ;Тарантул - Отключен
@@ -163,16 +166,16 @@
 {"ba_predator_baal_fl"					("v_1_i_1" c(240) c1(ba_predator_baal_fl) 		t(all veh_a_inf) s(bas) n1(Tanker:4) g(tank_4) cp(20) b(v5)) {cost 400} {score 400} {fore -1.25}}
 
 ;Хищник - автопушка
-{"ba_predator_autocannon"				("v_1_i_1" c(240) c1(ba_predator_autocannon) 		t(all veh_a_inf) s(bas) n1(Tanker:4) g(tank_4) cp(20) b(v5)) {cost 500} {score 500} {fore -1.25}}
+{"ba_predator_autocannon"				("v_1_i_1" c(240) c1(ba_predator_autocannon) 		t(all veh_a_inf) s(bas) n1(Tanker:4) g(tank_4) cp(20) b(v5)) {cost 450} {score 450} {fore -1.25}}
 
 ;Хищник - Плазмапушка
-{"ba_predator_baal_pc"					("v_1_i_1" c(240) c1(ba_predator_baal_pc) 		t(all veh_a_all) s(bas) n1(Tanker:4) g(tank_5) cp(20) b(v5)) {cost 700} {score 700} {fore -3.5}}
+{"ba_predator_baal_pc"					("v_1_i_1" c(240) c1(ba_predator_baal_pc) 		t(all veh_a_all) s(bas) n1(Tanker:4) g(tank_5) cp(20) b(v5)) {cost 600} {score 600} {fore -3.5}}
 
 ;Хищник - лазпушка
-{"ba_predator_lascannon"				("v_1_i_1" c(240) c1(ba_predator_lascannon) 		t(all veh_a_veh) s(bas) n1(Tanker:4) g(tank_5) cp(20) b(v5)) {cost 600} {score 600} {fore -3.5}}
+{"ba_predator_lascannon"				("v_1_i_1" c(240) c1(ba_predator_lascannon) 		t(all veh_a_veh) s(bas) n1(Tanker:4) g(tank_5) cp(20) b(v5)) {cost 500} {score 500} {fore -3.5}}
 
 ;Хищник - лазпушка, спонсон (лазпушки)
-{"ba_predator_lascannon_lc"				("v_1_i_1" c(240) c1(ba_predator_lascannon_lc) 		t(all veh_a_veh) s(bas) n1(Tanker:4) g(tank_5) cp(20) b(v5)) {cost 700} {score 700} {fore -3.5}}
+{"ba_predator_lascannon_lc"				("v_1_i_1" c(240) c1(ba_predator_lascannon_lc) 		t(all veh_a_veh) s(bas) n1(Tanker:4) g(tank_5) cp(20) b(v5)) {cost 600} {score 600} {fore -3.5}}
 
 ;================================= Лендрейдеры =================================;
 
@@ -184,6 +187,8 @@
 
 ;Лендрейдер - Терминус Ультра
 {"ba_landraider_terminus_ultra"							("v_1_i_1" c(600) c1(ba_landraider_terminus_ultra) 		t(all ult) s(bas) n1(Tanker:6) cp(30) g(tank_8) b(v5)) {score 1800} {cost 1800} {fore -0.8}}
+
+;{"deathhammer_bas"					("v_1_i_1" c(920) c1(deathhammer_bas) 				t(all ult) s(bas) n1(Tanker:9) cp(40) g(tank_9) b(v5)) {score 2200} {cost 2200} {fore -0.5}}
 
 ;============================Фальшионы========================================;
 ;Фальшион

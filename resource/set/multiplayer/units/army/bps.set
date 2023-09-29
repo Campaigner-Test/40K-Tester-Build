@@ -7,11 +7,11 @@
 ("squad_with6types" side(bps) name(sq_ag) 			c(30) g(sq_2) c1(rn_ag:2) c2(rn_ag_01:2) c3(rn_ag_02:2) c4(rn_ag_03:2) c5(rn_ag_04:1) c6(rn_serg_ag:1) b(squad1) t(autogun inf_com) level(3) cost(15) f(1))
 
 ;Отряд с автоганами и тяжелыми стабберами- Heavy Stubber Squad
-("squad_with7types" side(bps) name(sq_ag_hstb) 		c(30) g(sq_1) c1(rn_ag:1) c2(rn_ag_01:1) c3(rn_ag_02:1) c4(rn_ag_03:1) c5(rn_ag_04:2) c6(rn_stb_02:3) c7(rn_serg_stb:1) b(squad1) t(stabber inf_com) level(3) cost(40) f(1))
+("squad_with7types" side(bps) name(sq_ag_hstb) 		c(30) g(sq_1) c1(rn_ag:1) c2(rn_ag_01:1) c3(rn_ag_02:1) c4(rn_ag_03:1) c5(rn_ag_04:2) c6(rn_stb_02:3) c7(rn_serg_stb:1) b(squad1) t(stabber inf_com) level(3) cost(50) f(1))
 
 
 ;Отряд с плазмой-Plasma Squad
-("squad_with4types" side(bps) name(sq_pg) 			c(30) g(sq_3) c1(rn_serg_lg:1) c2(rn_lg:4) c3(rn_lg_01:3) c4(rn_pg:2) b(squad1) t(plasma inf_tac) level(2) cost(85) f(1))
+("squad_with4types" side(bps) name(sq_pg) 			c(30) g(sq_3) c1(rn_serg_lg:1) c2(rn_lg:4) c3(rn_lg_01:3) c4(rn_pg:2) b(squad1) t(plasma inf_tac) level(2) cost(75) f(1))
 
 ;Отряд с мельтой-Melta Squad
 ("squad_with4types" side(bps) name(sq_ml) 			c(30) g(sq_4) c1(rn_serg_bolt:1) c2(rn_lg:4) c3(rn_lg_01:2) c4(rn_ml:3) b(squad1) t(melta inf_a_veh) level(2) cost(65) f(1))
@@ -136,7 +136,10 @@
 {"chaos_stalk_tank"						("v_1_i_0" c(120) c1(chaos_stalk_tank) 				t(all sup_a_inf) s(bps) g(btr_4) cp(16) b(v4)) {cost 240} {score 40} {fore -3.5}}
 
 ;stalk tank - Пушка
-{"chaos_stalk_tank_scorpion"			("v_1_i_0" c(120) c1(chaos_stalk_tank_scorpion) 	t(all sup_a_all) s(bps) g(btr_4) cp(18) b(v4)) {cost 300} {score 45} {fore -3.5}}
+;{"chaos_stalk_tank_scorpion"			("v_1_i_0" c(120) c1(chaos_stalk_tank_scorpion) 	t(all sup_a_all) s(bps) g(btr_4) cp(18) b(v4)) {cost 300} {score 45} {fore -3.5}}
+
+;Химера - командная
+{"bp_chimera_command"								("v_1_i_3" c(120) c1(bp_chimera_command) t(all sup_sct) s(bps) n1(tanker:1) n2(tanker:3) n3(tanker:1) g(btr_4) cp(10) b(v4)) {level 1} {cost 3} {score 25} {fore -3.5}}
 
 ;Дьявольский пёс - болтер - Отключен
 ;{"bp_devil_dog_hb"						("v_1_i_3" c(120) c1(bp_devil_dog_hb) t(all non) s(bps) n1(tanker:1) n2(tanker:2) n3(tanker:1) g(b44) cp(10) b(v4)) {level 1} {cost 115} {score 25} {fore -3.5}}
@@ -199,9 +202,10 @@
 {"chaoslemanruss"									("v_1_i_1" c(240) c1(chaoslemanruss) t(all veh_a_veh) s(bps) n1(tanker_01:6) cp(20) g(h_4) b(hero)) {level 4} {cost 5} {score 50} {fore -1.25}}
 
 ;Химера - командная
-{"bp_chimera_command"								("v_1_i_3" c(120) c1(bp_chimera_command) t(all sup_sct) s(bps) n1(tanker:1) n2(tanker:3) n3(tanker:1) g(h_5) cp(10) b(hero)) {level 1} {cost 3} {score 25} {fore -3.5}}
+;{"bp_chimera_command"								("v_1_i_3" c(120) c1(bp_chimera_command) t(all sup_sct) s(bps) n1(tanker:1) n2(tanker:3) n3(tanker:1) g(h_5) cp(10) b(hero)) {level 1} {cost 3} {score 25} {fore -3.5}}
 
-
+;stalk tank - Пушка
+{"chaos_stalk_tank_scorpion"			("v_1_i_0" c(120) c1(chaos_stalk_tank_scorpion) 	t(all sup_a_all) s(bps) g(h_5) cp(10) b(hero)) {cost 3} {score 300} {fore -3.5}}
 
 ;Ботовские приколы
 

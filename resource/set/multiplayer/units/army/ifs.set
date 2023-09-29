@@ -101,6 +101,9 @@
 ;Орбитальный удар
 {"if_orbital_strike"							("v_1_i_0" c(600) c1(orbital_strike) 		t(all strike) s(ifs) g(art_3) cp(0) b(v2)) {cost 500} {fore -1.8}}
 
+;контузионные ракеты
+{"if_contusion_rocket_strike"						("v_1_i_0" c(300) c1(if_contusion_rocket) 				t(all strike) s(ifs) g(art_4) cp(0) cw(0) b(v2)) {cost 300} {fore -0.8}}
+
 ;Тарантул - Отключен
 ;{"if_drop_tarantul_hb"					("v_1_i_0" c(180) c1(if_drop_tarantul_hb)	t(all) s(ifs) g(tarantul_drop) cp(2) b(v2)) {cost 80} {fore 0}}
 ;Тарантул - Отключен

@@ -22,7 +22,7 @@
 
 
 ;Отряд Авангард фосфорки
-("squad_with2types" side(ams) name(sq_vet_ph) 	c(50) g(sq_4) c1(skitarii_vanguard_rad:3) c2(skitarii_vanguard_ph:3) b(squad1) t(plasma inf_vet) level(1) cost(100) f(-5))
+("squad_with2types" side(ams) name(sq_vet_ph) 	c(50) g(sq_4) c1(skitarii_vanguard_rad:4) c2(skitarii_vanguard_ph:5) c3(skitarii_vanguard_gamma:1) b(squad1) t(plasma inf_vet) level(1) cost(180) f(-5))
 
 
 
@@ -122,7 +122,7 @@
 {"dunecrawler_icarus"				("v_1_i_1" c(120) c1(dunecrawler_icarus) t(all veh_a_inf) s(ams) n1(tanker:3) cp(15) g(tank_6) b(v4)) {level 1} {cost 450} {score 450} {fore -3.5}}
 
 ;Дюноход - Лазпушка
-{"dunecrawler_neutron"				("v_1_i_1" c(120) c1(dunecrawler_neutron) t(all veh_a_veh) s(ams) n1(tanker:3) cp(15) g(tank_9) b(v4)) {level 1} {cost 700} {score 700} {fore -8}}
+{"dunecrawler_neutron"				("v_1_i_1" c(120) c1(dunecrawler_neutron) t(all veh_a_veh) s(ams) n1(tanker:3) cp(15) g(tank_9) b(v4)) {level 1} {cost 600} {score 600} {fore -8}}
 
 ;Скорпиус - десант
 {"scorpius_dunerider"				("v_1_i_4" c(120) c1(scorpius_dunerider) t(all sup_sct) s(ams) n1(tanker:3) n2(skitarii_vanguard_rad:7) n3(skitarii_vanguard_arc:2) n4(skitarii_vanguard_pg:1) cp(10) g(tank_7) b(v4)) {level 1} {cost 240} {score 240} {fore -3.5}}
@@ -135,7 +135,7 @@
 {"knights_crusader"		("v_1_i_0" c(920) c1(knights_crusader) 	cp(25)	t(all ult) s(ams) g(tank_10) b(v5)) {cost 1500} {score 1500} {fore -0.5}}
 
 ;Рыцарь cтирикс
-{"knights_styrix"		("v_1_i_0" c(920) c1(knights_styrix) 	cp(25)	t(all ult) s(ams) g(tank_10) b(v5)) {cost 1500} {score 1500} {fore -0.5}}
+;{"knights_styrix"		("v_1_i_0" c(920) c1(knights_styrix) 	cp(25)	t(all ult) s(ams) g(tank_10) b(v5)) {cost 1500} {score 1500} {fore -0.5}}
 
 
 
@@ -155,7 +155,8 @@
 ;Доминус - Излучатель
 {"dominus_beam_stub"	("v_1_i_0" c(240) c1(dominus_beam_stub) t(all sup_a_all) s(ams) cp(4) g(h_2) b(hero)) {level 1} {cost 4} {score 400} {fore -0}}
 
-
+;Рыцарь cтирикс
+{"knights_styrix"		("v_1_i_0" c(920) c1(knights_styrix) 	cp(25)	t(all ult) s(ams) g(h_3) b(hero)) {cost 8} {score 1500} {fore -0.5}}
 
 
 ;================================= ID =================================;

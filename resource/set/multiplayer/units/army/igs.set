@@ -27,7 +27,7 @@
 {"ogryn"	("f_4x1" c(300) c1(ogr1) c2(ogr2) c3(ogr3) c4(ogr1) t(all veh_a_inf) s(igs) g(sq_5) cp(12) b(squad1)) {level 1} {cost 300} {score 10} {fore -0.8}}
 
 ;ig-Отряд СПО
-("squad_with3types" side(igs) name(igs_pdf_guard) 	c(30) g(squad_5) c1(pdf_ag_00:22) c2(plf_lg:6) c3(plf_lg_01:2) b(squad1) t(all inf_com) level(1) cost(50) f(1))
+("squad_with3types" side(igs) name(igs_pdf_guard) 	c(120) g(squad_5) c1(pdf_ag_00:22) c2(plf_lg:6) c3(plf_lg_01:2) b(squad1) t(all inf_com) level(1) cost(50) f(1))
 
 ;Огрины, инициализация
 {"ogr1"		("ID" c(0) c1(ogr1) t(all non) s(igs) g(non) cp(3) cw(1) b(non)) {level 1} {score 1} {fore 1}}
@@ -252,7 +252,7 @@
 {"baneblade"								("v_1_i_3" c(300) c1(baneblade) t(all ult) s(igs) n1(tanker:6) n2(tanker_01:5) n3(commissar_tank:1) g(tank_8) b(v5) cp(30)) {level 1} {cost 1250} {score 100} {fore -2.6}}
 
 ;Рыцарь
-{"knights_crusader_ig"						("v_1_i_0" c(920) c1(knights_crusader_ig) 	cp(250)	t(all ult) s(igs) g(tank_9) b(v5)) {cost 1400} {score 150} {fore -0.5}}
+{"knights_crusader_ig"						("v_1_i_0" c(920) c1(knights_crusader_ig) 	cp(25)	t(all ult) s(igs) g(tank_9) b(v5)) {cost 1400} {score 150} {fore -0.5}}
 ;=================================Герои=================================;
 
 ;ig-Отряд СПО

@@ -7,7 +7,7 @@
 ("squad_with3types" side(kgs) name(sq_lg) 					c(30) g(sq_lg) c1(ig_lg:5) c2(ig_lg_01:3) c3(ig_stb:2) b(squad1) t(lasgun inf_com) level(1) cost(40) f(1))
 
 ;Отряд с плазмаганами
-("squad_with3types" side(kgs) name(sq_pg) 					c(30) g(sq_pg) c1(ig_pg:2) c2(ig_lg:4) c3(ig_lg_01:4) b(squad1) t(grenade plasma special inf_tac) level(1) cost(90) f(1))
+("squad_with3types" side(kgs) name(sq_pg) 					c(30) g(sq_pg) c1(ig_pg:2) c2(ig_lg:4) c3(ig_lg_01:4) b(squad1) t(grenade plasma special inf_tac) level(1) cost(75) f(1))
 
 ;Отряд комбинированный ПТ
 ("squad_with4types" side(kgs) name(sq_at) 					c(30) g(sq_at) c1(ig_ml:3) c2(ig_rl:3) c3(ig_lg:2) c4(ig_lg_01:2) b(squad1) t(grenade melta special inf_a_veh) level(1) cost(75) f(1))
