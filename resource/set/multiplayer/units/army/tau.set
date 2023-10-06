@@ -1,13 +1,13 @@
 
 ;==========================================Пехота==========================
 ;Следопыты-Pathfinder
-("squad_with2types" side(tau) name(sq_pathfinder) 			c(30) g(sq_1) c1(pathfinder_serg:1) c2(pathfinder:7) b(squad1) t(pulse inf_com) level(1) cost(100) f(1))
+("squad_with2types" side(tau) name(sq_pathfinder) 			c(30) g(sq_1) c1(pathfinder_serg:1) c2(pathfinder:7) b(squad1) t(pulse inf_com) level(1) cost(80) f(1))
 
 ;гвардейцы
 ("squad_with3types" side(tau) name(sq_tau_guard) 			c(30) g(sq_2) c1(tau_guard_serg_pr:1) c2(tau_guard_lg:4) c3(tau_guard_lg_01:5) b(squad1) t(all inf_com) level(1) cost(30) f(1))
 
 ;Крууты-Kroot Hunters
-("squad_with2types" side(tau) name(kroothunters) 			c(30) g(sq_1) c1(kroot_shaper:1) c2(kroot:7) b(squad1) t(pulse inf_sab) level(1) cost(130) f(1))
+("squad_with2types" side(tau) name(kroothunters) 			c(30) g(sq_1) c1(kroot_shaper:1) c2(kroot:7) b(squad1) t(pulse inf_sab) level(1) cost(100) f(1))
 
 ;Войны огня - Карабины-Pulse Carbines
 ("squad_with2types" side(tau) name(sq_fw_carabine) 			c(50) g(sq_3) c1(fw_serg:1) c2(fw:9) b(squad1) t(pulse inf_tac) level(4) cost(100) f(-5))
@@ -57,7 +57,7 @@
 ("squad_with2types" side(tau) name(sq_XV25_at) 				c(120) g(squad_4) c1(xv25:3) c2(xv25_at:2) b(squad3) t(stealth inf_a_veh) level(1) cost(300) f(-3.5))
 
 ;Пилоты
-("squad_with1types" side(tau) name(crew) 						c(10) g(squad_5) c1(tanker:4) b(squad3) t(tankman non) level(1) cost(15) f(-11))
+("squad_with1types" side(tau) name(crew) 						c(10) g(squad_5) c1(tanker:4) b(squad3) t(tankman non) level(1) cost(40) f(-11))
 
 ;=================================Разведтранспорт =================================; v2 sent
 
@@ -162,7 +162,7 @@
 
 
 ;Рыба молот - ион
-{"hammer_head_ion"							("v_1_i_1" c(120) c1(hammer_head_ion) t(all veh_a_inf) s(tau) n1(tanker:3) g(tank_2) cp(20) b(v5)) {level 1} {cost 500} {score 500} {fore -3.5}}
+{"hammer_head_ion"							("v_1_i_1" c(120) c1(hammer_head_ion) t(all veh_a_inf) s(tau) n1(tanker:3) g(tank_2) cp(20) b(v5)) {level 1} {cost 550} {score 550} {fore -3.5}}
 
 ;Рыба молот - ион - ракетницы
 {"hammer_head_ion_ml"						("v_1_i_1" c(120) c1(hammer_head_ion_ml) t(all veh_a_inf) s(tau) n1(tanker:3) g(tank_2) cp(20) b(v5)) {level 1} {cost 650} {score 600} {fore -3.5}}
@@ -182,7 +182,7 @@
 ;("squad_with2types" side(tau) name(kroothunters) 			c(120) g(h_1) c1(kroot_shaper:1) c2(kroot:19) b(hero) t(pulse inf_sab) level(1) cost(2) f(-1))
 
 ;Псы-Kroot Hound
-{"tau_kroot_hound_1"	("v_1_i_0" c1(tau_kroot_hound_1:8)	c(120) t(all non) s(tau) cp(2) g(h_1) b(hero)) level(1) cost(2) {fore -2}}
+{"tau_kroot_hound_1"	("v_1_i_0" c1(tau_kroot_hound_1:10)	c(120) t(all non) s(tau) cp(2) g(h_1) b(hero)) level(1) cost(2) {fore -2}}
 
 ;Веспиды-Vespid
 ;("squad_with1types" side(tau) name(vespid_squad) 			c(120) g(h_4) c1(vespid:5) b(hero) t(pulse inf_a_inf) level(1) cost(1) f(-3.5))

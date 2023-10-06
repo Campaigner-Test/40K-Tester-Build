@@ -87,7 +87,7 @@
 {"ig_minomet(ets)"							("v_1_i_1" c(120) c1(ig_minomet) t(all non) s(ets) n1(ig_lg:2) g(art_1) cp(3) b(v2)) {level 1} {cost 75} {score 10} {fore -0}}
 
 ;Тарантул
-{"ig_drop_tarantul_hb(ets)"					("v_1_i_0" c(120) c1(ig_drop_tarantul_hb)	t(all par) s(ets) g(art_2) cp(2) b(v2)) {cost 80} {fore -0}}
+{"ig_drop_tarantul_hb(ets)"					("v_1_i_0" c(120) c1(ig_drop_tarantul_hb)	t(all par) s(ets) g(art_2) cp(2) b(v2)) {cost 100} {fore -0}}
 
 ;Тарантул
 {"ig_drop_tarantul_rl(ets)"					("v_1_i_0" c(120) c1(ig_drop_tarantul_rl)	t(all par) s(ets) g(art_3) cp(2) b(v2)) {cost 200} {fore -0}}
@@ -144,7 +144,7 @@
 {"lemanruss"								("v_1_i_4" c(240) c1(lemanruss) t(all veh_a_veh) s(ets) n1(tanker:1) n2(tanker:2) n3(tanker:1) n4(tanker:2) cp(20) g(tank_1) b(lr)) {level 1} {cost 400} {score 50} {fore -1.25}}
 
 ;Леман Русс - Каратель
-{"lr_punisher_hb(ets)"						("v_1_i_4" c(240) c1(lr_punisher_hb) t(all veh_a_inf) s(ets) n1(tanker:1) n2(tanker:2) n3(tanker:1) n4(tanker:2) cp(20) g(tank_2) b(lr)) {level 1} {cost 250} {score 250} {fore -1.25}}
+{"lr_punisher_hb(ets)"						("v_1_i_4" c(240) c1(lr_punisher_hb) t(all veh_a_inf) s(ets) n1(tanker:1) n2(tanker:2) n3(tanker:1) n4(tanker:2) cp(15) g(tank_2) b(lr)) {level 1} {cost 250} {score 250} {fore -1.25}}
 
 ;Леман Русс - Автопушки
 {"lr_exterminator(ets)"						("v_1_i_4" c(240) c1(lr_exterminator) t(all veh_a_inf) s(ets) n1(tanker:1) n2(tanker:2) n3(tanker:1) n4(tanker:2) cp(20) g(tank_2) b(lr)) {level 1} {cost 370} {score 370} {fore -1.25}}

@@ -139,7 +139,7 @@
 ;{"chaos_stalk_tank_scorpion"			("v_1_i_0" c(120) c1(chaos_stalk_tank_scorpion) 	t(all sup_a_all) s(bps) g(btr_4) cp(18) b(v4)) {cost 300} {score 45} {fore -3.5}}
 
 ;Химера - командная
-{"bp_chimera_command"								("v_1_i_3" c(120) c1(bp_chimera_command) t(all sup_sct) s(bps) n1(tanker:1) n2(tanker:3) n3(tanker:1) g(btr_4) cp(10) b(v4)) {level 1} {cost 3} {score 25} {fore -3.5}}
+{"bp_chimera_command"								("v_1_i_3" c(120) c1(bp_chimera_command) t(all sup_sct) s(bps) n1(tanker:1) n2(tanker:3) n3(tanker:1) g(btr_4) cp(10) b(v4)) {level 1} {cost 200} {score 25} {fore -3.5}}
 
 ;Дьявольский пёс - болтер - Отключен
 ;{"bp_devil_dog_hb"						("v_1_i_3" c(120) c1(bp_devil_dog_hb) t(all non) s(bps) n1(tanker:1) n2(tanker:2) n3(tanker:1) g(b44) cp(10) b(v4)) {level 1} {cost 115} {score 25} {fore -3.5}}
@@ -193,13 +193,13 @@
 ("squad_with4types" side(bps) name(sq_possessed) 					c(240) g(h_1) c1(possessed_stb:5) c2(possessed_stb_01:7) c3(possessed_gl:5) c4(possessed_fl:3) b(hero) t(flamer grenade stabber special inf_a_inf) level(1) cost(2) f(0))
  
 ;bp-Банда Хаоса 
-("squad_with6types" side(bps) name(gang_of_chaos_hw) 					c(300) g(h_2) c1(merc_vet:1) c2(merc_hb:1) c3(merc_ac:1) c4(merc_ml:1) c5(merc_rl:1) c6(merc_bg:1) b(hero) t(heavy_bolter special inf_a_inf) level(1) cost(3) f(-0.8))
+("squad_with6types" side(bps) name(gang_of_chaos_hw) 					c(300) g(h_2) c1(merc_vet:1) c2(merc_hb:1) c3(merc_ac:1) c4(merc_ml:1) c5(merc_rl:1) c6(merc_bg:1) b(hero) t(heavy_bolter special inf_a_inf) level(1) cost(4) f(-0.8))
 
 ;bp-Бригада смерти
 ("squad_with5types" side(bps) name(brigade_of_death_squad) 				c(240) g(h_3) c1(death_brigade_lg:5) c2(death_brigade_pg:2) c3(death_brigade_khg:3) c4(death_brigade_hg:2) c5(merc_rl:1) b(hero) t(heavy_lasgun plasma special inf_a_inf) level(1) cost(2) f(-1.25))
 
 ;Леман Русс - оскверненный
-{"chaoslemanruss"									("v_1_i_1" c(240) c1(chaoslemanruss) t(all veh_a_veh) s(bps) n1(tanker_01:6) cp(20) g(h_4) b(hero)) {level 4} {cost 5} {score 50} {fore -1.25}}
+{"chaoslemanruss"									("v_1_i_1" c(240) c1(chaoslemanruss) t(all veh_a_veh) s(bps) n1(tanker_01:6) cp(20) g(h_4) b(hero)) {level 4} {cost 4} {score 50} {fore -1.25}}
 
 ;Химера - командная
 ;{"bp_chimera_command"								("v_1_i_3" c(120) c1(bp_chimera_command) t(all sup_sct) s(bps) n1(tanker:1) n2(tanker:3) n3(tanker:1) g(h_5) cp(10) b(hero)) {level 1} {cost 3} {score 25} {fore -3.5}}

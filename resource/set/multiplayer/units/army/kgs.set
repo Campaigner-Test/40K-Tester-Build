@@ -25,10 +25,10 @@
 ;=================================Одиночные бойцы=================================;
 
 ;Ударный с огнемётами 
-("squad_with1types" side(kgs) name(sq_fl) 					c(30) g(squad_1) c1(ig_fl:4) b(squad3) t(shotgun flamer inf_a_all) level(1) cost(40) f(-1))
+("squad_with1types" side(kgs) name(sq_fl) 					c(30) g(squad_1) c1(ig_fl:4) b(squad3) t(shotgun flamer inf_a_all) level(1) cost(20) f(-1))
 
 ;Ударный с стабберами 
-("squad_with1types" side(kgs) name(sq_stb) 					c(30) g(squad_1) c1(ig_stb:4) b(squad3) t(stabber inf_a_inf) level(1) cost(50) f(-1))
+("squad_with1types" side(kgs) name(sq_stb) 					c(30) g(squad_1) c1(ig_stb:4) b(squad3) t(stabber inf_a_inf) level(1) cost(40) f(-1))
 
 ;Криговцы с Автопушками
 ("squad_with1types" side(kgs) name(sq_ac) 					c(30) g(squad_2) c1(ig_vet_ac:4) b(squad3) t(heavy_bolter inf_a_inf) level(1) cost(80) f(-1))

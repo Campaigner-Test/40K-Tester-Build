@@ -8,13 +8,13 @@
 ("squad_with2types" side(dgs) name(sq_tact_bg) 			c(60) g(squad_3) c1(tactic_bg_serg:1) c2(tactic_bg_01:4) b(squad1) t(bolter inf_tac) level(1) cost(250) f(-0.5))
 
 ;Чумные десантники 
-("squad_with4types" side(dgs) name(sq_tact_vet_bg) 		c(300) g(squad_4) c1(tactic_vet_lider_plasma:1) c2(tactic_vet_sb:1) c3(tactic_vet_bg_01:3) c4(tactic_vet_bg_01:1) b(squad1) t(bolter inf_vet) level(1) cost(500) f(-0.8))
+("squad_with4types" side(dgs) name(sq_tact_vet_bg) 		c(300) g(squad_4) c1(tactic_vet_lider_plasma:1) c2(tactic_vet_sb:1) c3(tactic_vet_bg_01:3) c4(tactic_vet_bg_01:1) b(squad1) t(bolter inf_vet) level(1) cost(350) f(-0.8))
 
 ;Чумные десантники - плазмаоружие
-("squad_with4types" side(dgs) name(sq_tact_vet_pg) 		c(300) g(squad_4) c1(tactic_vet_bg:2) c2(tactic_vet_lider_plasma:1) c3(tactic_vet_pg:2) c4(tactic_vet_sb:1) b(squad1) t(plasma inf_vet) level(1) cost(500) f(-0.8))
+("squad_with4types" side(dgs) name(sq_tact_vet_pg) 		c(300) g(squad_4) c1(tactic_vet_bg:2) c2(tactic_vet_lider_plasma:1) c3(tactic_vet_pg:2) c4(tactic_vet_sb:1) b(squad1) t(plasma inf_vet) level(1) cost(450) f(-0.8))
 
 ;Избранные десантники нургла
-("squad_with4types" side(dgs) name(sq_tact_elite) 		c(300) g(squad_5) c1(tactic_elite_bg:2) c2(tactic_elite_bg_01:2) c3(tactic_elite_pg:1) c4(tactic_elite_ac:1) b(squad1) t(bolter inf_vet) level(1) cost(700) f(-2.6))
+("squad_with4types" side(dgs) name(sq_tact_elite) 		c(300) g(squad_5) c1(tactic_elite_bg:2) c2(tactic_elite_bg_01:2) c3(tactic_elite_pg:1) c4(tactic_elite_ac:1) b(squad1) t(bolter inf_vet) level(1) cost(550) f(-2.6))
 
 ;=================================Одиночные бойцы=================================;
 ;Десантник с желчеметом
@@ -34,10 +34,10 @@
 
 ;====================Арта===========================================================
 ;Заражение области(яд)
-{"nurgle_strike"							("v_1_i_0" c(300) c1(nurgle_strike) 			t(all strike) s(dgs) g(art_1) cp(0) b(v2)) {cost 300} {fore -0.8}}
+{"nurgle_strike"							("v_1_i_0" c(300) c1(nurgle_strike) 			t(all strike) s(dgs) g(art_1) cp(0) b(v2)) {cost 200} {fore -0.8}}
 
 ;Заражение области(биобомба)
-{"nurgle_strike_biobomba"					("v_1_i_0" c(300) c1(nurgle_strike_biobomba) 	t(all strike) s(dgs) g(art_2) cp(0) b(v2)) {cost 400} {fore -2.6}}
+{"nurgle_strike_biobomba"					("v_1_i_0" c(300) c1(nurgle_strike_biobomba) 	t(all strike) s(dgs) g(art_2) cp(0) b(v2)) {cost 300} {fore -2.6}}
 
 ;=================================Орудия поддержки=================================;
 

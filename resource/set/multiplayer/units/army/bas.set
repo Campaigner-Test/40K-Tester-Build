@@ -6,22 +6,22 @@
 ("squad_with3types" side(bas) name(sq_scout_sg) 			c(45) g(squad_1) c1(scout_serg_sg:1) c2(scout_sg:3) c3(scout_gl:1) b(squad1) t(shotgun grenade inf_tac) level(1) cost(110) f(1.0))
 
 ;Отряд Скаутов со снайперскими винтовками
-("squad_with2types" side(bas) name(sq_scout_sr) 			c(240) g(squad_2) c1(scout_serg_sr:1) c2(scout_sr:4) b(squad1) t(sniper non) level(1) cost(200) f(-0.25))
+("squad_with2types" side(bas) name(sq_scout_sr) 			c(240) g(squad_2) c1(scout_serg_sr:1) c2(scout_sr:4) b(squad1) t(sniper non) level(1) cost(150) f(-0.25))
 
 
 ;Тактический Отряд
 ("squad_with3types" side(bas) name(sq_tact_bg) 				c(60) g(squad_3) c1(tactic_serg_bg:1) c2(tactic_bg:2) c3(tactic_bg_01:2) b(squad1) t(bolter inf_tac) level(1) cost(250) f(-0.5))
 
 ;Ветераны cо спецболтами
-("squad_with4types" side(bas) name(sq_tact_vet_bg_sb) 		c(300) g(squad_4) c1(tactic_vet_serg_bg:1) c2(tactic_vet_shb:1) c3(tactic_vet_bg_sb:3) c4(tactic_vet_ml:1) b(squad1) t(bolter special inf_tac) level(1) cost(450) f(-0.8))
+("squad_with4types" side(bas) name(sq_tact_vet_bg_sb) 		c(300) g(squad_4) c1(tactic_vet_serg_bg:1) c2(tactic_vet_shb:1) c3(tactic_vet_bg_sb:3) c4(tactic_vet_ml:1) b(squad1) t(bolter special inf_tac) level(1) cost(400) f(-0.8))
 
 ;Ветераны c Ракетным вооружением 
-("squad_with4types" side(bas) name(sq_tact_vet_bg_rl) 		c(300) g(squad_4) c1(tactic_vet_serg_bgm:1) c2(tactic_vet_bg:1) c3(tactic_vet_rl:3) c4(tactic_vet_ml:1) b(squad1) t(at inf_a_veh) level(1) cost(500) f(-0.8))
+("squad_with4types" side(bas) name(sq_tact_vet_bg_rl) 		c(300) g(squad_4) c1(tactic_vet_serg_bgm:1) c2(tactic_vet_bg:1) c3(tactic_vet_rl:3) c4(tactic_vet_ml:1) b(squad1) t(at inf_a_veh) level(1) cost(550) f(-0.8))
 
 
 
 ;Тактикалы c болторами Охотник (ранее ветераны, в 2.38.5 заменены на тактикалов).
-("squad_with1types" side(bas) name(sq_tact_hunter) 		c(300) g(squad_5) c1(tactic_vet_hunter:4) b(squad1) t(sniper non) level(1) cost(500) f(-0.8))
+("squad_with1types" side(bas) name(sq_tact_hunter) 		c(300) g(squad_5) c1(tactic_vet_hunter:5) b(squad1) t(sniper non) level(1) cost(500) f(-0.8))
 
 ;Ветераны с плазмаганами
 ("squad_with4types" side(bas) name(sq_tact_vet_bg_pg) 		c(300) g(squad_4) c1(tactic_vet_serg_bgp:1) c2(tactic_vet_bg:1) c3(tactic_vet_pg:3) c4(tactic_vet_ml:1) b(squad1) t(plasma inf_a_inf) level(1) cost(500) f(-0.8))
@@ -51,17 +51,17 @@
 ("squad_with3types_vehicle" side(bas) name(sq_am_bg)				c(300) g(squad_7) v1(ba_drop_pod) c1(assault_serg:1) c2(assault_fl:2) c3(assault_ml:2) b(squad3) t(bolter par) level(1) cost(350) f(-0.8))
 
 ;Тактический Отряд
-("squad_with3types_vehicle" side(bas) name(sq_tact_bg_drop) 				c(60) g(squad_3) v1(ba_drop_pod) c1(tactic_bg:2) c2(tactic_bg_01:2) c3(tactic_serg_bg:1) b(squad3) t(bolter par) level(1) cost(350) f(-0.5))
+("squad_with3types_vehicle" side(bas) name(sq_tact_bg_drop) 				c(60) g(squad_3) v1(ba_drop_pod) c1(tactic_bg:2) c2(tactic_bg_01:2) c3(tactic_serg_bg:1) b(squad3) t(bolter par) level(1) cost(250) f(-0.5))
 
 ;Ветераны cо спецболтами
-("squad_with4types_vehicle" side(bas) name(sq_tact_vet_bg_sb_drop) 			c(300) g(squad_4) v1(ba_drop_pod) c1(tactic_vet_serg_bg:1) c2(tactic_vet_shb:1) c3(tactic_vet_bg_sb:3) c4(tactic_vet_ml:1) b(squad3) t(bolter special non) level(1) cost(550) f(-0.8))
+("squad_with4types_vehicle" side(bas) name(sq_tact_vet_bg_sb_drop) 			c(300) g(squad_4) v1(ba_drop_pod) c1(tactic_vet_serg_bg:1) c2(tactic_vet_shb:1) c3(tactic_vet_bg_sb:3) c4(tactic_vet_ml:1) b(squad3) t(bolter special non) level(1) cost(450) f(-0.8))
 
 ;Ветераны c Ракетным вооружением 
-("squad_with3types_vehicle" side(bas) name(sq_tact_vet_bg_rl_drop) 			c(300) g(squad_4) v1(ba_drop_pod) c1(tactic_vet_serg_bgm:1) c2(tactic_vet_bg:1) c3(tactic_vet_rl:3) b(squad3) t(at non) level(1) cost(600) f(-0.8))
+("squad_with3types_vehicle" side(bas) name(sq_tact_vet_bg_rl_drop) 			c(300) g(squad_4) v1(ba_drop_pod) c1(tactic_vet_serg_bgm:1) c2(tactic_vet_bg:1) c3(tactic_vet_rl:3) b(squad3) t(at non) level(1) cost(650) f(-0.8))
 
 
 ;Ветераны с плазмаганами
-("squad_with3types_vehicle" side(bas) name(sq_tact_vet_bg_pg_drop) 			c(300) g(squad_4) v1(ba_drop_pod) c1(tactic_vet_serg_bgp:1) c2(tactic_vet_bg:1) c3(tactic_vet_pg:3) b(squad3) t(plasma non) level(1) cost(650) f(-0.8))
+("squad_with3types_vehicle" side(bas) name(sq_tact_vet_bg_pg_drop) 			c(300) g(squad_4) v1(ba_drop_pod) c1(tactic_vet_serg_bgp:1) c2(tactic_vet_bg:1) c3(tactic_vet_pg:3) b(squad3) t(plasma non) level(1) cost(600) f(-0.8))
 
 
 ;Ветераны c гравиоружием
@@ -69,16 +69,16 @@
 
 ;=================================Одиночные бойцы=================================;
 ;Десантник с огнемётом
-("squad_with1types" side(bas) name(tact_fl) 		c(60) g(sq_1) c1(tactic_fl:1) b(squad2) t(plasma inf_a_inf) level(1) cost(75) f(-1.0))
+("squad_with1types" side(bas) name(tact_fl) 		c(60) g(sq_1) c1(tactic_fl:3) b(squad2) t(plasma inf_a_inf) level(1) cost(150) f(-1.0))
 
 ;Десантник с мельтой
 ("squad_with1types" side(bas) name(tact_ml) 		c(60) g(sq_2) c1(tactic_ml:1) b(squad2) t(melta inf_a_veh) level(1) cost(85) f(-1))
 
 ;Десантник с ракетницей
-("squad_with1types" side(bas) name(tact_rl) 		c(60) g(sq_3) c1(tactic_rl) b(squad2) t(at inf_a_veh) level(1) cost(150) f(-1))
+("squad_with2types" side(bas) name(tact_rl) 		c(60) g(sq_3) c1(tactic_rl) c2(tactic_bg:2) b(squad2) t(at inf_a_veh) level(1) cost(200) f(-1))
 
 ;Десантник с плазмой
-("squad_with1types" side(bas) name(tact_pg) 		c(120) g(sq_4) c1(tactic_pg:1) b(squad2) t(plasma non) level(1) cost(85) f(-3.5))
+("squad_with1types" side(bas) name(tact_pg) 		c(120) g(sq_4) c1(tactic_pg:3) b(squad2) t(plasma non) level(1) cost(200) f(-3.5))
 
 ;Танкисты десантники
 ("squad_with1types" side(bas) name(sm_crew)			c(120) 	g(sq_5) c1(tanker:4) b(squad2) t(tankman non) level(1) cost(140) f(-3.5))

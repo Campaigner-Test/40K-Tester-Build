@@ -1,11 +1,11 @@
 ﻿;Отряд Скаутов 
-("squad_with3types" side(ifs) name(sq_scout_bg) 			c(45) g(squad_1) c1(scout_serg_bg:1) c2(scout_bg:3) c3(scout_bg_01:1) 	b(squad1) t(bolter inf_tac) level(1) cost(120) f(1.0))
+("squad_with3types" side(ifs) name(sq_scout_bg) 			c(45) g(squad_1) c1(scout_serg_bg:1) c2(scout_bg:3) c3(scout_bg_01:1) 	b(squad1) t(bolter inf_tac) level(1) cost(100) f(1.0))
 
 ;Отряд Скаутов с дробовиками
 ("squad_with3types" side(ifs) name(sq_scout_sg) 			c(45) g(squad_1) c1(scout_serg_bg:1) c2(scout_sg:3) c3(scout_gl:1) b(squad1) t(shotgun grenade inf_tac) level(1) cost(110) f(1.0))
 
 ;Отряд Скаутов с хеви болтером
-("squad_with3types" side(ifs) name(sq_scout_hb) 			c(120) g(squad_2) c1(scout_serg_hb:1) c2(scout_bg:2) c3(scout_bg_01:2) b(squad1) t(heavy_bolter inf_a_inf) level(1) cost(150) f(-0))
+("squad_with3types" side(ifs) name(sq_scout_hb) 			c(120) g(squad_2) c1(scout_serg_hb:1) c2(scout_bg:2) c3(scout_bg_01:2) b(squad1) t(heavy_bolter inf_a_inf) level(1) cost(120) f(-0))
 
 
 ;Тактический Отряд

@@ -59,13 +59,13 @@
 ;=================================Одиночные бойцы=================================;
 
 ;Десантник с огнемётом
-("squad_with1types" side(bls) name(tact_fl) 	c(60) g(sq_1) c1(tactic_fl:1) b(squad2) t(plasma inf_a_inf) level(1) cost(75) f(-1.0))
+("squad_with1types" side(bls) name(tact_fl) 	c(60) g(sq_1) c1(tactic_fl:1) b(squad2) t(plasma inf_a_inf) level(1) cost(65) f(-1.0))
 
 ;Десантник с мельтой
-("squad_with1types" side(bls) name(tact_ml) 	c(60) g(sq_2) c1(tactic_ml:1) b(squad2) t(melta inf_a_veh) level(1) cost(85) f(-1))
+("squad_with1types" side(bls) name(tact_ml) 	c(60) g(sq_2) c1(tactic_ml:1) b(squad2) t(melta inf_a_veh) level(1) cost(65) f(-1))
 
 ;Десантник с ракетницей
-("squad_with1types" side(bls) name(tact_rl) 	c(60) g(sq_3) c1(tactic_rl:1) b(squad2) t(at inf_a_veh) level(1) cost(85) f(-1))
+("squad_with1types" side(bls) name(tact_rl) 	c(60) g(sq_3) c1(tactic_rl:1) b(squad2) t(at inf_a_veh) level(1) cost(150) f(-1))
 
 ;Десантник с плазмой
 ("squad_with1types" side(bls) name(tact_pg) 	c(120) g(sq_4) c1(tactic_pg:1) b(squad2) t(plasma inf_vet) level(1) cost(85) f(-3.5))
@@ -115,9 +115,9 @@
 {"chaos_storm_strike"							("v_1_i_0" c(600) c1(chaos_storm_strike) 		t(all strike) s(bls) g(art_1) cp(0) b(v2)) {cost 500} {fore -2.6}}
 
 ;Тарантул - Отключен
-{"bl_drop_tarantul_hb" ("v_1_i_0" c(180) c1(bl_drop_tarantul_hb) t(all non) s(bls) g(tar_hb) cp(2) b(v2)) {cost 80} {fore 0}}
-{"bl_drop_tarantul_rl" ("v_1_i_0" c(180) c1(bl_drop_tarantul_rl) t(all non) s(bls) g(tar_hb) cp(2) b(v2)) {cost 200} {fore 0}}
-{"bl_drop_tarantul_lc" ("v_1_i_0" c(120) c1(bl_drop_tarantul_lc) t(all non) s(bls) g(tar_lc) cp(2) b(v2)) {cost 250} {fore -3.5}}
+;{"bl_drop_tarantul_hb" ("v_1_i_0" c(180) c1(bl_drop_tarantul_hb) t(all non) s(bls) g(tar_hb) cp(2) b(v2)) {cost 80} {fore 0}}
+;{"bl_drop_tarantul_rl" ("v_1_i_0" c(180) c1(bl_drop_tarantul_rl) t(all non) s(bls) g(tar_hb) cp(2) b(v2)) {cost 200} {fore 0}}
+;{"bl_drop_tarantul_lc" ("v_1_i_0" c(120) c1(bl_drop_tarantul_lc) t(all non) s(bls) g(tar_lc) cp(2) b(v2)) {cost 250} {fore -3.5}}
 ;=================================Хищники=================================;
 
 ;Хищник - автопушка

@@ -29,7 +29,7 @@
 ;=================================Спецотряды=================================;
 
 ;Отряд Огнемет
-("squad_with1types" side(ars) name(sq_fl) 			 c(30) g(squad_1) c1(ig_fl:4) b(squad3) t(plasma inf_vet) level(1) cost(40) f(-1))
+("squad_with1types" side(ars) name(sq_fl) 			 c(30) g(squad_1) c1(ig_fl:4) b(squad3) t(plasma inf_vet) level(1) cost(20) f(-1))
 
 ;Отряд гранатомёт
 ("squad_with1types" side(ars) name(sq_lg_gl) 			c(30) g(squad_2) c1(ig_gl:4) b(squad3) t(lasgun inf_a_inf) level(1) cost(40) f(-1))
@@ -45,7 +45,7 @@
 
 
 ;Танкисты
-("squad_with2types" side(ars) name(sq_tank) 		c(10) g(squad_4) c1(tanker:5) c2(tanker_01:5) b(squad3) t(tankman non) level(1) cost(5) f(-11))
+("squad_with2types" side(ars) name(sq_tank) 		c(10) g(squad_4) c1(tanker:5) c2(tanker_01:5) b(squad3) t(tankman non) level(1) cost(15) f(-11))
 
 
 
@@ -196,7 +196,7 @@
 {"ars_baneblade"								("v_1_i_3" c(300) c1(ars_baneblade) t(all ult) s(ars) n1(tanker:6) n2(tanker_01:5) n3(commissar_tank:1) g(tank_8) b(v5) cp(30)) {level 1} {cost 1200} {score 1200} {fore -2.6}}
 
 ;Бейнблейд 
-{"ars_hellhammer"								("v_1_i_3" c(300) c1(ars_hellhammer) t(all ult) s(ars) n1(tanker:6) n2(tanker_01:5) n3(commissar_tank:1) g(tank_9) b(v5) cp(30)) {level 1} {cost 950} {score 950} {fore -2.6}}
+{"ars_hellhammer"								("v_1_i_3" c(300) c1(ars_hellhammer) t(all ult) s(ars) n1(tanker:6) n2(tanker_01:5) n3(commissar_tank:1) g(tank_9) b(v5) cp(25)) {level 1} {cost 950} {score 950} {fore -2.6}}
 
 ;теневой клинок 
 {"shadowsword"									("v_1_i_3" c(920) c1(shadowsword) t(all ult) s(ars) n1(tanker:5) n2(tanker_01:3) n3(commissar_tank:1) g(tank_10) b(v5) cp(25)) {level 1} {cost 1000} {score 1000} {fore -0.5}}

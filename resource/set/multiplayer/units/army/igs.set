@@ -14,7 +14,7 @@
 ("squad_with5types" side(igs) name(sq_vet_lg)	c(50) g(sq_4) c1(serg_plasma:1) c2(ig_vet_korrekt:1) c3(ig_vet_lg_01:4) c4(ig_vet_lg_02:2) c5(ig_vet_hg:2) b(squad1) t(heavy_lasgun inf_vet) level(1) cost(80) f(-5))
 
 ;Отряд ветеранов с плазмами
-("squad_with6types" side(igs) name(sq_vet_pg)	c(50) g(sq_4) c1(ig_vet_lg:1) c2(ig_vet_lg_01:2) c3(ig_vet_lg_02:2) c4(ig_vet_pg:3) c5(ig_vet_korrekt:1) c6(serg_plasma:1) b(squad1) t(lasgun_lasgun plasma inf_vet) level(1) cost(130) f(-5))
+("squad_with6types" side(igs) name(sq_vet_pg)	c(50) g(sq_4) c1(ig_vet_lg:1) c2(ig_vet_lg_01:2) c3(ig_vet_lg_02:2) c4(ig_vet_pg:3) c5(ig_vet_korrekt:1) c6(serg_plasma:1) b(squad1) t(lasgun_lasgun plasma inf_vet) level(1) cost(110) f(-5))
 
 ;Отряд ветеранов с мельтами
 ("squad_with6types" side(igs) name(sq_vet_ml)	c(50) g(sq_4) c1(ig_vet_lg:1) c2(ig_vet_lg_01:2) c3(ig_vet_lg_02:1) c4(ig_vet_ml:4) c5(ig_vet_korrekt:1) c6(serg_plasma:1) b(squad1) t(heavy_lasgun melta inf_a_veh) level(1) cost(100) f(-5))
@@ -24,7 +24,7 @@
 ("squad_with1types" side(igs) name(sq_storm)	c(300) g(sq_5) c1(ig_strom_hg:10) b(squad1) t(heavy_lasgun inf_vet) level(1) cost(250) f(-0.8))
 
 ;Огрины
-{"ogryn"	("f_4x1" c(300) c1(ogr1) c2(ogr2) c3(ogr3) c4(ogr1) t(all veh_a_inf) s(igs) g(sq_5) cp(12) b(squad1)) {level 1} {cost 300} {score 10} {fore -0.8}}
+{"ogryn"	("f_4x1" c(300) c1(ogr1) c2(ogr2) c3(ogr3) c4(ogr1) t(all veh_a_inf) s(igs) g(sq_5) cp(12) b(squad1)) {level 1} {cost 250} {score 250} {fore -0.8}}
 
 ;ig-Отряд СПО
 ("squad_with3types" side(igs) name(igs_pdf_guard) 	c(120) g(squad_5) c1(pdf_ag_00:22) c2(plf_lg:6) c3(plf_lg_01:2) b(squad1) t(all inf_com) level(1) cost(50) f(1))
@@ -42,7 +42,7 @@
 ("squad_with1types" side(igs) name(sq_gl)		c(30) g(squad_2) c1(ig_gl:4) b(squad3) t(lasgun inf_a_inf) level(1) cost(40) f(-1))
 
 ;Огнемет
-("squad_with1types" side(igs) name(sq_fl)		c(30) g(squad_3) c1(ig_fl:4) b(squad3) t(plasma inf_a_all) level(1) cost(40) f(-1))
+("squad_with1types" side(igs) name(sq_fl)		c(30) g(squad_3) c1(ig_fl:4) b(squad3) t(plasma inf_a_all) level(1) cost(20) f(-1))
 
 ;РПГ
 ("squad_with1types" side(igs) name(sq_rl)		c(30) g(squad_4) c1(ig_rl:4) b(squad3) t(at inf_a_veh) level(1) cost(40) f(-3))

@@ -93,16 +93,16 @@
 
 
 ;Уничтожитель
-{"kat_dstr_grav_flam"				("v_1_i_0" c(120) c1(kat_dstr_grav_flam) 	cp(20)	t(all veh_a_all) s(ams) g(tank_2) b(v3)) {cost 666} {score 666} {fore -8}}
+{"kat_dstr_grav_flam"				("v_1_i_0" c(120) c1(kat_dstr_grav_flam) 	cp(20)	t(all veh_a_all) s(ams) g(tank_2) b(v3)) {cost 566} {score 566} {fore -8}}
 
 ;Уничтожитель
-{"kat_dstr_grav_phos"				("v_1_i_0" c(120) c1(kat_dstr_grav_phos) 	cp(20)	t(all veh_a_all) s(ams) g(tank_2) b(v3)) {cost 666} {score 666} {fore -8}}
+{"kat_dstr_grav_phos"				("v_1_i_0" c(120) c1(kat_dstr_grav_phos) 	cp(20)	t(all veh_a_all) s(ams) g(tank_2) b(v3)) {cost 566} {score 566} {fore -8}}
 
 ;Уничтожитель
-{"kat_dstr_pls_flam"				("v_1_i_0" c(120) c1(kat_dstr_pls_flam) 	cp(20)	t(all veh_a_all) s(ams) g(tank_3) b(v3)) {cost 600} {score 600} {fore -3.5}}
+{"kat_dstr_pls_flam"				("v_1_i_0" c(120) c1(kat_dstr_pls_flam) 	cp(20)	t(all veh_a_all) s(ams) g(tank_3) b(v3)) {cost 500} {score 500} {fore -3.5}}
 
 ;Уничтожитель
-{"kat_dstr_pls_phos"				("v_1_i_0" c(120) c1(kat_dstr_pls_phos) 	cp(20)	t(all veh_a_all) s(ams) g(tank_3) b(v3)) {cost 600} {score 600} {fore -3.5}}
+{"kat_dstr_pls_phos"				("v_1_i_0" c(120) c1(kat_dstr_pls_phos) 	cp(20)	t(all veh_a_all) s(ams) g(tank_3) b(v3)) {cost 500} {score 500} {fore -3.5}}
 
 ;Кастелян Огнемёт
 {"kastellan_flamer"					("v_1_i_0" c(120) c1(kastellan_flamer) 	cp(10)	t(all veh_a_inf) s(ams) g(tank_3) b(v3)) {cost 350} {score 350} {fore -3.5}}
@@ -113,13 +113,13 @@
 ;================================= v3 =================================;
 ;================================= v4 =================================;
 ;Дюноход - Излучатель
-{"dunecrawler"						("v_1_i_1" c(120) c1(dunecrawler) t(all veh_a_all) s(ams) n1(tanker:3) cp(15) g(tank_5) b(v4)) {level 1} {cost 350} {score 350} {fore -3.5}}
+{"dunecrawler"						("v_1_i_1" c(120) c1(dunecrawler) t(all veh_a_all) s(ams) n1(tanker:3) cp(15) g(tank_5) b(v4)) {level 1} {cost 300} {score 300} {fore -3.5}}
 
 ;Дюноход- Фосфор
-{"dunecrawler_phos"					("v_1_i_1" c(120) c1(dunecrawler_phos) t(all veh_a_inf) s(ams) n1(tanker:3) cp(15) g(tank_5) b(v4)) {level 1} {cost 430} {score 430} {fore -3.5}}
+{"dunecrawler_phos"					("v_1_i_1" c(120) c1(dunecrawler_phos) t(all veh_a_inf) s(ams) n1(tanker:3) cp(15) g(tank_5) b(v4)) {level 1} {cost 330} {score 330} {fore -3.5}}
 
 ;Дюноход - Икарус
-{"dunecrawler_icarus"				("v_1_i_1" c(120) c1(dunecrawler_icarus) t(all veh_a_inf) s(ams) n1(tanker:3) cp(15) g(tank_6) b(v4)) {level 1} {cost 450} {score 450} {fore -3.5}}
+{"dunecrawler_icarus"				("v_1_i_1" c(120) c1(dunecrawler_icarus) t(all veh_a_inf) s(ams) n1(tanker:3) cp(15) g(tank_6) b(v4)) {level 1} {cost 350} {score 350} {fore -3.5}}
 
 ;Дюноход - Лазпушка
 {"dunecrawler_neutron"				("v_1_i_1" c(120) c1(dunecrawler_neutron) t(all veh_a_veh) s(ams) n1(tanker:3) cp(15) g(tank_9) b(v4)) {level 1} {cost 600} {score 600} {fore -8}}
@@ -147,13 +147,13 @@
 ("squad_with5types" side(ams) name(sq_secutarii_sp) 	c(240) g(h_1) c1(secutarii_serg:1) c2(secutarii:4) c3(secutarii_charge:1) c4(secutarii_arc:2) c5(secutarii_rad:2) b(hero) t(grenade plasma special inf_vet) level(1) cost(2) f(-1.25))
 
 ;Часовой - рад карабин и фосфока
-{"dragoon_serpenta"		("v_2_i_0" c(120) c1(dragoon_serpenta) c2(dragoon_serpenta)	t(all sup_a_inf) s(ams) g(h_4) cp(5) b(hero)) {level 1} {cost 2} {score 200} {fore -1}}
+{"dragoon_serpenta"		("v_2_i_0" c(120) c1(dragoon_serpenta) c2(dragoon_serpenta)	t(all sup_a_inf) s(ams) g(h_4) cp(5) b(hero)) {level 1} {cost 1} {score 200} {fore -1}}
 
 ;Доминус - Волкит
 {"dominus"				("v_1_i_0" c(240) c1(dominus)			t(all sup_a_all) s(ams) cp(4) g(h_2) b(hero)) {level 1} {cost 2} {score 200} {fore -0}}
 
 ;Доминус - Излучатель
-{"dominus_beam_stub"	("v_1_i_0" c(240) c1(dominus_beam_stub) t(all sup_a_all) s(ams) cp(4) g(h_2) b(hero)) {level 1} {cost 4} {score 400} {fore -0}}
+{"dominus_beam_stub"	("v_1_i_0" c(240) c1(dominus_beam_stub) t(all sup_a_all) s(ams) cp(4) g(h_2) b(hero)) {level 1} {cost 3} {score 400} {fore -0}}
 
 ;Рыцарь cтирикс
 {"knights_styrix"		("v_1_i_0" c(920) c1(knights_styrix) 	cp(25)	t(all ult) s(ams) g(h_3) b(hero)) {cost 8} {score 1500} {fore -0.5}}

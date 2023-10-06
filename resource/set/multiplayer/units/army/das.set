@@ -89,7 +89,6 @@
 ;Орбитальный удар
 {"da_orbital_strike"					("v_1_i_0" c(600) c1(orbital_strike)	t(all strike) s(das) g(art_2) cp(0) b(v2)) {cost 500} {fore -1.8}}
 
-
 ;Бронебойные ракеты
 {"da_flurry_missiles_strike"			("v_1_i_0" c(300) c1(da_flurry_missiles)	t(all strike) s(das) g(art_3) cp(0) cw(0) b(v2)) {cost 300} {fore -0.8}}
 

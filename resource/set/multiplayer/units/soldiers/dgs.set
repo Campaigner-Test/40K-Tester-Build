@@ -20,12 +20,12 @@
 ("spacemarine" breed(w_bot_tactic_rl) 	side(dgs) tags(at) cp(2) score(15) cw(1))
 
 ;Чумной десантник
-("spacemarine" breed(tactic_bg) 	side(dgs) tags(bolter) cp(4) score(15) cw(1))
-("spacemarine" breed(tactic_gl) 	side(dgs) tags(bolter) cp(4) score(15) cw(1))
-("spacemarine" breed(tactic_bg_01)	side(dgs) tags(bolter) cp(4) score(15) cw(1))
-("spacemarine" breed(tactic_bg_02)	side(dgs) tags(bolter) cp(4) score(15) cw(1))
-("spacemarine" breed(tactic_bg_03)	side(dgs) tags(bolter) cp(4) score(15) cw(1))
-("spacemarine" breed(tactic_pfl)	side(dgs) tags(fl)	cp(4) score(15) cw(1))
+("spacemarine" breed(tactic_bg) 	side(dgs) tags(bolter) cp(3) score(15) cw(1))
+("spacemarine" breed(tactic_gl) 	side(dgs) tags(bolter) cp(3) score(15) cw(1))
+("spacemarine" breed(tactic_bg_01)	side(dgs) tags(bolter) cp(3) score(15) cw(1))
+("spacemarine" breed(tactic_bg_02)	side(dgs) tags(bolter) cp(3) score(15) cw(1))
+("spacemarine" breed(tactic_bg_03)	side(dgs) tags(bolter) cp(3) score(15) cw(1))
+("spacemarine" breed(tactic_pfl)	side(dgs) tags(fl)	cp(3) score(15) cw(1))
 
 ;Чумной десантник - тяж
 ("spacemarine" breed(dev_hb)	side(dgs) tags(heavy_bolter) cp(4) score(15) cw(1))
