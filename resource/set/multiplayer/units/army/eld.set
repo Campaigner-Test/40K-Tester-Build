@@ -9,25 +9,25 @@
 ("squad_with1types" side(eld) name(eldar_lider3)	c(60) g(sq_2) c1(eldar_lider3:10) b(squad1) t(sureken shield inf_tac) level(1) cost(125) f(1))
 
 ;Warlock
-("squad_with1types" side(eld) name(sq_eldar_warlock)	c(100) g(sq_2) c1(eldar_warlock_squad:3) b(squad1) t(sureken shield inf_tac) level(1) cost(300) f(-5))
+("squad_with1types" side(eld) name(sq_eldar_warlock)	c(50) g(sq_3) c1(eldar_warlock_squad:3) b(squad1) t(sureken shield inf_tac) level(1) cost(300) f(-5))
 
 ;Dire Avenger
-("squad_with2types" side(eld) name(sq_avenger)	c(100) g(sq_3) c1(eldar_avenger_exarch:1) c2(eldar_avenger:9) b(squad1) t(weaver inf_tac) level(1) cost(250) f(-5))
+("squad_with2types" side(eld) name(sq_avenger)	c(50) g(sq_4) c1(eldar_avenger_exarch:1) c2(eldar_avenger:9) b(squad1) t(weaver inf_tac) level(1) cost(250) f(-5))
 
 ;Reaper
-("squad_with2types" side(eld) name(sq_reaper)	c(100) g(sq_4) c1(reaper_exarch:1) c2(reaper:4) b(squad1) t(at inf_a_all) level(1) cost(300) f(-5))
+("squad_with2types" side(eld) name(sq_reaper)	c(50) g(sq_5) c1(reaper_exarch:1) c2(reaper:4) b(squad1) t(at inf_a_all) level(1) cost(300) f(-5))
 
 ;Fire Dragon
-("squad_with3types" side(eld) name(sq_fire_dragon) c(100) g(sq_5) c1(fire_dragon_exarch:1) c2(fire_dragon:3) c3(fire_dragon2:2) b(squad1) t(weaver inf_a_veh) level(1) cost(270) f(-5))
+("squad_with3types" side(eld) name(sq_fire_dragon) c(50) g(sq_6) c1(fire_dragon_exarch:1) c2(fire_dragon:3) c3(fire_dragon2:2) b(squad1) t(weaver inf_a_veh) level(1) cost(270) f(-5))
 
 ;Ranger
-("squad_with1types" side(eld) name(sq_ranger) c(100) g(sq_6) c1(ranger:3) b(squad1) t(eldar_rifle inf_a_inf) level(1) cost(200) f(-5))
+("squad_with1types" side(eld) name(sq_ranger) c(50) g(sq_7) c1(ranger:3) b(squad1) t(eldar_rifle inf_a_inf) level(1) cost(200) f(-5))
 
 ;Призрачные Стражи -Wraith Guard
-{"wraithguard"								("v_4_i_0" c(120) c1(wraithguard) c2(wraithguard) c3(wraithguard) c4(wraithguard)		t(all inf_a_all) s(eld) g(sq_7) cp(5) b(squad1)) {cost 200} {score 200} {fore -3.5}}
+{"wraithguard"								("v_4_i_0" c(120) c1(wraithguard) c2(wraithguard) c3(wraithguard) c4(wraithguard)		t(all inf_a_all) s(eld) g(sq_8) cp(5) b(squad1)) {cost 200} {score 200} {fore -3.5}}
 
 ;Отряд Пауков Варпа-Warp Spiders
-("squad_with2types" side(eld) name(sq_warp_spider) c(100) g(sq_5) c1(warp_spider:9) c2(warp_spider_exarch:1) b(squad1) t(weaver inf_a_inf) level(1) cost(250) f(-5))
+("squad_with2types" side(eld) name(sq_warp_spider) c(50) g(sq_9) c1(warp_spider:9) c2(warp_spider_exarch:1) b(squad1) t(weaver inf_a_inf) level(1) cost(250) f(-5))
 
 ;-------------------------------------------------------------------Платформы---------------------------------
 
