@@ -192,6 +192,8 @@
 
 ;=================================Сверхтяжёлые юниты=================================;
 
+{"macharius_vulcan_hb"							("v_1_i_1" c(120) c1(macharius_vulcan_hb) 		t(all super_heavy_tank veh_a_all) s(ars) n1(tanker:6) g(tank_7_1) cw(1) b(v5) cp(25)) {level 1} 
+
 ;Бейнблейд 
 {"ars_baneblade"								("v_1_i_3" c(300) c1(ars_baneblade) t(all ult) s(ars) n1(tanker:6) n2(tanker_01:5) n3(commissar_tank:1) g(tank_8) b(v5) cp(30)) {level 1} {cost 1200} {score 1200} {fore -2.6}}
 

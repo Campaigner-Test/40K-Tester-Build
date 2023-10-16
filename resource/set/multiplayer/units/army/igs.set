@@ -259,10 +259,10 @@
 ;("squad_with3types" side(igs) name(igs_pdf_guard) 	c(240) g(h_1) c1(pdf_ag_00:22) c2(plf_lg:6) c3(plf_lg_01:2) b(hero) t(all inf_com) level(1) cost(1) f(0))
 
 ;Коммисар со свитой - На усмотрение-Command Squad
-("squad_with8types" side(igs) name(sq_command) 		c(240) g(h_1) c1(commissar_bolt:1) c2(ig_strom_hg:2) c3(ig_strom_hg:2) c4(ig_vet_korrekt:1) c5(ig_vet_korrekt_01:1) c6(kasrkin_pc:1) c7(inquisition_psyker:1) c8(vindicare:1)  b(hero) t(spotter) level(1) cost(3) f(-1))
+("squad_with8types" side(igs) name(sq_command) 		c(240) g(h_1) c1(commissar_bolt:1) c2(ig_strom_hg:2) c3(ig_strom_hg:2) c4(ig_vet_korrekt:1) c5(ig_vet_korrekt_01:1) c6(kasrkin_pc:3) c7(inquisition_psyker:1) c8(vindicare:1)  b(hero) t(spotter) level(1) cost(3) f(-1))
 
 ;ig-Отряд Катачанцев
-("squad_with4types" side(igs) name(sq_cathacan) 	c(240) g(h_1) c1(cathacan_sg:3) c2(cathacan_lg:6) c3(cathacan_lider:1) c4(cathacan_hb:2) b(hero) t(heavy_bolter plasma inf_sab) level(1) cost(2) f(0))
+("squad_with4types" side(igs) name(sq_cathacan) 	c(240) g(h_1) c1(cathacan_sg:6) c2(cathacan_lg:6) c3(cathacan_lider:1) c4(cathacan_hb:2) b(hero) t(heavy_bolter plasma inf_sab) level(1) cost(2) f(0))
 
 ;Химера - командная
 ;{"command_ig"										("v_1_i_3" c(120) c1(command_ig) t(all sup_sct) s(igs) n1(tanker:1) n2(tanker_01:3) n3(commissar_tank:1) g(h_2) cp(10) b(hero)) {level 1} {cost 3} {score 25} {fore -3.5}}

@@ -9,7 +9,7 @@
 
 
 ;T1 Тактический Отряд
-("squad_with3types" side(das) name(sq_tact_bg) 				c(30) g(squad_3) c1(tactic_serg_bgp:1) c2(tactic_bg:2) c3(tactic_bg_01:2)  b(squad1) t(bolter inf_tac) level(1) cost(250) f(-3))
+("squad_with3types" side(das) name(sq_tact_bg) 				c(30) g(squad_3) c1(tactic_serg_bgp:1) c2(tactic_bg:2) c3(tactic_bg_01:2)  b(squad1) t(bolter inf_tac) level(1) cost(280) f(-3))
 ;T1 Тактич rpg
 ("squad_with4types" side(das) name(tact_rl) 				c(30) g(squad_3) c1(tactic_serg_bg:1) c2(tactic_rl:2) c3(tactic_bg:1) c4(tactic_bg_01:1)  b(squad1) t(bolter inf_a_veh) level(1) cost(350) f(-3))
 ;T1 Тактич Flamer
@@ -20,7 +20,7 @@
 ;T1 Тактич melta
 ("squad_with4types" side(das) name(tact_ml) 				c(30) g(squad_3) c1(tactic_serg_bg:1) c2(tactic_ml:2) c3(tactic_bg:1) c4(tactic_bg_01:1)  b(squad1) t(bolter inf_a_veh) level(1) cost(200) f(-3))
 ;T1 Тактич plasma
-("squad_with4types" side(das) name(tact_pg) 				c(30) g(squad_3) c1(tactic_serg_bgp:1) c2(tactic_pg:2) c3(tactic_bg:1) c4(tactic_bg_01:1)  b(squad1) t(bolter inf_tac) level(1) cost(300) f(-3))
+("squad_with4types" side(das) name(tact_pg) 				c(30) g(squad_3) c1(tactic_serg_bgp:1) c2(tactic_pg:2) c3(tactic_bg:1) c4(tactic_bg_01:1)  b(squad1) t(bolter inf_tac) level(1) cost(330) f(-3))
 
 
 ;T2 Тактич Bolter
@@ -127,7 +127,10 @@
 ("squad_with4types_vehicle" side(das) name(sq_tact_vet_gravi_drop) 			c(300) g(squad_7) v1(da_drop_pod) c1(tactic_vet_serg_gp:1) c2(tactic_vet_gravi:2) c3(tactic_vet_bg:0) c4(tactic_vet_shb:2)  b(squad2) t(gravgun special non) level(1) cost(650) f(-2.2))
 
 
+{"da_terminators_squad_1"						("v_1_i_0" c(300) c1(da_terminators_squad_1) 		t(all par) s(das) g(squad_8) cp(18) b(squad4)) {cost 500} {score 600} {fore -2.6}}
 
+;Терминаторы - Ракеты
+{"da_terminators_squad_2"						("v_1_i_0" c(300) c1(da_terminators_squad_2) 		t(all par) s(das) g(squad_9) cp(18) b(squad4)) {cost 600} {score 600} {fore -2.6}}
 
 
 
@@ -156,10 +159,10 @@
 ;================================= Артиллерия =================================;
 
 ;T2 Вихрь
-{"da_whirlwind" 						("v_1_i_1" c(300) c1(da_whirlwind) t(all veh_art) s(das) n1(Tanker:4) cp(20) g(art_1) b(v2)) {level 1} {cost 400} {score 90} {fore -0.6}}
+{"da_whirlwind" 						("v_1_i_1" c(300) c1(da_whirlwind) t(all veh_art) s(das) n1(Tanker:4) cp(10) g(art_1) b(v2)) {level 1} {cost 200} {score 90} {fore -0.6}}
 
 ;T3 Орбитальный удар
-;ZAM;{"da_orbital_strike"				("v_1_i_0" c(300) c1(orbital_strike)	t(all strike) s(das) g(art_2) cp(0) b(v2)) {cost 500} {fore -2.6}}
+{"da_orbital_strike"				("v_1_i_0" c(300) c1(orbital_strike)	t(all strike) s(das) g(art_2) cp(0) b(v2)) {cost 600} {fore -2.6}}
 
 ;Бронебойные ракеты
 {"da_flurry_missiles_strike"			("v_1_i_0" c(300) c1(da_flurry_missiles)	t(all strike) s(das) g(art_3) cp(0) cw(0) b(v2)) {cost 300} {fore -0.8}}
@@ -357,6 +360,8 @@
 
 
 ;================================Герои=================================;
+;Тактический Отряд - подкрепление за СП
+("squad_with6types_vehicle" side() name(sq_tact_bg_drop_hero) 				c(300) g(h_4) v1(ba_drop_pod) c1(tactic_vet_ml:1) c2(tactic_vet_rl:1) c3(tactic_vet_sb:1) c4(tactic_vet_serg_gp:1) c5(apothecary:1) c6(tactic_vet_pg:1) b(hero) t(bolter par) level(1) cost(2) f(-0.8))
 
 ;Командор
 ;ZAM;("squad_with1types_vehicle" side(das) name(comandor)	c(300) g(h_1) v1(da_drop_pod) c1(comandor:1) b(hero) t(comandor inf_a_all) level(3) cost(2) f(-0.8))
@@ -367,6 +372,15 @@
 ;Библиарий
 ;ZAM;("squad_with1types_vehicle" side(das) name(librarians)	c(300) g(h_1) v1(da_drop_pod) c1(librarians:1) b(hero) t(librarians inf_a_inf) level(3) cost(2) f(-0.8))
 
+;Командор
+("squad_with1types_vehicle" side(das) name(comandor)	c(300) g(h_1) v1(da_drop_pod) c1(comandor:1) b(hero) t(comandor inf_def) level(3) cost(1) f(-0.8))
+
+;Технодесантник
+("squad_with1types_vehicle" side(das) name(tech_marine)	c(300) g(h_1) v1(da_drop_pod) c1(tech_marine:1) b(hero) t(tech_marine non) level(3) cost(1) f(-0.8))
+
+;Библиарий
+("squad_with1types_vehicle" side(das) name(librarians)	c(300) g(h_1) v1(da_drop_pod) c1(librarians:1) b(hero) t(librarians inf_def) level(3) cost(1) f(-0.8))
+
 
 ;Тактический Отряд - подкрепление за СП
 ;ZAM;("squad_with3types_vehicle" side(das) name(spasemarine_tactical_drop_hero) 				c(300) g(h_2) v1(da_drop_pod) c1(apothecary:1) c2(tactic_bg:3) c3(tactic_serg_bgp:1)  b(hero) t(bolter par) level(1) cost(3) f(-0.8))
@@ -376,18 +390,18 @@
 
 
 ;Терминаторы - Циклон
-{"da_terminators_squad_1"						("v_1_i_0" c(300) c1(da_terminators_squad_1) 		t(all par) s(das) g(h_4) cp(18) b(hero)) {cost 4} {score 60} {fore -2.6}}
+;{"da_terminators_squad_1"						("v_1_i_0" c(300) c1(da_terminators_squad_1) 		t(all par) s(das) g(h_4) cp(18) b(hero)) {cost 4} {score 60} {fore -2.6}}
 
 ;Терминаторы - Ракеты
-{"da_terminators_squad_2"						("v_1_i_0" c(300) c1(da_terminators_squad_2) 		t(all par) s(das) g(h_4) cp(18) b(hero)) {cost 6} {score 60} {fore -2.6}}
+;{"da_terminators_squad_2"						("v_1_i_0" c(300) c1(da_terminators_squad_2) 		t(all par) s(das) g(h_4) cp(18) b(hero)) {cost 6} {score 60} {fore -2.6}}
 
 ;Терминаторы - Штурмпушка
-{"da_terminators_squad_3"						("v_1_i_0" c(300) c1(da_terminators_squad_3) 		t(all par) s(das) g(h_4) cp(18) b(hero)) {cost 8} {score 60} {fore -2.6}}
+{"da_terminators_squad_3"						("v_1_i_0" c(300) c1(da_terminators_squad_3) 		t(all par) s(das) g(h_4) cp(18) b(hero)) {cost 4} {score 60} {fore -2.6}}
 
 ;Терминаторы - Громовые молоты
-{"da_terminators_squad_melee"					("v_1_i_0" c(300) c1(da_terminators_squad_melee) 	t(all par) s(das) g(h_4) cp(18) b(hero)) {cost 4} {score 60} {fore -2.6}}
+;{"da_terminators_squad_melee"					("v_1_i_0" c(300) c1(da_terminators_squad_melee) 	t(all par) s(das) g(h_4) cp(18) b(hero)) {cost 4} {score 60} {fore -2.6}}
 
-{"da_terminators_squad_4"						("v_1_i_0" c(300) c1(da_terminators_squad_4) 		t(all par) s(das) g(h_4) cp(18) b(hero)) {cost 10} {score 60} {fore -2.6}}
+;{"da_terminators_squad_4"						("v_1_i_0" c(300) c1(da_terminators_squad_4) 		t(all par) s(das) g(h_4) cp(18) b(hero)) {cost 10} {score 60} {fore -2.6}}
 
 
 ("squad_with5types" side(das) name(sq_scout_hb) 			c(300) g(h_1) c1(scout_serg_sg:1) c2(scout_sg:3) c3(scout_gl:2) c4(scout_rl:2) c5(scout_hb:2) b(hero) t(bolter inf_tac) level(1) cost(2) f(-0.8))

@@ -10,13 +10,13 @@
 
 
 ;Отряд ветеранов 
-("squad_with4types" side(ets) name(sq_vet_lg)	c(50) g(sq_4) c1(ig_vet_serg:1) c2(ig_vet_lg:5) c3(ig_vet_gl:2) c4(ig_vet_hb:2) b(squad1) t(heavy_lasgun inf_vet) level(1) cost(110) f(-5))
+("squad_with4types" side(ets) name(sq_vet_lg)	c(50) g(sq_4) c1(ig_vet_serg:1) c2(ig_vet_lg:5) c3(ig_vet_gl:2) c4(ig_vet_hb:2) b(squad1) t(heavy_lasgun inf_vet) level(1) cost(125) f(-5))
 
 ;Отряд ветеранов с плазмами
-("squad_with4types" side(ets) name(sq_vet_pg)	c(50) g(sq_4) c1(ig_vet_serg:1) c2(ig_vet_lg:4) c3(ig_vet_pg:4) c4(ig_vet_hb:1) b(squad1) t(lasgun_lasgun plasma inf_vet) level(1) cost(130) f(-5))
+("squad_with4types" side(ets) name(sq_vet_pg)	c(50) g(sq_4) c1(ig_vet_serg:1) c2(ig_vet_lg:4) c3(ig_vet_pg:4) c4(ig_vet_hb:1) b(squad1) t(lasgun_lasgun plasma inf_vet) level(1) cost(150) f(-5))
 
 ;Отряд ветеранов с мельтами
-("squad_with4types" side(ets) name(sq_vet_ml)	c(50) g(sq_4) c1(ig_vet_serg:1) c2(ig_vet_lg:2) c3(ig_vet_ml:2:3) c4(ig_vet_rl:4) b(squad1) t(heavy_lasgun melta inf_a_veh) level(1) cost(100) f(-5))
+("squad_with4types" side(ets) name(sq_vet_ml)	c(50) g(sq_4) c1(ig_vet_serg:1) c2(ig_vet_lg:2) c3(ig_vet_ml:2:3) c4(ig_vet_rl:4) b(squad1) t(heavy_lasgun melta inf_a_veh) level(1) cost(125) f(-5))
 
 
 ;Арт десант- Ветераны - Air Drop Laz
@@ -93,7 +93,7 @@
 {"ig_drop_tarantul_rl(ets)"					("v_1_i_0" c(120) c1(ig_drop_tarantul_rl)	t(all par) s(ets) g(art_3) cp(2) b(v2)) {cost 200} {fore -0}}
 
 ;Тарантул
-;{"ig_drop_tarantul_lc(ets)"					("v_1_i_0" c(120) c1(ig_drop_tarantul_lc)	t(all par) s(ets) g(art_4) cp(2) b(v2)) {cost 250} {fore -0}}
+{"ig_drop_tarantul_ml(ets)"					("v_1_i_0" c(120) c1(ig_drop_tarantul_ml)	t(all par) s(ets) g(art_4) cp(2) b(v2)) {cost 100} {fore -0}}
 
 
 ;Налёт Валькирии 2 

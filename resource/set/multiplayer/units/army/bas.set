@@ -72,7 +72,7 @@
 ("squad_with1types" side(bas) name(tact_fl) 		c(60) g(sq_1) c1(tactic_fl:3) b(squad2) t(plasma inf_a_inf) level(1) cost(150) f(-1.0))
 
 ;Десантник с мельтой
-("squad_with1types" side(bas) name(tact_ml) 		c(60) g(sq_2) c1(tactic_ml:1) b(squad2) t(melta inf_a_veh) level(1) cost(85) f(-1))
+("squad_with1types" side(bas) name(tact_ml) 		c(60) g(sq_2) c1(tactic_ml:3) b(squad2) t(melta inf_a_veh) level(1) cost(120) f(-1))
 
 ;Десантник с ракетницей
 ("squad_with2types" side(bas) name(tact_rl) 		c(60) g(sq_3) c1(tactic_rl) c2(tactic_bg:2) b(squad2) t(at inf_a_veh) level(1) cost(200) f(-1))
@@ -84,11 +84,11 @@
 ("squad_with1types" side(bas) name(sm_crew)			c(120) 	g(sq_5) c1(tanker:4) b(squad2) t(tankman non) level(1) cost(140) f(-3.5))
 
 ;Апотекарий - Отключен
-;("squad_with1types" side(bas) name(apothecary)		c(300) g(apothecary) c1(apothecary:1) b(squad2) t(apothecary) level(1) cost(120) f(0))
+("squad_with1types" side(bas) name(apothecary)		c(300) g(apothecary) c1(apothecary:1) b(squad2) t(apothecary) level(1) cost(100) f(0))
 
 ;================================= Артиллерия =================================;
 ;Вихрь
-{"ba_whirlwind" 						("v_1_i_1" c(300) c1(ba_whirlwind)	t(all veh_art) s(bas) n1(Tanker:4) cp(20) g(art_1) b(v2)) {level 1} {cost 400} {score 90} {fore -0.8}}
+{"ba_whirlwind" 						("v_1_i_1" c(300) c1(ba_whirlwind)	t(all veh_art) s(bas) n1(Tanker:4) cp(10) g(art_1) b(v2)) {level 1} {cost 200} {score 90} {fore -0.8}}
 
 ;Орбитальный удар
 {"ba_orbital_strike"					("v_1_i_0" c(600) c1(orbital_strike)		t(all strike) s(bas) g(art_2) cp(0) b(v2)) {cost 500} {fore -1.8}}
@@ -210,7 +210,7 @@
 
 
 ;Тактический Отряд - подкрепление за СП
-("squad_with3types_vehicle" side(bas) name(sq_tact_bg_drop_hero) 				c(300) g(h_4) v1(ba_drop_pod) c1(tactic_bg:4) c2(tactic_serg_bg:1) c3(apothecary:1) b(hero) t(bolter par) level(1) cost(2) f(-0.8))
+("squad_with6types_vehicle" side(bas) name(sq_tact_bg_drop_hero) 				c(300) g(h_4) v1(ba_drop_pod) c1(tactic_vet_ml:1) c2(tactic_vet_rl:1) c3(tactic_vet_sb:1) c4(tactic_vet_serg_gp:1) c5(apothecary:1) c6(tactic_vet_pg:1) b(hero) t(bolter par) level(1) cost(2) f(-0.8))
 
 ;Хищник - Баал
 {"ba_predator_baal_castom"					("v_1_i_1" c(300) c1(ba_predator_baal_castom) 		t(all veh_a_inf) s(bas) n1(Tanker:4) g(h_3) cp(20) b(hero)) {cost 3} {score 300} {fore -0.8}}

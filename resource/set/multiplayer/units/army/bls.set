@@ -20,6 +20,9 @@
 ;Шумовые Десантники
 ("squad_with1types" side(bls) name(sq_nm_sonic) 		c(120) g(squad_6) c1(nm_sonic:4) b(squad1) t(at inf_a_inf) level(1) cost(200) f(-1.5))
 
+;Отряд Рубриков c огнеметами
+("squad_with4types" side(bls) name(sq_rubric_fl) 		c(600) g(squad_5) c1(rubric_sorcerer:1) c2(rubric_01:1) c3(rubric_02:1) c4(rubric_fl:2) b(squad1)
+
 ;Отряд Рубриков
 ("squad_with5types" side(bls) name(sq_rubric) 			c(600) g(squad_4) c1(rubric_sorcerer:1) c2(rubric_01:1) c3(rubric_02:1) c4(rubric_03:1) c5(rubric:2) b(squad1) t(sniper inf_sab) level(1) cost(600) f(-0.8))
 
@@ -48,6 +51,13 @@
 
 ;Разорителей с Волкиткой
 ("squad_with3types" side(bls)	name(dev_vol) 	c(300) g(hw_5) c1(dev_vol:1) c2(tactic_vet_bg_05:1) c3(tactic_vet_bg_03:1) b(squad3) t(plasma_cannon inf_a_inf) level(1) cost(450) f(-0.8))
+
+;Сброс(bloodletter)
+{"bloodletter_squad_1"			("v_1_i_0" c(300) c1(bloodletter_squad_1)																				t(all special_infantry landing_strikes par) s(bls) g(dem) cw(0) cp(10) b(squad3)) 		{cost 150} {fore -0.8}}
+
+;Джагернаут
+{"juggernaut"					("v_3_i_0" c(300) c1(juggernaut_with_bloodletter)	c2(juggernaut_with_bloodletter)	c3(juggernaut_with_bloodletter)		t(all light_vehicle veh_a_inf) s(bls) g(dem_2) cw(1) cp(7) b(squad3)) {cost 300} {score 300}{fore -0.8}}
+
 
 ;=============Десант===========================================================================================
 ;Десант Тактикалы
@@ -148,10 +158,10 @@
 
 ;=================================Герои=================================;
 ;Лорд
-("squad_with1types" side(bls) name(champion) 							c(300) g(h_1) c1(champion:1) b(hero) t(comandor special inf_a_inf) level(1) cost(2) f(-0.8))
+("squad_with1types" side(bls) name(champion) 							c(300) g(h_1) c1(champion:1) b(hero) t(comandor special inf_a_inf) level(1) cost(1) f(-0.8))
 
 ;Технодесантник
-("squad_with1types" side(bls) name(tech_marine) 							c(300) g(h_1) c1(tech_marine:1) b(hero) t(tech_marine non) level(1) cost(2) f(-0.8))
+("squad_with1types" side(bls) name(tech_marine) 							c(300) g(h_1) c1(tech_marine:1) b(hero) t(tech_marine non) level(1) cost(1) f(-0.8))
 
 ;Чернокнижник
 ("squad_with1types" side(bls) name(chaos_sorcerer) 							c(300) g(h_1) c1(chaos_sorcerer:1) b(hero) t(sorcerer special inf_vet) level(1) cost(2) f(-0.8))
@@ -164,7 +174,7 @@
 {"bloodletter_squad_1"							("v_1_i_0" c(300) c1(bloodletter_squad_1)		t(all par) s(bls) g(h_3) cp(10) b(hero)) {cost 1} {fore -0.8}}
 
 ;Сброс(кошмаров)
-{"chaos_horror_squad_1"							("v_1_i_0" c(600) c1(chaos_horror_squad_1)		t(all par) s(bls) g(h_7) cp(10) b(hero)) {cost 3} {fore -0.8}}
+{"chaos_horror_squad_1"							("v_1_i_0" c(600) c1(chaos_horror_squad_1)		t(all par) s(bls) g(h_7) cp(10) b(hero)) {cost 2} {fore -0.8}}
 
 
 ;Терминаторы 

@@ -17,7 +17,7 @@
 ("squad_with6types" side(kgs) name(sq_vet_lg)			c(50) g(sq_vet) c1(ig_vet_lg:2) c2(ig_vet_lg_01:2) c3(ig_vet_lg_02:2) c4(ig_officer:1) c5(ig_vet_vox:1) c6(ig_grenader_hg:2) b(squad1) t(heavy_lasgun inf_vet) level(1) cost(100) f(-5))
 
 ;Отряд ветеранов с плазмами
-("squad_with5types" side(kgs) name(sq_vet_pg)			c(50) g(sq_vet) c1(ig_vet_lg:2) c2(ig_vet_lg_01:3) c3(ig_vet_pg:3) c4(ig_vet_hb:1) c5(ig_vet_vox:1) b(squad1) t(heavy_lasgun plasma inf_vet) level(1) cost(150) f(-5))
+("squad_with5types" side(kgs) name(sq_vet_pg)			c(50) g(sq_vet) c1(ig_vet_lg:2) c2(ig_vet_lg_01:3) c3(ig_vet_pg:3) c4(ig_vet_pg:1) c5(ig_vet_vox:1) b(squad1) t(heavy_lasgun plasma inf_vet) level(1) cost(150) f(-5))
 
 ;Отряд ветеранов с мельтами
 ("squad_with5types" side(kgs) name(sq_vet_ml) 				c(50) g(sq_vet) c1(ig_vet_lg:2) c2(ig_vet_lg_01:2) c3(ig_vet_ml:4) c4(ig_vet_hb:1) c5(ig_vet_vox:1) b(squad1) t(heavy_lasgun melta inf_a_veh) level(1) cost(120) f(-5))
