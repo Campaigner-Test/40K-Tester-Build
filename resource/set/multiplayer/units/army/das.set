@@ -9,7 +9,7 @@
 
 
 ;T1 Тактический Отряд
-("squad_with3types" side(das) name(sq_tact_bg) 				c(30) g(squad_3) c1(tactic_serg_bgp:1) c2(tactic_bg:2) c3(tactic_bg_01:2)  b(squad1) t(bolter inf_tac) level(1) cost(280) f(-3))
+("squad_with3types" side(das) name(sq_tact_bg) 				c(30) g(squad_3) c1(tactic_serg_bgp:1) c2(tactic_bg:2) c3(tactic_bg_01:2)  b(squad1) t(bolter inf_tac) level(1) cost(250) f(-3))
 ;T1 Тактич rpg
 ("squad_with4types" side(das) name(tact_rl) 				c(30) g(squad_3) c1(tactic_serg_bg:1) c2(tactic_rl:2) c3(tactic_bg:1) c4(tactic_bg_01:1)  b(squad1) t(bolter inf_a_veh) level(1) cost(350) f(-3))
 ;T1 Тактич Flamer
@@ -127,10 +127,10 @@
 ("squad_with4types_vehicle" side(das) name(sq_tact_vet_gravi_drop) 			c(300) g(squad_7) v1(da_drop_pod) c1(tactic_vet_serg_gp:1) c2(tactic_vet_gravi:2) c3(tactic_vet_bg:0) c4(tactic_vet_shb:2)  b(squad2) t(gravgun special non) level(1) cost(650) f(-2.2))
 
 
-{"da_terminators_squad_1"						("v_1_i_0" c(300) c1(da_terminators_squad_1) 		t(all par) s(das) g(squad_8) cp(18) b(squad4)) {cost 500} {score 600} {fore -2.6}}
+{"da_terminators_squad_1"						("v_1_i_0" c(300) c1(da_terminators_squad_1) 		t(all par) s(das) g(squad_8) cp(18) b(squad4)) {cost 600} {score 600} {fore -2.6}}
 
 ;Терминаторы - Ракеты
-{"da_terminators_squad_2"						("v_1_i_0" c(300) c1(da_terminators_squad_2) 		t(all par) s(das) g(squad_9) cp(18) b(squad4)) {cost 600} {score 600} {fore -2.6}}
+;{"da_terminators_squad_2"						("v_1_i_0" c(300) c1(da_terminators_squad_2) 		t(all par) s(das) g(squad_9) cp(18) b(squad4)) {cost 600} {score 600} {fore -2.6}}
 
 
 
@@ -265,7 +265,7 @@
 
 
 ;T2 Dreadnought - Болтер
-{"da_dreadnought_cr_ac"							("v_1_i_0" c(300) c1(da_dreadnought_cr_ac) 	cp(20)	t(all veh_a_inf) s(das) g(dred_2) b(v4)) {cost 350} {score 50} {fore -0.6}}
+;{"da_dreadnought_cr_ac"							("v_1_i_0" c(300) c1(da_dreadnought_cr_ac) 	cp(20)	t(all veh_a_inf) s(das) g(dred_2) b(v4)) {cost 350} {score 50} {fore -0.6}}
 
 ;T2 Dreadnought - Штурмовой болтер
 ;{"da_dreadnought_pc_ac"							("v_1_i_0" c(300) c1(da_dreadnought_pc_ac) 	cp(20)	t(all veh_a_veh) s(das) g(dred_2) b(v4)) {cost 350} {score 50} {fore -0.6}}
@@ -361,7 +361,7 @@
 
 ;================================Герои=================================;
 ;Тактический Отряд - подкрепление за СП
-("squad_with6types_vehicle" side() name(sq_tact_bg_drop_hero) 				c(300) g(h_4) v1(ba_drop_pod) c1(tactic_vet_ml:1) c2(tactic_vet_rl:1) c3(tactic_vet_sb:1) c4(tactic_vet_serg_gp:1) c5(apothecary:1) c6(tactic_vet_pg:1) b(hero) t(bolter par) level(1) cost(2) f(-0.8))
+("squad_with6types_vehicle" side(das) name(sq_tact_bg_drop_hero) 				c(300) g(h_4) v1(ba_drop_pod) c1(tactic_vet_ml:1) c2(tactic_vet_rl:1) c3(tactic_vet_shb:1) c4(tactic_vet_serg_gp:1) c5(apothecary:1) c6(tactic_vet_pg:1) b(hero) t(bolter par) level(1) cost(2) f(-0.8))
 
 ;Командор
 ;ZAM;("squad_with1types_vehicle" side(das) name(comandor)	c(300) g(h_1) v1(da_drop_pod) c1(comandor:1) b(hero) t(comandor inf_a_all) level(3) cost(2) f(-0.8))
@@ -389,6 +389,13 @@
 ;ZAM;{"da_dreadnought_venerable_pc"					("v_1_i_0" c(300) c1(da_dreadnought_venerable_pc) 	cp(25)	t(all veh_a_all) s(das) g(h_3) b(hero)) {cost 4} {score 50} {fore -0.8}}
 
 
+;Почётные дредноуты
+{"da_dreadnought_venerable_pc"					("v_1_i_0" c(300) c1(da_dreadnought_venerable_pc) 	cp(20)	t(all veh_a_all) s(das) g(h_3) b(hero)) {cost 4} {score 500} {fore -0.8}}
+
+;Левиафан
+{"dreadnought_lev"					("v_1_i_0" c(300) c1(da_dreadnought_leviathan) 	cp(20)	t(all veh_a_all) s(das) g(h_3) b(hero)) {cost 6} {score 600} {fore -0.8}}
+
+
 ;Терминаторы - Циклон
 ;{"da_terminators_squad_1"						("v_1_i_0" c(300) c1(da_terminators_squad_1) 		t(all par) s(das) g(h_4) cp(18) b(hero)) {cost 4} {score 60} {fore -2.6}}
 
@@ -396,7 +403,7 @@
 ;{"da_terminators_squad_2"						("v_1_i_0" c(300) c1(da_terminators_squad_2) 		t(all par) s(das) g(h_4) cp(18) b(hero)) {cost 6} {score 60} {fore -2.6}}
 
 ;Терминаторы - Штурмпушка
-{"da_terminators_squad_3"						("v_1_i_0" c(300) c1(da_terminators_squad_3) 		t(all par) s(das) g(h_4) cp(18) b(hero)) {cost 4} {score 60} {fore -2.6}}
+{"da_terminators_squad_3"						("v_1_i_0" c(300) c1(da_terminators_squad_3) 		t(all par) s(das) g(h_4) cp(18) b(hero)) {cost 3} {score 60} {fore -2.6}}
 
 ;Терминаторы - Громовые молоты
 ;{"da_terminators_squad_melee"					("v_1_i_0" c(300) c1(da_terminators_squad_melee) 	t(all par) s(das) g(h_4) cp(18) b(hero)) {cost 4} {score 60} {fore -2.6}}
@@ -404,7 +411,7 @@
 ;{"da_terminators_squad_4"						("v_1_i_0" c(300) c1(da_terminators_squad_4) 		t(all par) s(das) g(h_4) cp(18) b(hero)) {cost 10} {score 60} {fore -2.6}}
 
 
-("squad_with5types" side(das) name(sq_scout_hb) 			c(300) g(h_1) c1(scout_serg_sg:1) c2(scout_sg:3) c3(scout_gl:2) c4(scout_rl:2) c5(scout_hb:2) b(hero) t(bolter inf_tac) level(1) cost(2) f(-0.8))
+("squad_with5types" side(das) name(sq_scout_hb) 			c(300) g(h_1) c1(scout_serg_sg:1) c2(scout_sg:3) c3(scout_gl:2) c4(scout_rl:2) c5(scout_bg_01:2) b(hero) t(bolter inf_tac) level(1) cost(2) f(-0.8))
 
 ;Терминаторы 
 {"deathwing_sb"							("v_1_i_0" c(0) c1(deathwing_sb) t(all non) s(das) g(term_non) cp(6) cw(1) b(non)) {cost 1} {fore 1}}

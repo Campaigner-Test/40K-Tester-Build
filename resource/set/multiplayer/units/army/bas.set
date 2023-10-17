@@ -65,11 +65,11 @@
 
 
 ;Ветераны c гравиоружием
-("squad_with3types_vehicle" side(bas) name(sq_tact_vet_gravi_drop) 			c(300) g(squad_6) v1(ba_drop_pod) c1(tactic_vet_serg_bg:1) c2(tactic_vet_bg:2) c3(tactic_vet_gravi:2) b(squad3) t(gravgun special non) level(1) cost(750) f(-2.6))
+("squad_with3types_vehicle" side(bas) name(sq_tact_vet_gravi_drop) 			c(300) g(squad_6) v1(ba_drop_pod) c1(tactic_vet_serg_bg:1) c2(tactic_vet_bg:2) c3(tactic_vet_gravi:2) b(squad3) t(gravgun special non) level(1) cost(650) f(-2.6))
 
 ;=================================Одиночные бойцы=================================;
 ;Десантник с огнемётом
-("squad_with1types" side(bas) name(tact_fl) 		c(60) g(sq_1) c1(tactic_fl:3) b(squad2) t(plasma inf_a_inf) level(1) cost(150) f(-1.0))
+("squad_with1types" side(bas) name(tact_fl) 		c(60) g(sq_1) c1(tactic_fl:3) b(squad2) t(plasma inf_a_inf) level(1) cost(120) f(-1.0))
 
 ;Десантник с мельтой
 ("squad_with1types" side(bas) name(tact_ml) 		c(60) g(sq_2) c1(tactic_ml:3) b(squad2) t(melta inf_a_veh) level(1) cost(120) f(-1))
@@ -146,13 +146,13 @@
 {"ba_dreadnought_lc"					("v_1_i_0" c(300) c1(ba_dreadnought_lc) 	cp(15)	t(all veh_a_veh) s(bas) g(tank_2) b(v4)) {cost 400} {score 400} {fore -1.8}}
 
 ;Почетный Дредноут - штурмовая пушка
-{"ba_dreadnought_venerable_ac"			("v_1_i_0" c(300) c1(ba_dreadnought_venerable_ac) 	cp(20)	t(all veh_a_inf) s(bas) g(tank_3) b(v4)) {cost 550} {score 550} {fore -0.8}}
+{"ba_dreadnought_venerable_ac"			("v_1_i_0" c(300) c1(ba_dreadnought_venerable_ac) 	cp(20)	t(all veh_a_inf) s(bas) g(tank_3) b(v4)) {cost 500} {score 550} {fore -0.8}}
 
 ;Почетный Дредноут - Плазмопушка
-{"ba_dreadnought_venerable_pc"			("v_1_i_0" c(300) c1(ba_dreadnought_venerable_pc) 	cp(20)	t(all veh_a_all) s(bas) g(tank_3) b(v4)) {cost 550} {score 550} {fore -0.8}}
+{"ba_dreadnought_venerable_pc"			("v_1_i_0" c(300) c1(ba_dreadnought_venerable_pc) 	cp(20)	t(all veh_a_all) s(bas) g(tank_3) b(v4)) {cost 500} {score 550} {fore -0.8}}
 
 ;Почетный Дредноут - Лазпушка
-{"ba_dreadnought_venerable_lc"			("v_1_i_0" c(300) c1(ba_dreadnought_venerable_lc) 	cp(20)	t(all veh_a_veh) s(bas) g(tank_2) b(v4)) {cost 650} {score 650} {fore -1.8}}
+{"ba_dreadnought_venerable_lc"			("v_1_i_0" c(300) c1(ba_dreadnought_venerable_lc) 	cp(20)	t(all veh_a_veh) s(bas) g(tank_2) b(v4)) {cost 550} {score 650} {fore -1.8}}
 
 
 ;Дредноут - Плазмопушка - Отключен
@@ -210,7 +210,7 @@
 
 
 ;Тактический Отряд - подкрепление за СП
-("squad_with6types_vehicle" side(bas) name(sq_tact_bg_drop_hero) 				c(300) g(h_4) v1(ba_drop_pod) c1(tactic_vet_ml:1) c2(tactic_vet_rl:1) c3(tactic_vet_sb:1) c4(tactic_vet_serg_gp:1) c5(apothecary:1) c6(tactic_vet_pg:1) b(hero) t(bolter par) level(1) cost(2) f(-0.8))
+("squad_with6types_vehicle" side(bas) name(sq_tact_bg_drop_hero) 				c(300) g(h_4) v1(ba_drop_pod) c1(tactic_vet_ml:1) c2(tactic_vet_rl:1) c3(tactic_vet_shb:1) c4(tactic_vet_serg_gp:1) c5(apothecary:1) c6(tactic_vet_pg:1) b(hero) t(bolter par) level(1) cost(2) f(-0.8))
 
 ;Хищник - Баал
 {"ba_predator_baal_castom"					("v_1_i_1" c(300) c1(ba_predator_baal_castom) 		t(all veh_a_inf) s(bas) n1(Tanker:4) g(h_3) cp(20) b(hero)) {cost 3} {score 300} {fore -0.8}}
@@ -220,10 +220,10 @@
 {"ba_terminators_squad_1"							("v_1_i_0" c(480) c1(ba_terminators_squad_1) 	t(all par) s(bas) g(h_4) cp(30) b(hero)) {cost 3} {score 300} {fore -1.25}}
 
 ;Терминаторы - Огнемет
-{"ba_terminators_squad_2"							("v_1_i_0" c(480) c1(ba_terminators_squad_2)		t(all par) s(bas) g(h_4) cp(30) b(hero)) {cost 3} {score 300} {fore -1.25}}
+{"ba_terminators_squad_2"							("v_1_i_0" c(480) c1(ba_terminators_squad_2)		t(all par) s(bas) g(h_5) cp(30) b(hero)) {cost 3} {score 300} {fore -1.25}}
 
 ;Терминаторы - Штурмпушка
-{"ba_terminators_squad_3"							("v_1_i_0" c(480) c1(ba_terminators_squad_3)		t(all par) s(bas) g(h_4) cp(30) b(hero)) {cost 3} {score 300} {fore -1.25}}
+{"ba_terminators_squad_3"							("v_1_i_0" c(480) c1(ba_terminators_squad_3)		t(all par) s(bas) g(h_6) cp(30) b(hero)) {cost 3} {score 300} {fore -1.25}}
 
 ;Терминатор c ракетной установкой Циклон - Отключен
 ;Терминаторы - 2 штормболтер

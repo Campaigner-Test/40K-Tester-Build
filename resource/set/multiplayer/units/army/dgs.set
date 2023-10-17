@@ -51,9 +51,9 @@
 ("squad_with2types" side(dgs) name(dev_prl) 			c(120) g(hw_3) c1(dev_prl:1) c2(tactic_bg:2) b(squad3) t(at inf_a_veh) level(1) cost(200) f(-3.5))
 
 ;Тяж. лазпушка
-{"nurgle_heavy_lascannon"							("v_1_i_1" c(120) c1(nurgle_heavy_bolter) t(all non) s(dgs) n1(rn_tanker:2) g(hw_4) cp(2) b(squad3)) {level 1} {cost 100} {score 5} {fore -3.5}}
+;{"nurgle_heavy_bolter"							("v_1_i_1" c(120) c1(nurgle_heavy_bolter) t(all non) s(dgs) n1(rn_tanker:2) g(hw_4) cp(2) b(squad3)) {level 1} {cost 100} {score 5} {fore -3.5}}
 
-{"nurgle_heavy_lascannon"							("v_1_i_1" c(120) c1(nurgle_heavy_autocannon) t(all non) s(dgs) n1(rn_tanker:2) g(hw_5) cp(2) b(squad3)) {level 1} {cost 130} {score 5} {fore -3.5}}
+;{"nurgle_heavy_autocannon"							("v_1_i_1" c(120) c1(nurgle_heavy_autocannon) t(all non) s(dgs) n1(rn_tanker:2) g(hw_5) cp(2) b(squad3)) {level 1} {cost 130} {score 5} {fore -3.5}}
 
 {"nurgle_heavy_lascannon"							("v_1_i_1" c(120) c1(nurgle_heavy_lascannon) t(all non) s(dgs) n1(rn_tanker:2) g(hw_6) cp(2) b(squad3)) {level 1} {cost 130} {score 5} {fore -3.5}}
 
@@ -62,7 +62,7 @@
 {"chaos_drone"										("v_1_i_0" c(60) c1(chaos_drone) 	cp(5)	t(all sup_sct) s(dgs) g(senth_1) b(v3)) {cost 90} {score 20} {fore -1}}
 
 ;Химера
-{"nurgle_chimera_defiled"							("v_1_i_1" c(120) c1(nurgle_chimera_defiled) t(all sup_a_all) s(dgs) n1(rn_tanker:4) n2(rn_lg:9) n3(rn_gl_01:1)  g(btr_1) cp(5) b(v3)) {level 1} {cost 120} {score 25} {fore -3.5}}
+{"nurgle_chimera_defiled"							("v_1_i_3" c(120) c1(nurgle_chimera_defiled) t(all sup_a_all) s(dgs) n1(rn_tanker:4) n2(rn_lg:9) n3(rn_gl_01:1)  g(btr_1) cp(0) b(v3)) {level 1} {cost 120} {score 25} {fore -3.5}}
 
 ;Чумной Волк
 {"nurgle_banewolf"									("v_1_i_1" c(120) c1(nurgle_banewolf) t(all sup_a_all) s(dgs) n1(rn_tanker:4) g(btr_2) cp(5) b(v3)) {level 1} {cost 115} {score 25} {fore -3.5}}
@@ -70,33 +70,45 @@
 ;Дьявольский пёс - болтер 
 {"nurgle_devil_dog_hb"								("v_1_i_1" c(120) c1(nurgle_devil_dog_hb) t(all sup_a_all) s(dgs) n1(rn_tanker:4) g(btr_3) cp(5) b(v3)) {level 1} {cost 200} {score 25} {fore -3.5}}
 
+;T2 Тактич Stalker Rifle / hunter
+("squad_with4types_vehicle" side(dgs) name(sq_tact_vet_hunter_drop) 			c(240) g(squad_6) v1(chaos_drop_pod) c1(tactic_vet_lider_plasma:1) c2(tactic_vet_bg:2) c3(tactic_vet_bg:2) c4(tactic_vet_bg_01:1)  b(squad2) t(bolter par) level(1) cost(450) f(-1))
+;T2 Тактич RPG
+("squad_with4types_vehicle" side(dgs) name(sq_tact_vet_bg_rl_drop) 			c(240) g(squad_6) v1(chaos_drop_pod) c1(tactic_vet_lider_plasma:1) c2(tactic_vet_bg:2) c3(tactic_vet_pg:2) c4(tactic_vet_sb:1)  b(squad2) t(at par) level(1) cost(500) f(-1))
+;T2 Тактич gravi
+("squad_with4types_vehicle" side(dgs) name(sq_tact_vet_gravi_drop) 			c(300) g(squad_7) v1(chaos_drop_pod) c1(tactic_elite_ac:2) c2(tactic_elite_bg:1) c3(tactic_elite_bg_01:2) c4(tactic_elite_pg:1) b(squad2) t(gravgun special non) level(1) cost(550) f(-2.2))
+
+
+
+
+
+
 ;=================================Носорог=================================;
 
 ;Носорог (Боезапас)
-{"plague_rhino" 									("v_1_i_1" c(120) c1(plague_rhino) 			t(all non) s(dgs) n1(tanker:2) cp(5) g(btr_4) b(v3)) {level 1} {cost 150} {score 25} {fore -1}}
+{"plague_rhino" 									("v_1_i_1" c(120) c1(plague_rhino) 			t(all non) s(dgs) n1(tanker:2) cp(5) g(btr_4) b(v3)) {level 1} {cost 150} {score 150} {fore -1}}
 
 ;Носорог - тяжелый болтер
-{"plague_razorback"									("v_1_i_1" c(120) c1(plague_razorback) 		t(all sup_a_inf) s(dgs) n1(tanker:4) g(btr_1) cp(15) b(v3)) {cost 200} {score 30} {fore -3.5}}
+{"plague_razorback"									("v_1_i_1" c(120) c1(plague_razorback) 		t(all sup_a_inf) s(dgs) n1(tanker:4) g(btr_1) cp(15) b(v3)) {cost 200} {score 200} {fore -3.5}}
 
 ;Носорог - лазпушка
-{"plague_razorback_lc"								("v_1_i_1" c(240) c1(plague_razorback_lc) 	t(all sup_a_veh) s(dgs) n1(tanker:4) g(btr_5) cp(15) b(v3)) {cost 400} {score 35} {fore -1.25}}
+{"plague_razorback_lc"								("v_1_i_1" c(240) c1(plague_razorback_lc) 	t(all sup_a_veh) s(dgs) n1(tanker:4) g(btr_5) cp(15) b(v3)) {cost 400} {score 400} {fore -1.25}}
 
 
-{"da_rhino"					("v_1_i_1" c(120) c1(plague_rhino) 		t(all non) s(das) n1(Tanker:2) g(btr_2) cp(0) b(non)) {cost 150} {score 30} {fore -3.0}}
+;{"da_rhino"					("v_1_i_1" c(120) c1(plague_rhino) 		t(all non) s(das) n1(Tanker:2) g(btr_2) cp(0) b(non)) {cost 150} {score 30} {fore -3.0}}
 
 
-{"sq_dev_hb(das)"				("v_1_i_3" c(120) c1(plague_rhino) 		t(all sup_a_inf) s(das) n1(Tanker:2) n2(dev_hb:1) n3(tactic_bg:4) g(hw_1) cp(5) b(squad3)) {cost 250} {score 30} {fore 0}}
+{"sq_dev_hb(dgs)"				("v_1_i_3" c(120) c1(plague_rhino) 		t(all sup_a_inf) s(dgs) n1(Tanker:2) n2(dev_hb:1) n3(tactic_bg:4) g(hw_1) cp(0) b(squad3)) {cost 250} {score 300} {fore 0}}
 
-{"sq_dev_pc(das)"				("v_1_i_3" c(120) c1(plague_rhino) 		t(all sup_a_all) s(das) n1(Tanker:2) n2(dev_ac:1 n3(tactic_bg:4) g(hw_2) cp(5) b(squad3)) {cost 350} {score 30} {fore -3}}
+{"sq_dev_pc(dgs)"				("v_1_i_3" c(120) c1(plague_rhino) 		t(all sup_a_all) s(dgs) n1(Tanker:2) n2(dev_ac:1) n3(tactic_bg:4) g(hw_2) cp(0) b(squad3)) {cost 350} {score 300} {fore -3}}
 
-{"sq_dev_mm(das)"				("v_1_i_3" c(120) c1(plague_rhino) 		t(all sup_a_veh) s(das) n1(Tanker:2) n2(dev_prl:1) n3(tactic_bg:4) g(hw_2) cp(5) b(squad3)) {cost 350} {score 30} {fore -3}}
+{"sq_dev_mm(dgs)"				("v_1_i_3" c(120) c1(plague_rhino) 		t(all sup_a_veh) s(dgs) n1(Tanker:2) n2(dev_prl:1) n3(tactic_bg:4) g(hw_2) cp(0) b(squad3)) {cost 350} {score 300} {fore -3}}
 
 
-{"sq_dev_vet_lc(das)"			("v_1_i_3" c(240) c1(plague_rhino) 		t(all sup_a_veh) s(das) n1(Tanker:2) n2(tactic_vet_lider_plasma:1) n3(tactic_vet_sb:2) g(hw_4) n4(tactic_vet_bg_01:3) n5(dev_hb:0) cp(5) b(squad3)) {cost 350} {score 30} {fore -1}}
+{"sq_dev_vet_lc(dgs)"			("v_1_i_4" c(240) c1(plague_rhino) 		t(all sup_a_all) s(dgs) n1(Tanker:2) n2(tactic_vet_lider_plasma:1) n3(tactic_vet_sb:2) n4(tactic_vet_bg_01:3) g(hw_4) cp(0) b(squad4)) {cost 450} {score 300} {fore -1}}
 
-{"sq_dev_vet_pc(das)"			("v_1_i_3" c(300) c1(plague_rhino) 		t(all sup_a_all) s(das) n1(Tanker:2) n2(tactic_vet_lider_plasma:1) n3(tactic_vet_bg:2) g(hw_5) n4(tactic_vet_pg:2) n5(tactic_vet_sb:1)) cp(5) b(squad3)) {cost 450} {score 30} {fore -2.2}}
+{"sq_dev_vet_pc(dgs)"			("v_1_i_4" c(300) c1(plague_rhino) 		t(all sup_a_all) s(dgs) n1(Tanker:2) n2(tactic_vet_lider_plasma:1) n3(tactic_vet_bg:3) n4(tactic_vet_pg:2) g(hw_4) cp(0) b(squad4)) {cost 500} {score 500} {fore -2.2}}
 
-{"sq_dev_vet_grav(das)"			("v_1_i_3" c(300) c1(plague_rhino) 		t(all sup_a_all) s(das) n1(Tanker:2) n2(tactic_elite_bg:2) n3(tactic_elite_bg_01:2) n4(tactic_elite_pg:1) n5(tactic_elite_ac:1) g(hw_5) cp(5) b(squad3)) {cost 600} {score 30} {fore -2.2}}
+{"sq_dev_vet_grav(dgs)"			("v_1_i_4" c(300) c1(plague_rhino) 		t(all sup_a_all) s(dgs) n1(Tanker:2) n2(tactic_elite_bg:2) n3(tactic_elite_bg_01:2) n4(tactic_elite_pg:2) g(hw_5) cp(0) b(squad4)) {cost 600} {score 600} {fore -2.2}}
 
 
 

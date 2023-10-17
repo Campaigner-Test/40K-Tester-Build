@@ -14,7 +14,7 @@
 
 
 ;Отряд ветеранов
-("squad_with6types" side(kgs) name(sq_vet_lg)			c(50) g(sq_vet) c1(ig_vet_lg:2) c2(ig_vet_lg_01:2) c3(ig_vet_lg_02:2) c4(ig_officer:1) c5(ig_vet_vox:1) c6(ig_grenader_hg:2) b(squad1) t(heavy_lasgun inf_vet) level(1) cost(100) f(-5))
+("squad_with6types" side(kgs) name(sq_vet_lg)			c(50) g(sq_vet) c1(ig_vet_lg:2) c2(ig_vet_lg_01:2) c3(ig_vet_hb:0) c4(ig_officer:1) c5(ig_vet_vox:1) c6(ig_grenader_hg:4) b(squad1) t(heavy_lasgun inf_vet) level(1) cost(100) f(-5))
 
 ;Отряд ветеранов с плазмами
 ("squad_with5types" side(kgs) name(sq_vet_pg)			c(50) g(sq_vet) c1(ig_vet_lg:2) c2(ig_vet_lg_01:3) c3(ig_vet_pg:3) c4(ig_vet_pg:1) c5(ig_vet_vox:1) b(squad1) t(heavy_lasgun plasma inf_vet) level(1) cost(150) f(-5))
@@ -34,7 +34,7 @@
 ("squad_with1types" side(kgs) name(sq_ac) 					c(30) g(squad_2) c1(ig_vet_ac:4) b(squad3) t(heavy_bolter inf_a_inf) level(1) cost(80) f(-1))
 
 ;Криговцы с тяж болтером.
-("squad_with1types" side(kgs) name(sq_hb) 					c(30) g(squad_2) c1(ig_hb:4) b(squad3) t(heavy_bolter inf_a_inf) level(1) cost(80) f(-1))
+("squad_with1types" side(kgs) name(sq_hb) 					c(30) g(squad_2) c1(ig_vet_hb:4) b(squad3) t(heavy_bolter inf_a_inf) level(1) cost(100) f(-1))
 
 ;Снайперы
 ("squad_with2types" side(kgs) name(sq_sr) 					c(60) g(squad_5) c1(ig_raz:4) c2(ig_sr:6) b(squad3) t(spotter non) level(1) cost(80) f(-3))

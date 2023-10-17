@@ -21,7 +21,7 @@
 ("squad_with1types" side(bls) name(sq_nm_sonic) 		c(120) g(squad_6) c1(nm_sonic:4) b(squad1) t(at inf_a_inf) level(1) cost(200) f(-1.5))
 
 ;Отряд Рубриков c огнеметами
-("squad_with4types" side(bls) name(sq_rubric_fl) 		c(600) g(squad_5) c1(rubric_sorcerer:1) c2(rubric_01:1) c3(rubric_02:1) c4(rubric_fl:2) b(squad1)
+("squad_with4types" side(bls) name(sq_rubric_fl) 		c(600) g(squad_5) c1(rubric_sorcerer:1) c2(rubric_01:1) c3(rubric_02:1) c4(rubric_fl:2) b(squad1) 																	t(all infantry inf_sab) level(1) 		cost(560) f(-0.8))
 
 ;Отряд Рубриков
 ("squad_with5types" side(bls) name(sq_rubric) 			c(600) g(squad_4) c1(rubric_sorcerer:1) c2(rubric_01:1) c3(rubric_02:1) c4(rubric_03:1) c5(rubric:2) b(squad1) t(sniper inf_sab) level(1) cost(600) f(-0.8))
@@ -69,19 +69,19 @@
 ;=================================Одиночные бойцы=================================;
 
 ;Десантник с огнемётом
-("squad_with1types" side(bls) name(tact_fl) 	c(60) g(sq_1) c1(tactic_fl:1) b(squad2) t(plasma inf_a_inf) level(1) cost(65) f(-1.0))
+("squad_with1types" side(bls) name(tact_fl) 	c(60) g(sq_1) c1(tactic_fl:3) b(squad2) t(plasma inf_a_inf) level(1) cost(150) f(-1.0))
 
 ;Десантник с мельтой
-("squad_with1types" side(bls) name(tact_ml) 	c(60) g(sq_2) c1(tactic_ml:1) b(squad2) t(melta inf_a_veh) level(1) cost(65) f(-1))
+("squad_with1types" side(bls) name(tact_ml) 	c(60) g(sq_2) c1(tactic_ml:3) b(squad2) t(melta inf_a_veh) level(1) cost(150) f(-1))
 
 ;Десантник с ракетницей
 ("squad_with1types" side(bls) name(tact_rl) 	c(60) g(sq_3) c1(tactic_rl:1) b(squad2) t(at inf_a_veh) level(1) cost(150) f(-1))
 
 ;Десантник с плазмой
-("squad_with1types" side(bls) name(tact_pg) 	c(120) g(sq_4) c1(tactic_pg:1) b(squad2) t(plasma inf_vet) level(1) cost(85) f(-3.5))
+("squad_with1types" side(bls) name(tact_pg) 	c(120) g(sq_4) c1(tactic_pg:3) b(squad2) t(plasma inf_vet) level(1) cost(200) f(-3.5))
 
 ;Танкисты десантники
-("squad_with1types" side(bls) name(crew) 		c(120) g(sq_5) c1(tanker:4) b(squad2) t(tankman non) level(1) cost(75) f(-3.5))
+("squad_with1types" side(bls) name(crew) 		c(120) g(sq_5) c1(tanker:4) b(squad2) t(tankman non) level(1) cost(1160) f(-3.5))
 
 
 ;==================================Носороги=========================	--- b(v2) ----

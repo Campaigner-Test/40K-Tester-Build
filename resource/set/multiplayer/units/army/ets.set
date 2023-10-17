@@ -93,7 +93,7 @@
 {"ig_drop_tarantul_rl(ets)"					("v_1_i_0" c(120) c1(ig_drop_tarantul_rl)	t(all par) s(ets) g(art_3) cp(2) b(v2)) {cost 200} {fore -0}}
 
 ;Тарантул
-{"ig_drop_tarantul_ml(ets)"					("v_1_i_0" c(120) c1(ig_drop_tarantul_ml)	t(all par) s(ets) g(art_4) cp(2) b(v2)) {cost 100} {fore -0}}
+;{"ig_drop_tarantul_ml(ets)"					("v_1_i_0" c(120) c1(ig_drop_tarantul_ml)	t(all par) s(ets) g(art_4) cp(2) b(v2)) {cost 100} {fore -0}}
 
 
 ;Налёт Валькирии 2 
