@@ -81,7 +81,7 @@
 ("squad_with1types" side(bls) name(tact_pg) 	c(120) g(sq_4) c1(tactic_pg:3) b(squad2) t(plasma inf_vet) level(1) cost(200) f(-3.5))
 
 ;Танкисты десантники
-("squad_with1types" side(bls) name(crew) 		c(120) g(sq_5) c1(tanker:4) b(squad2) t(tankman non) level(1) cost(1160) f(-3.5))
+("squad_with1types" side(bls) name(crew) 		c(120) g(sq_5) c1(tanker:4) b(squad2) t(tankman non) level(1) cost(160) f(-3.5))
 
 
 ;==================================Носороги=========================	--- b(v2) ----

@@ -69,10 +69,10 @@
 
 ;=================================Одиночные бойцы=================================;
 ;Десантник с огнемётом
-("squad_with1types" side(bas) name(tact_fl) 		c(60) g(sq_1) c1(tactic_fl:3) b(squad2) t(plasma inf_a_inf) level(1) cost(120) f(-1.0))
+("squad_with1types" side(bas) name(tact_fl) 		c(60) g(sq_1) c1(tactic_fl:3) b(squad2) t(plasma inf_a_inf) level(1) cost(150) f(-1.0))
 
 ;Десантник с мельтой
-("squad_with1types" side(bas) name(tact_ml) 		c(60) g(sq_2) c1(tactic_ml:3) b(squad2) t(melta inf_a_veh) level(1) cost(120) f(-1))
+("squad_with1types" side(bas) name(tact_ml) 		c(60) g(sq_2) c1(tactic_ml:3) b(squad2) t(melta inf_a_veh) level(1) cost(180) f(-1))
 
 ;Десантник с ракетницей
 ("squad_with2types" side(bas) name(tact_rl) 		c(60) g(sq_3) c1(tactic_rl) c2(tactic_bg:2) b(squad2) t(at inf_a_veh) level(1) cost(200) f(-1))

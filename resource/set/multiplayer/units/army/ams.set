@@ -1,40 +1,48 @@
 ﻿;=================================Отряды=================================;
 
-;Отряд Скитари
-("squad_with2types" side(ams) name(sq_ranger) 		c(30) g(sq_1) c1(skitarii_ranger:8) c2(skitarii_ranger_gr:2) b(squad1) t(rifle fl inf_tac) level(1) cost(70) f(1))
+;Отряд Скитари- Ranger
+("squad_with2types" side(ams) name(sq_ranger) 		c(30) g(sq_1) c1(skitarii_ranger:6) c2(skitarii_ranger_gr:4) b(squad1) t(rifle fl inf_tac) level(1) cost(75) f(1))
 
 ;Отряд Скитари электро
-("squad_with3types" side(ams) name(sq_ranger_arc) 	c(30) g(sq_2) c1(skitarii_ranger:4) c2(skitarii_ranger_gr:3) c3(skitarii_ranger_arc:3) b(squad1) t(emi arc inf_a_all) level(1) cost(140) f(1))
+("squad_with3types" side(ams) name(sq_ranger_arc) 	c(30) g(sq_2) c1(skitarii_ranger:4) c2(skitarii_ranger_gr:4) c3(skitarii_ranger_arc:2) b(squad1) t(emi arc inf_a_all) level(1) cost(100) f(1))
 
 ;Отряд Скитари плазма
-("squad_with3types" side(ams) name(sq_ranger_pg) 	c(30) g(sq_2) c1(skitarii_ranger:4) c2(skitarii_ranger_gr:3) c3(skitarii_ranger_pg:3) b(squad1) t(plasma inf_vet) level(1) cost(120) f(1))
+("squad_with3types" side(ams) name(sq_ranger_pg) 	c(30) g(sq_2) c1(skitarii_ranger:4) c2(skitarii_ranger_gr:4) c3(skitarii_ranger_pg:2) b(squad1) t(plasma inf_vet) level(1) cost(125) f(1))
 
 
 
 ;Отряд Авангард
-("squad_with2types" side(ams) name(sq_vet_rad) 	c(50) g(sq_3) c1(skitarii_vanguard_rad:9) c2(skitarii_vanguard_gamma:1) b(squad1) t(emi arc inf_vet) level(1) cost(180) f(-5))
+("squad_with2types" side(ams) name(sq_vet_rad) 	c(50) g(sq_3) c1(skitarii_vanguard_rad:9) c2(skitarii_vanguard_gamma:1) b(squad1) t(emi arc inf_vet) level(1) cost(200) f(-5))
 
 ;Отряд Авангард электро
-("squad_with3types" side(ams) name(sq_vet_arc) 	c(50) g(sq_3) c1(skitarii_vanguard_rad:6) c2(skitarii_vanguard_arc:3) c3(skitarii_vanguard_gamma:1) b(squad1) t(emi arc inf_vet) level(1) cost(200) f(-5))
+("squad_with3types" side(ams) name(sq_vet_arc) 	c(50) g(sq_3) c1(skitarii_vanguard_rad:5) c2(skitarii_vanguard_arc:4) c3(skitarii_vanguard_gamma:1) b(squad1) t(emi arc inf_vet) level(1) cost(200) f(-5))
 
 ;Отряд Авангард плазма
-("squad_with3types" side(ams) name(sq_vet_pg) 	c(50) g(sq_3) c1(skitarii_vanguard_rad:6) c2(skitarii_vanguard_pg:3) c3(skitarii_vanguard_gamma:1) b(squad1) t(plasma inf_vet) level(1) cost(200) f(-5))
+("squad_with3types" side(ams) name(sq_vet_pg) 	c(50) g(sq_3) c1(skitarii_vanguard_rad:5) c2(skitarii_vanguard_pg:4) c3(skitarii_vanguard_gamma:1) b(squad1) t(plasma inf_vet) level(1) cost(250) f(-5))
 
 
 ;Отряд Авангард фосфорки
-("squad_with2types" side(ams) name(sq_vet_ph) 	c(50) g(sq_4) c1(skitarii_vanguard_rad:4) c2(skitarii_vanguard_ph:5) c3(skitarii_vanguard_gamma:1) b(squad1) t(plasma inf_vet) level(1) cost(180) f(-5))
+("squad_with2types" side(ams) name(sq_vet_ph) 	c(50) g(sq_4) c1(skitarii_vanguard_rad:5) c2(skitarii_vanguard_ph:4) c3(skitarii_vanguard_gamma:1) b(squad1) t(plasma inf_vet) level(1) cost(175) f(-5))
 
 
 
 ;Отряд секутариев электро
-("squad_with4types" side(ams) name(sq_sec_arc) 	c(120) g(sq_5) c1(secutarii:4) c2(secutarii_charge:2) c3(secutarii_arc:3) c4(secutarii_serg:1) b(squad1) t(emi arc inf_vet) level(1) cost(320) f(-3.5))
+("squad_with4types" side(ams) name(sq_sec_arc) 	c(120) g(sq_5) c1(secutarii:4) c2(secutarii_charge:2) c3(secutarii_arc:3) c4(secutarii_serg:1) b(squad1) t(emi arc inf_vet) level(1) cost(300) f(-3.5))
 
 ;Отряд секутариев рад
 ("squad_with4types" side(ams) name(sq_sec_rad) 	c(120) g(sq_5) c1(secutarii:4) c2(secutarii_charge:2) c3(secutarii_rad:3) c4(secutarii_serg:1) b(squad1) t(emi arc inf_vet) level(1) cost(300) f(-3.5))
 
+;Отряд гоплитов
+("squad_with2types" side(ams) name(sq_sec_hop) 	c(120) g(sq_6) c1(secutarii_hoplit:9) c2(secutarii_serg:1) b(squad1) t(all infantry inf_vet) level(1) cost(400) f(-5))
+
+;Инженеры
+("squad_with1types" side(ams) name(ams_engener1) 	c(240) g(engineer) c1(ams_techpriest_1:1) b(squad1) 																		t(all infantry limit_2 inf_bld) level(1) 	cost(90) f(0.5))
+
+("squad_with1types" side(ams) name(ams_engener2) 	c(300) g(engineer) c1(ams_techpriest_2:1) b(squad1) 																		t(all infantry limit_2 inf_bld) level(1) 	cost(180) f(-0.8))
+
 
 ;Танкисты
-("squad_with1types" side(ams) name(sq_ranger_tank) 	c(60) g(sq_6) c1(tanker:8) b(squad1) t(all non) level(1) cost(60) f(-1))
+("squad_with1types" side(ams) name(sq_ranger_tank) 	c(50) g(sq_6) c1(tanker:10) b(squad1) t(all non) level(1) cost(50) f(-1))
 
 ;================================= sent =================================;
 
@@ -42,10 +50,10 @@
 {"dragoon"					("v_1_i_0" c(60) c1(dragoon) 				t(all sup_a_inf) s(ams) g(b11) cp(3) b(sent)) {level 1} {cost 80} {score 80} {fore -2}}
 
 ;Часовой - автопушки
-{"ironstrider"				("v_1_i_1" c(60) c1(ironstrider) t(all sup_sct) s(ams) n1(tanker_vanguard:1) g(b14) cp(5) b(sent)) {level 1} {cost 180} {score 180} {fore -4}}
+{"ironstrider"				("v_1_i_1" c(60) c1(ironstrider) t(all sup_sct) s(ams) n1(tanker_vanguard:1) g(b14) cp(5) b(sent)) {level 1} {cost 120} {score 180} {fore -4}}
 
 ;Часовой - лазпушки
-{"ironstrider_las"			("v_1_i_1" c(60) c1(ironstrider_las) t(all sup_a_veh) s(ams) n1(tanker_vanguard:1) g(b15) cp(5) b(sent)) {level 1} {cost 220} {score 220} {fore -8}}
+{"ironstrider_las"			("v_1_i_1" c(60) c1(ironstrider_las) t(all sup_a_veh) s(ams) n1(tanker_vanguard:1) g(b15) cp(5) b(sent)) {level 1} {cost 160} {score 220} {fore -8}}
 
 ;Сервиторы - болтер
 {"sq_servitor_hb"			("v_5_i_0" c(120) c1(servitor_hb) c2(servitor_hb) c3(servitor_hb) c4(servitor_hb) c5(servitor_hb)	 		t(all sup_a_inf) s(ams) g(hw_2) cp(6) b(sent)) {level 1} {cost 100} {score 100} {fore 0}}
@@ -59,10 +67,10 @@
 
 
 ;Автоматон
-{"automata"					("v_1_i_0" c(60) c1(walk_turret:2) 		t(all sup_a_inf) s(ams) g(hw_5) cp(6) b(sent)) {level 1} {cost 110} {score 110} {fore -1}}
+{"automata"					("v_1_i_0" c(60) c1(walk_turret:2) 		t(all sup_a_inf) s(ams) g(hw_5) cp(6) b(sent)) {level 1} {cost 110} {score 100} {fore -1}}
 
 ;Автоматон с ракетами
-{"automata_rocket"					("v_2_i_0" c(60) c1(walk_turret:0) c2(walk_turret_rocket:2) 		t(all sup_a_veh) s(ams) g(hw_6) cp(6) b(sent)) {level 1} {cost 140} {score 140} {fore -1}}
+{"automata_rocket"					("v_2_i_0" c(60) c1(walk_turret:0) c2(walk_turret_rocket:2) 		t(all sup_a_veh) s(ams) g(hw_6) cp(6) b(sent)) {level 1} {cost 140} {score 125} {fore -1}}
 
 ;Автоматон с мультилазерами
 {"automata_multi"					("v_1_i_0" c(90) c1(walk_turret_multi:2) 		t(all sup_a_inf) s(ams) g(hw_7) cp(6) b(sent)) {level 1} {cost 150} {score 150} {fore -2}}
@@ -89,20 +97,20 @@
 {"breacher_arc"						("v_1_i_0" c(120) c1(breacher_arc) 	cp(5)	t(all veh_a_all) s(ams) g(tank_1) b(v3)) {cost 250} {score 250} {fore -3.5}}
 
 ;Бричер - торcион
-{"breacher_torsion"					("v_1_i_0" c(120) c1(breacher_torsion) 	cp(10)	t(all veh_a_all) s(ams) g(tank_1) b(v3)) {cost 420} {score 420} {fore -3.5}}
+{"breacher_torsion"					("v_1_i_0" c(120) c1(breacher_torsion) 	cp(10)	t(all veh_a_all) s(ams) g(tank_1) b(v3)) {cost 400} {score 420} {fore -3.5}}
 
 
 ;Уничтожитель
-{"kat_dstr_grav_flam"				("v_1_i_0" c(120) c1(kat_dstr_grav_flam) 	cp(20)	t(all veh_a_all) s(ams) g(tank_2) b(v3)) {cost 566} {score 566} {fore -8}}
+{"kat_dstr_grav_flam"				("v_1_i_0" c(120) c1(kat_dstr_grav_flam) 	cp(20)	t(all veh_a_all) s(ams) g(tank_2) b(v3)) {cost 500} {score 566} {fore -8}}
 
 ;Уничтожитель
-{"kat_dstr_grav_phos"				("v_1_i_0" c(120) c1(kat_dstr_grav_phos) 	cp(20)	t(all veh_a_all) s(ams) g(tank_2) b(v3)) {cost 566} {score 566} {fore -8}}
+{"kat_dstr_grav_phos"				("v_1_i_0" c(120) c1(kat_dstr_grav_phos) 	cp(20)	t(all veh_a_all) s(ams) g(tank_2) b(v3)) {cost 500} {score 566} {fore -8}}
 
 ;Уничтожитель
-{"kat_dstr_pls_flam"				("v_1_i_0" c(120) c1(kat_dstr_pls_flam) 	cp(20)	t(all veh_a_all) s(ams) g(tank_3) b(v3)) {cost 500} {score 500} {fore -3.5}}
+{"kat_dstr_pls_flam"				("v_1_i_0" c(120) c1(kat_dstr_pls_flam) 	cp(20)	t(all veh_a_all) s(ams) g(tank_3) b(v3)) {cost 450} {score 500} {fore -3.5}}
 
 ;Уничтожитель
-{"kat_dstr_pls_phos"				("v_1_i_0" c(120) c1(kat_dstr_pls_phos) 	cp(20)	t(all veh_a_all) s(ams) g(tank_3) b(v3)) {cost 500} {score 500} {fore -3.5}}
+{"kat_dstr_pls_phos"				("v_1_i_0" c(120) c1(kat_dstr_pls_phos) 	cp(20)	t(all veh_a_all) s(ams) g(tank_3) b(v3)) {cost 450} {score 500} {fore -3.5}}
 
 ;Кастелян Огнемёт
 {"kastellan_flamer"					("v_1_i_0" c(120) c1(kastellan_flamer) 	cp(10)	t(all veh_a_inf) s(ams) g(tank_3) b(v3)) {cost 350} {score 350} {fore -3.5}}

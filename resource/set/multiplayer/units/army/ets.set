@@ -3,10 +3,10 @@
 ("squad_with4types" side(ets) name(sq_lg) 		c(30) g(sq_1) c1(ig_serg:1) c2(ig_lg:7) c3(ig_gl:1) c4(ig_hb:1) b(squad1) t(lasgun inf_com) level(1) cost(75) f(1))
 
 ;Отряд рядовых с плазмой
-("squad_with3types" side(ets) name(sq_pg) 		c(30) g(sq_2) c1(ig_serg:1) c2(ig_lg:6) c3(ig_pg:2) b(squad1) t(plasma inf_tac) level(1) cost(75) f(1))
+("squad_with3types" side(ets) name(sq_pg) 		c(30) g(sq_2) c1(ig_serg:1) c2(ig_lg:7) c3(ig_pg:2) b(squad1) t(plasma inf_tac) level(1) cost(75) f(1))
 
 ;Отряд рядовых с ПТ
-("squad_with4types" side(ets) name(sq_at1) 		c(30) g(sq_2) c1(ig_serg:1) c2(ig_lg:2) c3(ig_ml:3) c4(ig_rl:4) b(squad1) t(melta inf_a_veh) level(1) cost(75) f(1))
+("squad_with4types" side(ets) name(sq_ml) 		c(30) g(sq_2) c1(ig_serg:1) c2(ig_lg:2) c3(ig_ml:3) c4(ig_rl:4) b(squad1) t(melta inf_a_veh) level(1) cost(75) f(1))
 
 
 ;Отряд ветеранов 
@@ -16,19 +16,17 @@
 ("squad_with4types" side(ets) name(sq_vet_pg)	c(50) g(sq_4) c1(ig_vet_serg:1) c2(ig_vet_lg:4) c3(ig_vet_pg:4) c4(ig_vet_hb:1) b(squad1) t(lasgun_lasgun plasma inf_vet) level(1) cost(150) f(-5))
 
 ;Отряд ветеранов с мельтами
-("squad_with4types" side(ets) name(sq_vet_ml)	c(50) g(sq_4) c1(ig_vet_serg:1) c2(ig_vet_lg:2) c3(ig_vet_ml:2:3) c4(ig_vet_rl:4) b(squad1) t(heavy_lasgun melta inf_a_veh) level(1) cost(125) f(-5))
+("squad_with4types" side(ets) name(sq_vet_ml)	c(50) g(sq_5) c1(ig_vet_serg:1) c2(ig_vet_lg:1) c3(ig_vet_ml:4) c4(ig_vet_rl:4) b(squad1) t(heavy_lasgun melta inf_a_veh) level(1) cost(125) f(-5))
 
 
 ;Арт десант- Ветераны - Air Drop Laz
-{"elysian_air_drop_lg1"							("v_1_i_0" c(50) c1(elysian_air_drop_lg)		t(all par) s(ets) g(sq_5) cp(10) b(squad1)) {cost 210} {fore -9.8}}
-
-;Арт десант- Ветераны плазма-Air Drop Melta
-{"elysian_air_drop_ml2"							("v_1_i_0" c(50) c1(elysian_air_drop_ml)		t(all par) s(ets) g(sq_5) cp(10) b(squad1)) {cost 230} {fore -9.8}}
+{"elysian_air_drop_lg1"							("v_1_i_0" c(50) c1(elysian_air_drop_lg)		t(all par) s(ets) g(sq_5) cp(10) b(squad1)) {cost 200} {fore -9.8}}
 
 ;Арт десант- Ветераны мельта- Air Drop Plasma
 {"elysian_air_drop_pg1"							("v_1_i_0" c(50) c1(elysian_air_drop_pg)		t(all par) s(ets) g(sq_5) cp(10) b(squad1)) {cost 200} {fore -9.8}}
 
-
+;Арт десант- Ветераны плазма-Air Drop Melta
+{"elysian_air_drop_ml2"							("v_1_i_0" c(50) c1(elysian_air_drop_ml)		t(all par) s(ets) g(sq_5) cp(10) b(squad1)) {cost 200} {fore -9.8}}
 
 ;Отряд штурмовиков -отключен
 ("squad_with2types" side(ets) name(sq_storm)	c(300) g(etstrom) c1(harakon:9) c2(harakon_01:1) b(squad1) t(heavy_lasgun) level(1) cost(200) f(-0.8))
@@ -93,7 +91,7 @@
 {"ig_drop_tarantul_rl(ets)"					("v_1_i_0" c(120) c1(ig_drop_tarantul_rl)	t(all par) s(ets) g(art_3) cp(2) b(v2)) {cost 200} {fore -0}}
 
 ;Тарантул
-;{"ig_drop_tarantul_ml(ets)"					("v_1_i_0" c(120) c1(ig_drop_tarantul_ml)	t(all par) s(ets) g(art_4) cp(2) b(v2)) {cost 100} {fore -0}}
+{"ig_drop_tarantul_ml(ets)"					("v_1_i_0" c(120) c1(ig_drop_tarantul_ml)	t(all par) s(ets) g(art_4) cp(2) b(v2)) {cost 100} {fore -0}}
 
 
 ;Налёт Валькирии 2 
@@ -182,12 +180,11 @@
 ;Арт десант- Ветераны - Air Drop Laz
 {"elysian_air_drop_lg"							("v_1_i_0" c(50) c1(elysian_air_drop_lg)		t(all par) s(ets) g(sq_7) cp(10) b(hero)) {cost 1} {fore -9.8}}
 
-;Арт десант- Ветераны плазма-Air Drop Melta
-{"elysian_air_drop_ml"							("v_1_i_0" c(50) c1(elysian_air_drop_ml)		t(all par) s(ets) g(sq_8) cp(10) b(hero)) {cost 1} {fore -9.8}}
-
 ;Арт десант- Ветераны мельта- Air Drop Plasma
 {"elysian_air_drop_pg"							("v_1_i_0" c(50) c1(elysian_air_drop_pg)		t(all par) s(ets) g(sq_9) cp(10) b(hero)) {cost 1} {fore -9.8}}
 
+;Арт десант- Ветераны плазма-Air Drop Melta
+{"elysian_air_drop_ml"							("v_1_i_0" c(50) c1(elysian_air_drop_ml)		t(all par) s(ets) g(sq_8) cp(10) b(hero)) {cost 1} {fore -9.8}}
 
 ;Десант пехоты - огнеметы,гранатометы,дробаши... 1 сп 1 тир
 ;Десант пехоты - 20 лазганщиков. 1 сп 1 тир

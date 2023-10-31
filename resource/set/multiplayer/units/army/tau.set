@@ -1,31 +1,31 @@
 
 ;==========================================Пехота==========================
 ;Следопыты-Pathfinder
-("squad_with2types" side(tau) name(sq_pathfinder) 			c(30) g(sq_1) c1(pathfinder_serg:1) c2(pathfinder:7) b(squad1) t(pulse inf_com) level(1) cost(80) f(1))
+("squad_with2types" side(tau) name(sq_pathfinder) 			c(30) g(sq_1) c1(pathfinder_serg:1) c2(pathfinder:9) b(squad1) t(pulse inf_com) level(1) cost(100) f(1))
 
 ;гвардейцы
-("squad_with3types" side(tau) name(sq_tau_guard) 			c(30) g(sq_2) c1(tau_guard_serg_pr:1) c2(tau_guard_lg:4) c3(tau_guard_lg_01:5) b(squad1) t(all inf_com) level(1) cost(30) f(1))
+("squad_with3types" side(tau) name(sq_tau_guard) 			c(30) g(sq_2) c1(tau_guard_serg_pr:1) c2(tau_guard_lg:4) c3(tau_guard_lg_01:5) b(squad1) t(all inf_com) level(1) cost(25) f(1))
 
 ;Крууты-Kroot Hunters
-("squad_with2types" side(tau) name(kroothunters) 			c(30) g(sq_1) c1(kroot_shaper:1) c2(kroot:7) b(squad1) t(pulse inf_sab) level(1) cost(100) f(1))
+("squad_with2types" side(tau) name(kroothunters) 			c(30) g(sq_1) c1(kroot_shaper:1) c2(kroot:9) b(squad1) t(pulse inf_sab) level(1) cost(200) f(1))
 
 ;Войны огня - Карабины-Pulse Carbines
-("squad_with2types" side(tau) name(sq_fw_carabine) 			c(50) g(sq_3) c1(fw_serg:1) c2(fw:9) b(squad1) t(pulse inf_tac) level(4) cost(100) f(-5))
+("squad_with2types" side(tau) name(sq_fw_carabine) 			c(50) g(sq_3) c1(fw_serg:1) c2(fw:9) b(squad1) t(pulse inf_tac) level(4) cost(100) f(-4))
 
 ;Войны огня - Винтовки-Pulse Rifles
-("squad_with2types" side(tau) name(sq_fw) 					c(50) g(sq_3) c1(fw_serg_pr:1) c2(fw_pr:9) b(squad1) t(pulse inf_tac) level(1) cost(125) f(-5))
+("squad_with2types" side(tau) name(sq_fw) 					c(50) g(sq_4) c1(fw_serg_pr:1) c2(fw_pr:9) b(squad1) t(pulse inf_tac) level(1) cost(100) f(-4))
 
 ;Веспиды-Vespid
-("squad_with1types" side(tau) name(vespid_squad) 			c(50) g(sq_4) c1(vespid:5) b(squad1) t(pulse inf_a_inf) level(1) cost(200) f(-5))
+("squad_with1types" side(tau) name(vespid_squad) 			c(50) g(sq_5) c1(vespid:5) b(squad1) t(pulse inf_a_inf) level(1) cost(250) f(-9))
 
 ;Элита войнов огня - Карабины- Vet Pulse Carbine
-("squad_with2types" side(tau) name(sq_vet_fw_carabine) 		c(50) g(sq_5) c1(fw_vet_serg:1) c2(fw_vet:9) b(squad1) t(pulse inf_vet) level(4) cost(200) f(-9.8))
+("squad_with2types" side(tau) name(sq_vet_fw_carabine) 		c(50) g(sq_6) c1(fw_vet_serg:1) c2(fw_vet:9) b(squad1) t(pulse inf_vet) level(4) cost(150) f(-7))
 
 ;Элита войнов огня - Винтовки-Vet Pulse Rifle
-("squad_with2types" side(tau) name(sq_vet_fw) 				c(50) g(sq_5) c1(fw_vet_serg_pr:1) c2(fw_vet_pr:9) b(squad1) t(pulse inf_vet) level(4) cost(225) f(-9.8))
+("squad_with2types" side(tau) name(sq_vet_fw) 				c(50) g(sq_7) c1(fw_vet_serg_pr:1) c2(fw_vet_pr:9) b(squad1) t(pulse inf_vet) level(4) cost(150) f(-7))
 
 ;Штурмовые войны огня- Pulse Blaster
-("squad_with2types" side(tau) name(sq_assault_fw) 				c(50) g(sq_6) c1(assault_fw_serg:1) c2(assault_fw:9) b(squad1) t(pulse inf_a_inf) level(4) cost(225) f(-9.8))
+("squad_with2types" side(tau) name(sq_assault_fw) 				c(50) g(sq_8) c1(assault_fw_serg:1) c2(assault_fw:9) b(squad1) t(pulse inf_a_inf) level(4) cost(175) f(-7))
 
 
 ;Дрон - генератор щитов
@@ -38,7 +38,7 @@
 {"tau_drone_ml"												("v_1_i_0" c(60) c1(tau_attack_drone_ml) 		t(all non) s(tau) g(sq_7) cp(5) b(squad1)) {level 1} {cost 150} {score 150} {fore -1}}
 
 ;Дрон - Спареные Скорострелки
-{"tau_gun_drone"											("v_3_i_0" c(120) c1(tau_gun_drone_bc) c2(tau_gun_drone_bc) c3(tau_gun_drone_bc) 		t(all non) s(tau) g(sq_7) cp(5) b(squad1)) {level 1} {cost 180} {score 180} {fore -1.5}}
+{"tau_gun_drone"											("v_3_i_0" c(120) c1(tau_gun_drone_bc) c2(tau_gun_drone_bc) c3(tau_gun_drone_bc) 		t(all non) s(tau) g(sq_7) cp(5) b(squad1)) {level 1} {cost 180} {score 175} {fore -1.5}}
 
 ;=================================Спецотряды=================================;
 ;Следопыты с рейлганом
@@ -48,7 +48,7 @@
 ("squad_with2types" side(tau) name(sq_pathfinder_ion) 		c(300) g(squad_2) c1(pathfinder_serg_ion:1) c2(pathfinder_ion:4) b(squad3) t(ion inf_a_inf) level(1) cost(100) f(-0.8))
 
 ;Маскировочный отряд XV15 - бурстки
-("squad_with2types" side(tau) name(sq_XV15) 				c(120) g(squad_3) c1(xv15:4) c2(xv25:1) b(squad3) t(stealth pulse inf_a_inf) level(1) cost(180) f(-1))
+("squad_with2types" side(tau) name(sq_XV15) 				c(120) g(squad_3) c1(xv15:4) c2(xv25:1) b(squad3) t(stealth pulse inf_a_inf) level(1) cost(150) f(-1))
 
 ;Маскировочный отряд XV15 - Ионный бластер
 ("squad_with1types" side(tau) name(sq_XV15_at) 				c(120) g(squad_3) c1(xv15_at:2) b(squad3) t(stealth inf_a_veh) level(1) cost(200) f(-3.5))
@@ -81,7 +81,7 @@
 
 ;=================================Артиллерия=================================; v2
 ;Звёздный Лучь
-{"skyray"							("v_1_i_1" c(300) c1(skyray) t(all veh_art) s(tau) 		n1(tanker:4) g(art_1) cp(20) b(v1)) {level 1} {cost 400} {score 400} {fore -0.8}}
+{"skyray"							("v_1_i_1" c(300) c1(skyray) t(all veh_art) s(tau) 		n1(tanker:4) g(art_1) cp(10) b(v1)) {level 1} {cost 400} {score 400} {fore -0.8}}
 
 ;Орбитальный удар
 {"tau_skyray_strike"				("v_1_i_0" c(480) c1(tau_skyray_strike)		t(all strike) s(tau) g(art_2) cp(0) b(v1)) {cost 200} {fore -1.25}}
@@ -96,22 +96,22 @@
 {"sq_xv8_1"						("v_3_i_0" c(120) c1(xv8_crisis_fl_x2) c2(xv8_crisis_arb_fl) c3(xv8_crisis_bc_fl) 		t(all veh_a_inf) s(tau) g(crysis_1) cp(6) b(v3)) {level 1} {cost 300} {score 390} {fore -3.5}}
 
 ;Кризисы - Скорострел пушки
-{"sq_xv8_2"						("v_3_i_0" c(120) c1(xv8_crisis_bc_fl) c2(xv8_crisis_bc_x2) c3(xv8_crisis_fus_bc) 		t(all veh_a_all) s(tau) g(crysis_1) cp(6) b(v3)) {level 1} {cost 390} {score 390} {fore -3.5}}
+{"sq_xv8_2"						("v_3_i_0" c(120) c1(xv8_crisis_bc_fl) c2(xv8_crisis_bc_x2) c3(xv8_crisis_fus_bc) 		t(all veh_a_all) s(tau) g(crysis_1) cp(6) b(v3)) {level 1} {cost 350} {score 390} {fore -3.5}}
 
 ;Crises - Blasters
-{"sq_xv8_3"						("v_3_i_0" c(120) c1(xv8_crisis_fus_fl) c2(xv8_crisis_fus_x2) c3(xv8_crisis_fus_bc) 	t(all veh_a_veh) s(tau) g(crysis_1) cp(6) b(v3)) {level 1} {cost 420} {score 420} {fore -3.5}}
+{"sq_xv8_3"						("v_3_i_0" c(120) c1(xv8_crisis_fus_fl) c2(xv8_crisis_fus_x2) c3(xv8_crisis_fus_bc) 	t(all veh_a_veh) s(tau) g(crysis_1) cp(6) b(v3)) {level 1} {cost 400} {score 420} {fore -3.5}}
 
 ;Crises - Grenade launchers
-{"sq_xv8_4"						("v_3_i_0" c(120) c1(xv8_crisis_arb_x2) c2(xv8_com_pc_arb) c3(xv8_crisis_fus_arb) 		t(all veh_a_inf) s(tau) g(crysis_2) cp(6) b(v3)) {level 1} {cost 480} {score 480} {fore -3.5}}
+{"sq_xv8_4"						("v_3_i_0" c(120) c1(xv8_crisis_arb_x2) c2(xv8_com_pc_arb) c3(xv8_crisis_fus_arb) 		t(all veh_a_inf) s(tau) g(crysis_2) cp(6) b(v3)) {level 1} {cost 450} {score 480} {fore -3.5}}
 
 ;Crises - Plasma
-{"sq_xv8_5"						("v_3_i_0" c(120) c1(xv8_crisis_pc_x2) c2(xv8_com_pc_arb) c3(xv8_crisis_pc_bc) 			t(all veh_a_inf) s(tau) g(crysis_2) cp(6) b(v3)) {level 1} {cost 480} {score 480} {fore -3.5}}
+{"sq_xv8_5"						("v_3_i_0" c(120) c1(xv8_crisis_pc_x2) c2(xv8_com_pc_arb) c3(xv8_crisis_pc_bc) 			t(all veh_a_inf) s(tau) g(crysis_2) cp(6) b(v3)) {level 1} {cost 450} {score 480} {fore -3.5}}
 
 ;Crises - Elite Blasters
-{"sq_xv8_6"						("v_3_i_0" c(120) c1(xv8_crisis_fus_x2) c2(xv8_com_pc_arb) c3(xv8_crisis_fus_bc) 		t(all veh_a_veh) s(tau) g(crysis_3) cp(6) b(v3)) {level 1} {cost 480} {score 480} {fore -3.5}}
+{"sq_xv8_6"						("v_3_i_0" c(120) c1(xv8_crisis_fus_x2) c2(xv8_com_pc_arb) c3(xv8_crisis_fus_bc) 		t(all veh_a_veh) s(tau) g(crysis_3) cp(6) b(v3)) {level 1} {cost 450} {score 480} {fore -3.5}}
 
 ;Кризисы - Элита гранатомёты
-{"sq_xv8_7"						("v_3_i_0" c(120) c1(xv8_armored_pc_arb) c2(xv8_arm_com_pc_arb) c3(xv8_armored_pc_arb) 	t(all veh_a_inf) s(tau) g(crysis_3) cp(6) b(v3)) {level 1} {cost 500} {score 500} {fore -3.5}}
+{"sq_xv8_7"						("v_3_i_0" c(120) c1(xv8_armored_pc_arb) c2(xv8_arm_com_pc_arb) c3(xv8_armored_pc_arb) 	t(all veh_a_inf) s(tau) g(crysis_3) cp(6) b(v3)) {level 1} {cost 450} {score 500} {fore -3.5}}
 
 ;Броад сайд - Рэил пушка
 {"xv88_broadside_railgun_sm"			("v_1_i_0" c(120) c1(xv88_broadside_railgun_sm) t(all veh_a_veh) s(tau) g(crysis_4) cp(10) b(v3)) {level 1} {cost 400} {score 400} {fore -3.5}}
@@ -158,21 +158,21 @@
 {"devil_fish_bc"							("v_1_i_1" c(120) c1(devil_fish_bc) t(all veh_a_inf) s(tau) n1(tanker:4) g(tank_1) cp(10) b(v5)) {level 1} {cost 225} {score 225} {fore -3.5}}
 
 ;Рыба дьявол - ракеты
-{"devil_fish_ml"							("v_1_i_1" c(120) c1(devil_fish_ml) t(all veh_a_veh) s(tau) n1(tanker:4) g(tank_1) cp(15) b(v5)) {level 1} {cost 400} {score 400} {fore -3.5}}
+{"devil_fish_ml"							("v_1_i_1" c(120) c1(devil_fish_ml) t(all veh_a_veh) s(tau) n1(tanker:4) g(tank_1) cp(10) b(v5)) {level 1} {cost 400} {score 400} {fore -3.5}}
 
 
 ;Рыба молот - ион
-{"hammer_head_ion"							("v_1_i_1" c(120) c1(hammer_head_ion) t(all veh_a_inf) s(tau) n1(tanker:3) g(tank_2) cp(20) b(v5)) {level 1} {cost 550} {score 550} {fore -3.5}}
+{"hammer_head_ion"							("v_1_i_1" c(120) c1(hammer_head_ion) t(all veh_a_inf) s(tau) n1(tanker:3) g(tank_2) cp(20) b(v5)) {level 1} {cost 800} {score 550} {fore -3.5}}
 
 ;Рыба молот - ион - ракетницы
-{"hammer_head_ion_ml"						("v_1_i_1" c(120) c1(hammer_head_ion_ml) t(all veh_a_inf) s(tau) n1(tanker:3) g(tank_2) cp(20) b(v5)) {level 1} {cost 650} {score 600} {fore -3.5}}
+{"hammer_head_ion_ml"						("v_1_i_1" c(120) c1(hammer_head_ion_ml) t(all veh_a_inf) s(tau) n1(tanker:3) g(tank_2) cp(20) b(v5)) {level 1} {cost 850} {score 600} {fore -3.5}}
 
 
 ;Рыба молот - скорострельная пушка
-{"hammer_head"								("v_1_i_1" c(120) c1(hammer_head) t(all veh_a_veh) s(tau) n1(tanker:3) g(tank_3) cp(25) b(v5)) {level 1} {cost 1000} {score 1000} {fore -8}}
+{"hammer_head"								("v_1_i_1" c(120) c1(hammer_head) t(all veh_a_veh) s(tau) n1(tanker:3) g(tank_3) cp(20) b(v5)) {level 1} {cost 1000} {score 1000} {fore -8}}
 
 ;Рыба молот - ракетницы
-;{"hammer_head_ml"							("v_1_i_1" c(120) c1(hammer_head_ml) t(all veh_a_veh) s(tau) n1(tanker:3) g(tank_3) cp(25) b(v5)) {level 1} {cost 1200} {score 1200} {fore -8}}
+;{"hammer_head_ml"							("v_1_i_1" c(120) c1(hammer_head_ml) t(all veh_a_veh) s(tau) n1(tanker:3) g(tank_3) cp(20) b(v5)) {level 1} {cost 1200} {score 1200} {fore -8}}
 
 ;=================================Герои=================================;
 ;гвардейцы-Tau Guard
@@ -182,19 +182,19 @@
 ;("squad_with2types" side(tau) name(kroothunters) 			c(120) g(h_1) c1(kroot_shaper:1) c2(kroot:19) b(hero) t(pulse inf_sab) level(1) cost(2) f(-1))
 
 ;Псы-Kroot Hound
-{"tau_kroot_hound_1"	("v_1_i_0" c1(tau_kroot_hound_1:10)	c(120) t(all non) s(tau) cp(2) g(h_1) b(hero)) level(1) cost(2) {fore -2}}
+{"tau_kroot_hound_1"	("v_1_i_0" c1(tau_kroot_hound_1:10)	c(120) t(all non) s(tau) cp(2) g(h_1) b(hero)) level(1) cost(1) {fore -2}}
 
 ;Веспиды-Vespid
 ;("squad_with1types" side(tau) name(vespid_squad) 			c(120) g(h_4) c1(vespid:5) b(hero) t(pulse inf_a_inf) level(1) cost(1) f(-3.5))
 
 ;Спец.кризисы
-{"crisis_squad_hero"						("v_3_i_0" c(300) c1(test_xv8_armored_ml) c2(xv8_com_pc_sms:2) c3(tau_attack_drone:2) 	t(all sup_a_all) s(tau) g(h_5) cp(6) b(hero)) {level 1} {cost 4} {score 400} {fore -0.8}}
+{"crisis_squad_hero"						("v_3_i_0" c(300) c1(test_xv8_armored_ml) c2(xv8_com_pc_sms:2) c3(tau_attack_drone:2) 	t(all sup_a_all) s(tau) g(h_5) cp(6) b(hero)) {level 1} {cost 3} {score 400} {fore -0.8}}
 
 ;Телохранители c Эфирным (Пока без него )
 ("squad_with1types" side(tau) name(bonded_squad_sp) 			c(240) g(h_6) c1(bonded:10) b(hero) t(pulse inf_vet) level(1) cost(2) f(-3.5))
 
 ;Рыба молот - ракетницы
-{"hammer_head_ml"							("v_1_i_1" c(120) c1(hammer_head_ml) t(all veh_a_veh) s(tau) n1(tanker:3) g(h_7) cp(25) b(hero)) {level 1} {cost 7} {score 1200} {fore -8}}
+{"hammer_head_ml"							("v_1_i_1" c(120) c1(hammer_head_ml) t(all veh_a_veh) s(tau) n1(tanker:3) g(h_7) cp(25) b(hero)) {level 1} {cost 6} {score 1200} {fore -8}}
 
 
 

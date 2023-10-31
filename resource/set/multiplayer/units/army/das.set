@@ -20,7 +20,7 @@
 ;T1 Тактич melta
 ("squad_with4types" side(das) name(tact_ml) 				c(30) g(squad_3) c1(tactic_serg_bg:1) c2(tactic_ml:2) c3(tactic_bg:1) c4(tactic_bg_01:1)  b(squad1) t(bolter inf_a_veh) level(1) cost(200) f(-3))
 ;T1 Тактич plasma
-("squad_with4types" side(das) name(tact_pg) 				c(30) g(squad_3) c1(tactic_serg_bgp:1) c2(tactic_pg:2) c3(tactic_bg:1) c4(tactic_bg_01:1)  b(squad1) t(bolter inf_tac) level(1) cost(330) f(-3))
+("squad_with4types" side(das) name(tact_pg) 				c(30) g(squad_3) c1(tactic_serg_bgp:1) c2(tactic_pg:2) c3(tactic_bg:1) c4(tactic_bg_01:1)  b(squad1) t(bolter inf_tac) level(1) cost(350) f(-3))
 
 
 ;T2 Тактич Bolter
@@ -28,14 +28,14 @@
 ;T2 Тактич melta
 ("squad_with4types" side(das) name(sq_tact_vet_ml) 			c(120) g(squad_4) c1(tactic_vet_serg_bgm:1) c2(tactic_vet_ml:2) c3(tactic_vet_bg_sb:2) c4(tactic_vet_bg_01:0)  b(squad1) t(at inf_a_veh) level(1) cost(300) f(-3))
 ;T2 Тактич plasma
-("squad_with4types" side(das) name(sq_tact_vet_pg) 			c(120) g(squad_4) c1(tactic_vet_serg_pg:1) c2(tactic_vet_pg:2) c3(tactic_vet_bg:2) c4(tactic_vet_bg_01:0)  b(squad1) t(plasma inf_vet) level(1) cost(450) f(-3))
+("squad_with4types" side(das) name(sq_tact_vet_pg) 			c(120) g(squad_4) c1(tactic_vet_serg_pg:1) c2(tactic_vet_pg:2) c3(tactic_vet_bg:2) c4(tactic_vet_bg_01:0)  b(squad1) t(plasma inf_vet) level(1) cost(500) f(-3))
 
 ;T2 Тактич Stalker Rifle / hunter
 ("squad_with4types" side(das) name(sq_tact_vet_hunter) 			c(120) g(squad_4) c1(tactic_vet_serg_hunter:1) c2(tactic_vet_hunter:2) c3(tactic_vet_bg:2) c4(tactic_vet_bg_01:0)  b(squad1) t(bolter inf_vet) level(1) cost(350) f(-3))
 ;T2 Тактич RPG
 ("squad_with4types" side(das) name(sq_tact_vet_rl) 			c(120) g(squad_4) c1(tactic_vet_serg_bgm:1) c2(tactic_vet_rl:2) c3(tactic_vet_bg:2) c4(tactic_vet_bg_01:0)  b(squad1) t(at inf_a_veh) level(1) cost(550) f(-3))
 ;T2 Тактич gravi
-("squad_with4types" side(das) name(sq_tact_vet_gravi) 		c(300) g(squad_6) c1(tactic_vet_serg_gp:1) c2(tactic_vet_gravi:2) c3(tactic_vet_bg:0) c4(tactic_vet_shb:2)  b(squad1) t(gravi inf_a_all) level(1) cost(500) f(-2.2))
+("squad_with4types" side(das) name(sq_tact_vet_gravi) 		c(300) g(squad_6) c1(tactic_vet_serg_gp:1) c2(tactic_vet_gravi:2) c3(tactic_vet_bg:0) c4(tactic_vet_shb:2)  b(squad1) t(gravi inf_a_all) level(1) cost(550) f(-2.2))
 
 
 ;=================================Спецотряды=================================;

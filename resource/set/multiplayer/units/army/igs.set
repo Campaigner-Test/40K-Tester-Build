@@ -21,7 +21,7 @@
 
 
 ;Отряд штурмовиков
-("squad_with1types" side(igs) name(sq_storm)	c(300) g(sq_5) c1(ig_strom_hg:10) b(squad1) t(heavy_lasgun inf_vet) level(1) cost(250) f(-0.8))
+("squad_with1types" side(igs) name(sq_storm)	c(300) g(sq_5) c1(ig_strom_hg:10) b(squad1) t(heavy_lasgun inf_vet) level(1) cost(200) f(-0.8))
 
 ;Огрины
 {"ogryn"	("f_4x1" c(300) c1(ogr1) c2(ogr2) c3(ogr3) c4(ogr1) t(all veh_a_inf) s(igs) g(sq_5) cp(12) b(squad1)) {level 1} {cost 250} {score 250} {fore -0.8}}
