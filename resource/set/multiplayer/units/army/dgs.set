@@ -1,8 +1,8 @@
 ﻿;Отряд Культистов с автоганами- Cheap Cultists
-("squad_with2types" side(dgs) name(sq_rn_ag) 					c(10) g(squad_1) c1(rn_ag:5) c2(rn_ag_01:5) b(squad1) t(autogun inf_com) level(1) cost(30) f(1.0))
+("squad_with2types" side(dgs) name(sq_rn_ag) 					c(10) g(squad_1) c1(rn_ag:5) c2(rn_ag_01:5) b(squad1) t(autogun inf_com) level(1) cost(25) f(1.0))
 
 ;Отряд Еретиков c лазганами- Good Cultists
-("squad_with2types" side(dgs) name(sq_rn_lg) 					c(40) g(squad_2) c1(rn_lg:9) c2(rn_gl_01:1) b(squad1) t(lasgun grenade inf_com) level(1) cost(70) f(1))
+("squad_with2types" side(dgs) name(sq_rn_lg) 					c(40) g(squad_2) c1(rn_lg:9) c2(rn_gl_01:1) b(squad1) t(lasgun grenade inf_com) level(1) cost(75) f(1))
 
 ;Тактический Отряд- Space Aids Marines
 ("squad_with2types" side(dgs) name(sq_tact_bg) 			c(60) g(squad_3) c1(tactic_bg_serg:1) c2(tactic_bg_01:4) b(squad1) t(bolter inf_tac) level(1) cost(250) f(-0.5))

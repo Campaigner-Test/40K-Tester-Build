@@ -51,13 +51,13 @@
 ("squad_with2types" side(tau) name(sq_XV15) 				c(120) g(squad_3) c1(xv15:4) c2(xv25:1) b(squad3) t(stealth pulse inf_a_inf) level(1) cost(150) f(-1))
 
 ;Маскировочный отряд XV15 - Ионный бластер
-("squad_with1types" side(tau) name(sq_XV15_at) 				c(120) g(squad_3) c1(xv15_at:2) b(squad3) t(stealth inf_a_veh) level(1) cost(200) f(-3.5))
+("squad_with1types" side(tau) name(sq_XV15_at) 				c(120) g(squad_3) c1(xv15_at:2) b(squad3) t(stealth inf_a_veh) level(1) cost(150) f(-3.5))
 
 ;Маскировочный отряд XV25 
 ("squad_with2types" side(tau) name(sq_XV25_at) 				c(120) g(squad_4) c1(xv25:3) c2(xv25_at:2) b(squad3) t(stealth inf_a_veh) level(1) cost(300) f(-3.5))
 
 ;Пилоты
-("squad_with1types" side(tau) name(crew) 						c(10) g(squad_5) c1(tanker:4) b(squad3) t(tankman non) level(1) cost(40) f(-11))
+("squad_with1types" side(tau) name(crew) 						c(30) g(squad_5) c1(tanker:4) b(squad3) t(tankman non) level(1) cost(25) f(-11))
 
 ;=================================Разведтранспорт =================================; v2 sent
 
@@ -162,14 +162,14 @@
 
 
 ;Рыба молот - ион
-{"hammer_head_ion"							("v_1_i_1" c(120) c1(hammer_head_ion) t(all veh_a_inf) s(tau) n1(tanker:3) g(tank_2) cp(20) b(v5)) {level 1} {cost 800} {score 550} {fore -3.5}}
+{"hammer_head_ion"							("v_1_i_1" c(120) c1(hammer_head_ion) t(all veh_a_inf) s(tau) n1(tanker:3) g(tank_2) cp(20) b(v5)) {level 1} {cost 600} {score 550} {fore -3.5}}
 
 ;Рыба молот - ион - ракетницы
-{"hammer_head_ion_ml"						("v_1_i_1" c(120) c1(hammer_head_ion_ml) t(all veh_a_inf) s(tau) n1(tanker:3) g(tank_2) cp(20) b(v5)) {level 1} {cost 850} {score 600} {fore -3.5}}
+{"hammer_head_ion_ml"						("v_1_i_1" c(120) c1(hammer_head_ion_ml) t(all veh_a_inf) s(tau) n1(tanker:3) g(tank_2) cp(20) b(v5)) {level 1} {cost 650} {score 600} {fore -3.5}}
 
 
 ;Рыба молот - скорострельная пушка
-{"hammer_head"								("v_1_i_1" c(120) c1(hammer_head) t(all veh_a_veh) s(tau) n1(tanker:3) g(tank_3) cp(20) b(v5)) {level 1} {cost 1000} {score 1000} {fore -8}}
+{"hammer_head"								("v_1_i_1" c(120) c1(hammer_head) t(all veh_a_veh) s(tau) n1(tanker:3) g(tank_3) cp(20) b(v5)) {level 1} {cost 600} {score 1000} {fore -8}}
 
 ;Рыба молот - ракетницы
 ;{"hammer_head_ml"							("v_1_i_1" c(120) c1(hammer_head_ml) t(all veh_a_veh) s(tau) n1(tanker:3) g(tank_3) cp(20) b(v5)) {level 1} {cost 1200} {score 1200} {fore -8}}
@@ -194,7 +194,7 @@
 ("squad_with1types" side(tau) name(bonded_squad_sp) 			c(240) g(h_6) c1(bonded:10) b(hero) t(pulse inf_vet) level(1) cost(2) f(-3.5))
 
 ;Рыба молот - ракетницы
-{"hammer_head_ml"							("v_1_i_1" c(120) c1(hammer_head_ml) t(all veh_a_veh) s(tau) n1(tanker:3) g(h_7) cp(25) b(hero)) {level 1} {cost 6} {score 1200} {fore -8}}
+{"hammer_head_ml"							("v_1_i_1" c(120) c1(hammer_head_ml) t(all veh_a_veh) s(tau) n1(tanker:3) g(h_7) cp(25) b(hero)) {level 1} {cost 4} {score 1200} {fore -8}}
 
 
 

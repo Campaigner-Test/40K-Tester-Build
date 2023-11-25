@@ -4,6 +4,7 @@
 ("soldier" breed(skitarii_ranger_gr) 		side(ams) tags(rifle) cp(1.25) score(10) cw(1))
 ("soldier" breed(skitarii_ranger_arc) 		side(ams) tags(arc) cp(1.25) score(25) cw(1))
 ("soldier" breed(skitarii_ranger_pg) 		side(ams) tags(plasma) cp(1.25) score(25) cw(1))
+("soldier" breed(skitarii_ranger_01) 			side(ams) tags(rifle) cp(1) score(0.33) cw(1))
 
 ;skitarii vanguard
 ("soldier" breed(skitarii_vanguard) 		side(ams) tags(rifle veteran) cp(1.5) score(20) cw(1))

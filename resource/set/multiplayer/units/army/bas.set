@@ -1,12 +1,12 @@
 ﻿
 ;Отряд Скаутов 
-("squad_with3types" side(bas) name(sq_scout_bg) 			c(45) g(squad_1) c1(scout_serg_bg:1) c2(scout_bg:3) c3(scout_bg_01:1) b(squad1) t(bolter inf_tac) level(1) cost(100) f(1.0))
+("squad_with3types" side(bas) name(sq_scout_bg) 			c(30) g(squad_1) c1(scout_serg_bg:1) c2(scout_bg:3) c3(scout_bg_01:1) b(squad1) t(bolter inf_tac) level(1) cost(100) f(1.0))
 
 ;Отряд Скаутов с дробовиками
-("squad_with3types" side(bas) name(sq_scout_sg) 			c(45) g(squad_1) c1(scout_serg_sg:1) c2(scout_sg:3) c3(scout_gl:1) b(squad1) t(shotgun grenade inf_tac) level(1) cost(110) f(1.0))
+("squad_with3types" side(bas) name(sq_scout_sg) 			c(30) g(squad_3) c1(scout_serg_sg:1) c2(scout_sg:3) c3(scout_gl:1) b(squad1) t(shotgun grenade inf_tac) level(1) cost(125) f(1.0))
 
 ;Отряд Скаутов со снайперскими винтовками
-("squad_with2types" side(bas) name(sq_scout_sr) 			c(240) g(squad_2) c1(scout_serg_sr:1) c2(scout_sr:4) b(squad1) t(sniper non) level(1) cost(150) f(-0.25))
+("squad_with2types" side(bas) name(sq_scout_sr) 			c(120) g(squad_2) c1(scout_serg_sr:1) c2(scout_sr:4) b(squad1) t(sniper non) level(1) cost(150) f(-0.25))
 
 
 ;Тактический Отряд
@@ -210,20 +210,20 @@
 
 
 ;Тактический Отряд - подкрепление за СП
-("squad_with6types_vehicle" side(bas) name(sq_tact_bg_drop_hero) 				c(300) g(h_4) v1(ba_drop_pod) c1(tactic_vet_ml:1) c2(tactic_vet_rl:1) c3(tactic_vet_shb:1) c4(tactic_vet_serg_gp:1) c5(apothecary:1) c6(tactic_vet_pg:1) b(hero) t(bolter par) level(1) cost(2) f(-0.8))
+("squad_with6types_vehicle" side(bas) name(sq_tact_bg_drop_hero) 				c(300) g(h_7) v1(ba_drop_pod) c1(tactic_vet_ml:1) c2(tactic_vet_rl:1) c3(tactic_vet_shb:1) c4(tactic_vet_serg_gp:1) c5(apothecary:1) c6(tactic_vet_pg:1) b(hero) t(bolter par) level(1) cost(2) f(-0.8))
 
 ;Хищник - Баал
 {"ba_predator_baal_castom"					("v_1_i_1" c(300) c1(ba_predator_baal_castom) 		t(all veh_a_inf) s(bas) n1(Tanker:4) g(h_3) cp(20) b(hero)) {cost 3} {score 300} {fore -0.8}}
 
 
 ;Терминаторы - Циклон
-{"ba_terminators_squad_1"							("v_1_i_0" c(480) c1(ba_terminators_squad_1) 	t(all par) s(bas) g(h_4) cp(30) b(hero)) {cost 3} {score 300} {fore -1.25}}
+{"ba_terminators_squad_1"							("v_1_i_0" c(400) c1(ba_terminators_squad_1) 	t(all par) s(bas) g(h_4) cp(30) b(hero)) {cost 3} {score 300} {fore -1.25}}
 
 ;Терминаторы - Огнемет
-{"ba_terminators_squad_2"							("v_1_i_0" c(480) c1(ba_terminators_squad_2)		t(all par) s(bas) g(h_5) cp(30) b(hero)) {cost 3} {score 300} {fore -1.25}}
+{"ba_terminators_squad_2"							("v_1_i_0" c(400) c1(ba_terminators_squad_2)		t(all par) s(bas) g(h_5) cp(30) b(hero)) {cost 3} {score 300} {fore -1.25}}
 
 ;Терминаторы - Штурмпушка
-{"ba_terminators_squad_3"							("v_1_i_0" c(480) c1(ba_terminators_squad_3)		t(all par) s(bas) g(h_6) cp(30) b(hero)) {cost 3} {score 300} {fore -1.25}}
+{"ba_terminators_squad_3"							("v_1_i_0" c(400) c1(ba_terminators_squad_3)		t(all par) s(bas) g(h_6) cp(30) b(hero)) {cost 3} {score 300} {fore -1.25}}
 
 ;Терминатор c ракетной установкой Циклон - Отключен
 ;Терминаторы - 2 штормболтер
