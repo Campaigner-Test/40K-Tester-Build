@@ -2,6 +2,7 @@
 ;-------------------------------Blood_Pact-------------------------------------
 
 ;Автоган-Auto Gun Breed
+
 ("soldier" breed(rn_ag)    side(bps) tags(autogun) cp(0.5) score(0.33) cw(1))
 ("soldier" breed(rn_ag_01) side(bps) tags(autogun) cp(0.5) score(0.33) cw(1))
 ("soldier" breed(rn_ag_02) side(bps) tags(autogun) cp(0.5) score(0.33) cw(1))
@@ -11,9 +12,9 @@
 ;Лазган- Las Gun Breed
 ("soldier" breed(rn_lg) 		side(bps) tags(lasgun) cp(0.5) score(0.33) cw(1))
 ("soldier" breed(rn_lg_01) 		side(bps) tags(lasgun) cp(0.5) score(0.33) cw(1))
-("soldier" breed(rn_vet_lg) 	side(bps) tags(lasgun veteran) cp(1) score(1) cw(1))
-("soldier" breed(rn_vet_lg_01)	side(bps) tags(lasgun veteran) cp(1) score(1) cw(1))
-("soldier" breed(rn_vet_lg_02)	side(bps) tags(hellgun veteran) cp(1) score(1) cw(1))
+("soldier" breed(rn_vet_lg) 	side(bps) tags(lasgun veteran) cp(0.75) score(1) cw(1))
+("soldier" breed(rn_vet_lg_01)	side(bps) tags(lasgun veteran) cp(0.75) score(1) cw(1))
+("soldier" breed(rn_vet_lg_02)	side(bps) tags(hellgun veteran) cp(0.75) score(1) cw(1))
 
 ;Огнемет-Flamer Breed
 ("soldier" breed(rn_fl) side(bps) tags(flamer) cp(0.5) score(0.33) cw(1))
@@ -22,20 +23,20 @@
 ("soldier" breed(rn_gr) side(bps) tags(grenade) cp(0.5) score(0.33) cw(1))
 
 ;Стаббер-Stubber Breed
-("soldier" breed(rn_stb)	side(bps) tags(stabber) cp(1) score(0.33) cw(1))
-("soldier" breed(rn_stb_01) side(bps) tags(stabber) cp(1) score(0.33) cw(1))
-("soldier" breed(rn_stb_02) side(bps) tags(stabber) cp(1) score(0.33) cw(1))
+("soldier" breed(rn_stb)	side(bps) tags(stabber) cp(0.75) score(0.33) cw(1))
+("soldier" breed(rn_stb_01) side(bps) tags(stabber) cp(0.75) score(0.33) cw(1))
+("soldier" breed(rn_stb_02) side(bps) tags(stabber) cp(0.75) score(0.33) cw(1))
 
 ;РПГ-AT Breed
 ("soldier" breed(rn_rl) side(bps) tags(at) cp(0.5) score(0.33) cw(1))
 
 ;Мельта
 ("soldier" breed(rn_ml) side(bps) tags(melta at) cp(0.5) score(0.33) cw(1))
-("soldier" breed(rn_vet_ml) side(bps) tags(melta at veteran) cp(1) score(1) cw(1))
+("soldier" breed(rn_vet_ml) side(bps) tags(melta at veteran) cp(0.75) score(1) cw(1))
 
 ;Плазмаган
 ("soldier" breed(rn_pg) side(bps) tags(plasma) cp(0.5) score(0.33) cw(1))
-("soldier" breed(rn_vet_pg) side(bps) tags(plasma veteran) cp(1) score(1) cw(1))
+("soldier" breed(rn_vet_pg) side(bps) tags(plasma veteran) cp(0.75) score(1) cw(1))
 
 ;Снайпер
 ("soldier" breed(rn_sr) side(bps) tags(sniper) cp(0.5) score(0.44) cw(1))
@@ -43,10 +44,10 @@
 ("soldier" breed(rn_vet_raz) side(bps) tags(sniper veteran) cp(0.5) score(1) cw(1))
 
 ;Сержант
-("soldier" breed(rn_serg_ag) side(bps) tags(bolter) cp(1) score(0.33) cw(1))
-("soldier" breed(rn_serg_lg) side(bps) tags(stabber) cp(1) score(0.33) cw(1))
-("soldier" breed(rn_serg_bolt) side(bps) tags(bolter) cp(1) score(0.33) cw(1))
-("soldier" breed(rn_serg_stb) side(bps) tags(stabber) cp(1) score(0.33) cw(1))
+("soldier" breed(rn_serg_ag) side(bps) tags(bolter) cp(0.75) score(0.33) cw(1))
+("soldier" breed(rn_serg_lg) side(bps) tags(stabber) cp(0.75) score(0.33) cw(1))
+("soldier" breed(rn_serg_bolt) side(bps) tags(bolter) cp(0.75) score(0.33) cw(1))
+("soldier" breed(rn_serg_stb) side(bps) tags(stabber) cp(0.75) score(0.33) cw(1))
 
 ;Штурмовик
 ("soldier" breed(rn_strom_hg) side(bps) tags(hellgun) cp(1) score(2) cw(1))

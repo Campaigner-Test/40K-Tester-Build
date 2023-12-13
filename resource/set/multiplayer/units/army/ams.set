@@ -121,13 +121,13 @@
 ;================================= v3 =================================;
 ;================================= v4 =================================;
 ;Дюноход - Излучатель
-{"dunecrawler"						("v_1_i_1" c(120) c1(dunecrawler) t(all veh_a_all) s(ams) n1(tanker:3) cp(15) g(tank_5) b(v4)) {level 1} {cost 300} {score 300} {fore -3.5}}
+{"dunecrawler"						("v_1_i_1" c(120) c1(dunecrawler) t(all veh_a_all) s(ams) n1(tanker:3) cp(15) g(tank_5) b(v4)) {level 1} {cost 250} {score 300} {fore -3.5}}
 
 ;Дюноход- Фосфор
-{"dunecrawler_phos"					("v_1_i_1" c(120) c1(dunecrawler_phos) t(all veh_a_inf) s(ams) n1(tanker:3) cp(15) g(tank_5) b(v4)) {level 1} {cost 325} {score 330} {fore -3.5}}
+{"dunecrawler_phos"					("v_1_i_1" c(120) c1(dunecrawler_phos) t(all veh_a_inf) s(ams) n1(tanker:3) cp(15) g(tank_5) b(v4)) {level 1} {cost 250} {score 330} {fore -3.5}}
 
 ;Дюноход - Икарус
-{"dunecrawler_icarus"				("v_1_i_1" c(120) c1(dunecrawler_icarus) t(all veh_a_inf) s(ams) n1(tanker:3) cp(15) g(tank_6) b(v4)) {level 1} {cost 350} {score 350} {fore -3.5}}
+{"dunecrawler_icarus"				("v_1_i_1" c(120) c1(dunecrawler_icarus) t(all veh_a_inf) s(ams) n1(tanker:3) cp(15) g(tank_6) b(v4)) {level 1} {cost 300} {score 350} {fore -3.5}}
 
 ;Дюноход - Лазпушка
 {"dunecrawler_neutron"				("v_1_i_1" c(120) c1(dunecrawler_neutron) t(all veh_a_veh) s(ams) n1(tanker:3) cp(15) g(tank_9) b(v4)) {level 1} {cost 400} {score 600} {fore -8}}

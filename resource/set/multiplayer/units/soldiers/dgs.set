@@ -61,10 +61,10 @@
 ("spacemarine" breed(champion) side(dgs) tags(bolter champion special) cp(6) score(50) cw(1))
 
 ;Избранный
-("spacemarine" breed(tactic_elite_bg) side(dgs) tags(bolter champion special) cp(5) score(35) cw(1))
-("spacemarine" breed(tactic_elite_bg_01) side(dgs) tags(bolter champion special) cp(5) score(35) cw(1))
-("spacemarine" breed(tactic_elite_ac) side(dgs) tags(bolter champion special) cp(5) score(35) cw(1))
-("spacemarine" breed(tactic_elite_pg) side(dgs) tags(bolter champion special) cp(5) score(35) cw(1))
+("spacemarine" breed(tactic_elite_bg) side(dgs) tags(bolter champion special) cp(3) score(35) cw(1))
+("spacemarine" breed(tactic_elite_bg_01) side(dgs) tags(bolter champion special) cp(3) score(35) cw(1))
+("spacemarine" breed(tactic_elite_ac) side(dgs) tags(bolter champion special) cp(3) score(35) cw(1))
+("spacemarine" breed(tactic_elite_pg) side(dgs) tags(bolter champion special) cp(3) score(35) cw(1))
 
 ;Танкист - космодесантник
 ("spacemarine" breed(tanker) side(dgs) tags(bolter tankman) cp(2) score(10) cw(1))
